@@ -1,0 +1,776 @@
+"state","lga","code_case_management","code_smc","code_pmc","code_iptp","code_vaccine","code_vaccine_priority","code_vaccine_1","code_vaccine_1_priority","code_vaccine_2","code_vaccine_3","code_vaccine_4","code_vaccine_5","code_urban_nets","code_nets","code_irs","code_lsm","code_intervention_counts","code_intervention_mix","itn_campaign_eligable","itn_routine_eligable","smc_eligable","pmc_eligable"
+"Benue","Ado","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Agatu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Apa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Buruku","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Gboko","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Guma","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Gwer East","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Gwer West","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Katsina-Ala","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Konshisha","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Kwande","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Logo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Makurdi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Obi1","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Ogbadibo","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Ohimini","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Oju","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Okpokwu","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Oturkpo","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Tarka","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Ukum","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Benue","Ushongo","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Benue","Vandeikya","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Federal Capital Territory","Abaji","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Federal Capital Territory","Abuja Municipal","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Federal Capital Territory","Bwari","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Federal Capital Territory","Gwagwalada","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Federal Capital Territory","Kuje","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Federal Capital Territory","Kwali","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Adavi","X","X",NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Ajaokuta","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Ankpa","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Bassa1","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Dekina","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,1,0
+"Kogi","Ibaji","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Idah","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Igalamela-Odolu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Ijumu","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Kabba/Bunu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Kogi","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Lokoja","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Mopa-Muro","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Ofu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Ogori/Mangongo","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Okehi","X","X",NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Okene","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Olamabolo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kogi","Omala","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Yagba East","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kogi","Yagba West","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Asa","X","X",NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Baruten","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Edu","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Ekiti","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kwara","Ifelodun1","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Ilorin East","X","X",NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Kwara","Ilorin South","X","X",NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Kwara","Ilorin West","X","X",NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Kwara","Irepodun1","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kwara","Isin","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kwara","Kaiama","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Moro","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Offa","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kwara","Oke-Ero","X","X",NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Kwara","Oyun","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Kwara","Pategi","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Nasarawa","Akwanga","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Awe","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Doma","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Karu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Keana","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Keffi","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Kokona","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Lafia","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Nasarawa2","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Nasarawa-Eggon","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Obi2","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Toto","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Nasarawa","Wamba","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Agaie","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Agwara","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Bida","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Borgu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Bosso","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Chanchaga","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Edati","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Gbako","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Gurara","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Katcha","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",1,0,1,0
+"Niger","Kontagora","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Lapai","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Lavun","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",1,0,1,0
+"Niger","Magama","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Mariga","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Mashegu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Mokwa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Muya","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Paikoro","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Rafi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Rijau","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Shiroro","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Suleja","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Tafa","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Niger","Wushishi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Plateau","Barikin Ladi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Bassa2","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Bokkos","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Jos East","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Plateau","Jos North","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Plateau","Jos South","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Plateau","Kanam","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Kanke","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Langtang North","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Langtang South","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Mangu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Mikang","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Pankshin","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Qua'an Pan","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Riyom","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Shendam","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Plateau","Wase","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Adamawa","Demsa","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Fufore","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Ganye","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Adamawa","Girei","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Gombi","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Guyuk","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Hong","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Jada","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Lamurde","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Madagali","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Maiha","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Mayo-Belwa","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Michika","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Mubi North","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Mubi South","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Numan","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Shelleng","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Song","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Toungo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Adamawa","Yola North","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Adamawa","Yola South","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Bauchi","Alkaleri","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Bauchi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Bauchi","Bogoro","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Damban","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Darazo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Dass","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Gamawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Ganjuwa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",0,1,1,0
+"Bauchi","Giade","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Itas/Gadau","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Jama'are","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Katagum","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Kirfi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Misau","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Ningi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Shira","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Tafawa-Balewa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Toro","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Bauchi","Warji","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",0,1,1,0
+"Bauchi","Zaki","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Abadam","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Askira/Uba","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Bama","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Bayo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Biu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Chibok","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Damboa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Dikwa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Gubio","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Guzamala","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Gwoza","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Hawul","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Jere","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Kaga","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Kala/Balge","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Konduga","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Kukawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Kwaya Kusar","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Mafa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Magumeri","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Maiduguri","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Borno","Marte","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Mobbar","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Monguno","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Ngala","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Nganzai","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Borno","Shani","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Akko","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Balanga","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Billiri","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Dukku","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Funakaye","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Gombe","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Kaltungo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Kwami","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Nafada (Bajoga)","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Shomgom","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Gombe","Yamaltu/Deba","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Taraba","Ardo-Kola","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Bali","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Taraba","Donga","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Taraba","Gashaka","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Taraba","Gassol","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Ibi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Jalingo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Karin-Lamido","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Kurmi","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Taraba","Lau","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Sardauna","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Taraba","Takum","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Taraba","Ussa","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Taraba","Wukari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Yorro","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Zing","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Taraba","Disputed Area in Taraba State",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA
+"Yobe","Bade","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Bursari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Damaturu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Fika","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",1,0,1,0
+"Yobe","Fune","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Geidam","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Gujba","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Gulani","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Jakusko","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",1,0,1,0
+"Yobe","Karasuwa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Machina","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Nangere","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Nguru","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Potiskum","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Tarmua","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Yunusari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Yobe","Yusufari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Jigawa","Auyo","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Babura","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Birnin Kudu","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,6,"CM+IPTp+LLIN+IRS",0,1,0,0
+"Jigawa","Biriniwa","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Buji","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Dutse","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Gagarawa","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Garki","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Gumel","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Guri","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Gwaram","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Gwiwa","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Hadejia","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Jahun","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,6,"CM+IPTp+LLIN+IRS",0,1,0,0
+"Jigawa","Kafin Hausa","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Kaugama","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Kazaure","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,6,"CM+IPTp+LLIN+IRS",0,1,0,0
+"Jigawa","Kiri Kasamma","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Kiyawa","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Maigatari","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Malam Madori","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Miga","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Ringim","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Roni","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Sule-Tankarkar","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Taura","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Jigawa","Yankwashi","X",NA,NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,1,0,0
+"Kaduna","Birnin-Gwari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Chikun","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kaduna","Giwa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kaduna","Igabi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kaduna","Ikara","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Jaba","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Jema'a","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Kachia","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Kaduna North","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kaduna","Kaduna South","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kaduna","Kagarko","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Kajuru","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Kaura","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Kauru","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Kubau","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Kudan","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Lere","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Markafi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Sabon-Gari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kaduna","Sanga","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Soba","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kaduna","Zango-Kataf","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kaduna","Zaria","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Ajingi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Albasu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Bagwai","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Bebeji","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Bichi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Bunkure","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Dala","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Dambatta","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Dawakin Kudu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Dawakin Tofa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Doguwa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Fagge","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Gabasawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Garko","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Garum Mallam","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Gaya","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Gezawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Gwale","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Gwarzo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Kabo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Kano Municipal","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Karaye","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Kibiya","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Kiru","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Kumbotso","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Kunchi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Kura","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Madobi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Makoda","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Minjibir","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Nasarawa1","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Rano","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Rimin Gado","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Rogo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Shanono","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Sumaila","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Takai","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Tarauni","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",1,0,1,0
+"Kano","Tofa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Tsanyawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Tudun Wada","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Ungogo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Warawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Kano","Wudil","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",1,0,1,0
+"Katsina","Bakori","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",0,0,1,0
+"Katsina","Batagarawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Batsari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Baure","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Bindawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",0,0,1,0
+"Katsina","Charanchi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Dandume","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Danja","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Dan Musa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Daura","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Dutsi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Dutsin-Ma","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Faskari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Funtua","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Ingawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Jibia","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Kafur","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Kaita","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Kankara","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Kankia","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Katsina","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Kurfi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Kusada","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Mai'Adua","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Malumfashi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Mani","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Mashi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Matazu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN-Urban+SMC+IRS",0,0,1,0
+"Katsina","Musawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Rimi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Sabuwa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Safana","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Sandamu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Katsina","Zango","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Kebbi","Aleiro","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Kebbi","Arewa-Dandi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Kebbi","Argungu","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Augie","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Bagudo","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Birnin Kebbi","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Bunza","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Dandi","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Fakai","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Gwandu","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Jega","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS+Vaccine",0,0,1,0
+"Kebbi","Kalgo","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Koko/Besse","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Maiyama","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Ngaski","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS+Vaccine",0,0,1,0
+"Kebbi","Sakaba","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS+Vaccine",0,0,1,0
+"Kebbi","Shanga","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Suru","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Wasagu/Danko","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Yauri","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Kebbi","Zuru","X","X",NA,"X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC+Vaccine",0,0,1,0
+"Sokoto","Binji","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Bodinga","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Dange-Shuni","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Gada","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Goronyo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Gudu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Gwadabawa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Illela","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Isa","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",0,0,1,0
+"Sokoto","Kebbe","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Kware","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Rabah","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Sabon Birni","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Shagari","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Silame","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Sokoto North","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,0,1,0
+"Sokoto","Sokoto South","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,0,1,0
+"Sokoto","Tambuwal","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Tangaza","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Tureta","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X","X",NA,7,"CM+IPTp+LLIN+SMC+IRS",0,0,1,0
+"Sokoto","Wamako","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Wurno","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Sokoto","Yabo","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,0,1,0
+"Zamfara","Anka","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Bakura","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Birnin Magaji","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Bukkuyum","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Bungudu","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Gummi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Gusau","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Kaura-Namoda","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Maradun","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Maru","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Shinkafi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Talata Mafara","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Tsafe","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Zamfara","Zurmi","X","X",NA,"X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Abia","Aba North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Abia","Aba South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Abia","Arochukwu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Bende","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Ikwuano","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Isiala-Ngwa North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Isiala-Ngwa South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Isuikwato","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Obi Nwa","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Ohafia","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Osisioma Ngwa","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Ugwunagbo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Ukwa East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Ukwa West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Umuahia North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Umuahia South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Abia","Umu-Nneochi","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Anambra","Aguata","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Anambra East","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Anambra West","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Anaocha","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Awka North","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Awka South","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Ayamelum","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Dunukofia","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Ekwusigo","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Idemili North","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,0,0,0
+"Anambra","Idemili South","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,0,0,0
+"Anambra","Ihiala","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Njikoka","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Nnewi North","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Nnewi South","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Ogbaru","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Onitsha North","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,0,0,0
+"Anambra","Onitsha South","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,0,0,0
+"Anambra","Orumba North","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Orumba South","X",NA,NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Anambra","Oyi","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,5,"CM+IPTp+LLIN",0,0,0,0
+"Ebonyi","Abakaliki","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Afikpo North","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Afikpo South","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ebonyi","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ezza North","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ezza South","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ikwo","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ishielu","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ivo","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Izzi","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ohaozara","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Ohaukwu","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ebonyi","Onicha","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Aninri","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Awgu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Enugu East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Enugu","Enugu North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Enugu","Enugu South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Enugu","Ezeagu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Igbo-Etiti","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Igbo-Eze North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Igbo-Eze South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Isi-Uzo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Nkanu East","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Nkanu West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Nsukka","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Enugu","Oji-River","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Udenu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Udi","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Enugu","Uzo-Uwani","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Aboh-Mbaise","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ahiazu-Mbaise","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ehime-Mbano","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ezinihitte","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ideato North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ideato South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ihitte/Uboma","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ikeduru","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Isiala Mbano","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Isu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Mbaitoli","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ngor-Okpala","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Njaba","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Nkwerre","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Nwangele","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Obowo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Oguta","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Ohaji/Egbema","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Okigwe","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Orlu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Orsu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Oru East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Oru West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Imo","Owerri-Municipal","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Imo","Owerri North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Imo","Owerri West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Imo","Unuimo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Akwa Ibom","Abak","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Eastern Obolo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Eket","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Esit Eket","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Essien Udim","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Etim Ekpo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Etinan","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ibeno","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ibesikpo Asutan","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ibiono Ibom","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ika","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ikono","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ikot Abasi","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ikot Ekpene","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ini","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Itu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Mbo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Mkpat Enin","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Nsit Atai","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Nsit Ibom","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Nsit Ubium","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Obot Akara","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Okobo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Onna","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Oron","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Oruk Anam","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Udung Uko","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Ukanafun","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Uruan","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Urue-Offong/Oruko","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Akwa Ibom","Uyo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Bayelsa","Brass","X",NA,"X","X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Bayelsa","Ekeremor","X",NA,"X","X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Bayelsa","Kolokuma/Opokuma","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Bayelsa","Nembe","X",NA,"X","X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Bayelsa","Ogbia","X",NA,"X","X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Bayelsa","Sagbama","X",NA,"X","X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Bayelsa","Southern Ijaw","X",NA,"X","X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Bayelsa","Yenegoa","X",NA,"X","X",NA,"X",NA,"X",NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC+Vaccine",0,1,0,1
+"Cross River","Abi","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Akamkpa","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Akpabuyo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Bakassi","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Bekwara","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Biase","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Boki","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Calabar-Municipal","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Calabar South","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Etung","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Ikom","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Obanliku","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Obubra","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Obudu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Odukpani","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Ogoja","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Yakurr","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Cross River","Yala","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Delta","Aniocha North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Aniocha South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Bomadi","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Burutu","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ethiope East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ethiope West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ika North East","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ika South","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Isoko North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Isoko South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ndokwa East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ndokwa West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Okpe","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Oshimili North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Oshimili South","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Patani","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Sapele","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Udu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ughelli North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ughelli South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Ukwuani","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Uvwie","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",1,0,0,1
+"Delta","Warri North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",1,0,0,1
+"Delta","Warri South","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",1,0,0,1
+"Delta","Warri South West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",1,0,0,1
+"Edo","Akoko-Edo","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Egor","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Edo","Esan Central","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Esan North East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Esan South East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Esan West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Etsako Central","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Etsako East","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Etsako West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Igueben","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Edo","Ikpoba-Okha","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Edo","Oredo","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Orhionmwon","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Ovia North East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Ovia South West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Owan East","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Owan West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Edo","Uhunmwonde","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Rivers","Abua/Odual","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Ahoada East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Ahoada West","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Akuku Toru","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Andoni","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Asari-Toru","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Bonny","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Degema","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Eleme","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Emohua","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Etche","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Gokana","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Ikwerre","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Khana","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Obia/Akpor","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Ogba/Egbema/Ndoni","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Ogu/Bolo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Okrika","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Omumma","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Opobo/Nkoro","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Oyigbo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Port-Harcourt","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Rivers","Tai","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ado Ekiti","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Aiyekire (Gboyin)","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Efon-Alayee","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ekiti East","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ekiti South West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ekiti West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Emure","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Idosi-Osi","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ijero","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ikere","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ikole","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ilejemeje","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Irepodun/Ifelodun","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Ise/Orun","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Moba","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ekiti","Oye","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Lagos","Agege","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Ajeromi-Ifelodun","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,1,0,0
+"Lagos","Alimosho","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Amuwo-Odofin","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Apapa","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,1,0,0
+"Lagos","Badagry","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Lagos","Epe","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Lagos","Eti-Osa","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Ibeju/Lekki","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Lagos","Ifako-Ijaye","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Ikeja","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Ikorodu","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Lagos","Kosofe","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Lagos Island","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Lagos Mainland","X",NA,"X","X",NA,NA,NA,NA,NA,NA,NA,NA,"X",NA,NA,NA,4,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Mushin","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,1,0,0
+"Lagos","Ojo","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Oshodi-Isolo","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,1,0,0
+"Lagos","Shomolu","X",NA,"X","X",NA,NA,NA,NA,NA,NA,NA,NA,"X",NA,NA,NA,4,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Lagos","Surulere1","X",NA,NA,"X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,5,"CM+IPTp+LLIN-Urban",0,1,0,0
+"Ogun","Abeokuta North","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Ogun","Abeokuta South","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Ogun","Ado-Odo/Ota","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ewekoro","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ifo","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ijebu East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ijebu North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ijebu North East","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ijebu ode","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ikenne","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Imeko-Afon","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ipokia","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Obafemi-Owode","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Odeda","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Odogbolu","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Ogun waterside","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Remo North","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Shagamu","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Yewa North","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ogun","Yewa South","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Akoko North East","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Akoko North West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Akoko South East","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Akoko South West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Akure North","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Akure South","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Ese-Odo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Idanre","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Ifedore","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Ilaje","X",NA,"X","X","X",NA,"X",NA,NA,NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Ile-Oluji-Okeigbo","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Irele","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Odigbo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Okitipupa","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Ondo East","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Ondo West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Ose","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Ondo","Owo","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Aiyedade","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Aiyedire","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Atakumosa East","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Atakumosa West","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Boluwaduro","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Boripe","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ede North","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X","X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Ede South","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Egbedore","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Ejigbo","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ife Central","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ife East","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ife North","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Ife South","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ifedayo","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ifelodun2","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X","X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Ila","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ilesha East","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ilesha West","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Irepodun2","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X","X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Irewole","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Isokan","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Iwo","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Obokun","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Odo-Otin","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Ola-oluwa","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Olorunda","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X","X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Oriade","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Osun","Orolu","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X","X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Osun","Osogbo","X",NA,"X","X","X",NA,NA,NA,NA,NA,NA,"X","X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Oyo","Afijio","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Akinyele","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Atiba","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Atigbo","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Egbeda","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Ibadan Central (Ibadan North East)","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Oyo","Ibadan North","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Oyo","Ibadan North West","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Oyo","Ibadan South East","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Oyo","Ibadan South West","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Oyo","Ibarapa Central","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Ibarapa East","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Ibarapa North","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Ido","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Irepo","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,0,1
+"Oyo","Iseyin","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Itesiwaju","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Iwajowa","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Kajola","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Lagelu","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Ogbomosho North","X","X",NA,"X","X",NA,NA,NA,NA,NA,"X",NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+SMC",0,1,1,0
+"Oyo","Ogbomosho South","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,NA,6,"CM+IPTp+LLIN-Urban+PMC",0,1,0,1
+"Oyo","Ogo Oluwa","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Olorunsogo","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Oyo","Oluyole","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Ona-Ara","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Orelope","X",NA,"X","X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Ori Ire","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Oyo East","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Oyo West","X",NA,"X","X","X",NA,NA,NA,NA,NA,"X",NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+PMC",0,1,0,1
+"Oyo","Saki East","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Oyo","Saki West","X","X",NA,"X","X",NA,NA,NA,"X",NA,NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN+SMC",0,1,1,0
+"Oyo","Surulere2","X",NA,"X","X","X",NA,NA,NA,NA,"X",NA,NA,NA,"X",NA,NA,6,"CM+IPTp+LLIN",0,1,0,1

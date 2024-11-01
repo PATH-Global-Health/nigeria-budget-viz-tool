@@ -1,0 +1,775 @@
+﻿zone,adm1,adm2,cities,city,Case management,IPTp,SMC expansion,LLINs (consider micro stratification in large urban areas),PBO LLIN,Additional: IRS instead of LLIN,Additional: IPTi evaluation sample frame
+South East,Abia,Aba North,1,Aba,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Abia,Aba South,1,Aba,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Abia,Arochukwu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Bende,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Ikwuano,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Isiala-Ngwa North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Isiala-Ngwa South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Isuikwato,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Obi Nwa,1,Aba,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Abia,Ohafia,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Osisioma Ngwa,1,Aba,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Abia,Ugwunagbo,1,Aba,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Abia,Ukwa East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Ukwa West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Umu-Neochi,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Umuahia North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Abia,Umuahia South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North East,Adamawa,Demsa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Fufore,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Ganaye,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Gireri,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Gombi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Guyuk,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Hong,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Jada,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Lamurde,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Madagali,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Adamawa,Maiha,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Mayo-Belwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Michika,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Adamawa,Mubi North,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Adamawa,Mubi South,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Numan,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Shelleng,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Song,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Toungo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Yola North,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Adamawa,Yola South,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+South South,Akwa Ibom,Abak,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Eastern Obolo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Akwa Ibom,Eket,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Esit Eket,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Essien Udim,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Etim Ekpo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Etinan,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ibeno,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ibesikpo Asutan,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ibiono Ibom,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ika,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ikono,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ikot Abasi,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ikot Ekpene,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ini,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Itu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Mbo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Mkpat Enin,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Akwa Ibom,Nsit Atai,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Nsit Ibom,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Nsit Ubium,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Obot Akara,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Okobo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Onna,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Akwa Ibom,Oron,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Oruk Anam,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Udung Uko,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Ukanafun,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Akwa Ibom,Uruan,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Urue-Offong/Oruko,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Akwa Ibom,Uyo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Aguata,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Anambra East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Anambra West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Anaocha,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Awka North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Awka South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Ayamelum,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Dunukofia,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Ekwusigo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Idemili North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Idemili South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Ihiala,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Njikoka,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Nnewi North,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Anambra,Nnewi South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Ogbaru,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Onitsha North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Onitsha South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Orumba North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Orumba South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Anambra,Oyi,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North East,Bauchi,Alkaleri,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Bauchi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Bogoro,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Damban,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Darazo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Dass,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Gamawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Ganjuwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Giade,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Itas/Gadau,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Jama'are,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Katagum,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Kirfi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Misau,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Ningi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Shira,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Tafawa-Balewa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Toro,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Warji,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Bauchi,Zaki,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+South South,Bayelsa,Brass,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Bayelsa,Ekeremor,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Bayelsa,Kolokuma/Opokuma,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Bayelsa,Nembe,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Bayelsa,Ogbia,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Bayelsa,Sagbama,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Bayelsa,Southern Ijaw,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Bayelsa,Yenegoa,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Benue,Ado,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Benue,Agatu,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Apa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Buruku,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Gboko,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Guma,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Gwer East,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Gwer West,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Katsina-Ala,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Benue,Konshisha,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Kwande,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Logo,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Makurdi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Obi1,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Benue,Ogbadibo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Benue,Ohimini,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Benue,Oju,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Benue,Okpokwu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Benue,Oturkpo,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Tarka,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Ukum,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Ushongo,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Benue,Vandeikya,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Abadam,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Askira/Uba,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Borno,Bama,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Bayo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Borno,Biu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Borno,Chibok,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Borno,Damboa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Dikwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Borno,Gubio,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Guzamala,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Gwoza,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Hawul,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Borno,Jere,1,Maiduguri,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Borno,Kaga,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Kala/Balge,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Konduga,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Kukawa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Kwaya Kusar,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Mafa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Magumeri,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Maiduguri,1,Maiduguri,Case management,IPTp,SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North East,Borno,Marte,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Mobbar,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Monguno,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Ngala,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Nganzai,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Borno,Shani,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+South South,Cross River,Abi,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Akamkpa,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Akpabuyo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Bakassi,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Cross River,Bekwara,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+South South,Cross River,Biase,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Boki,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Calabar South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Calabar-Municipal,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Cross River,Etung,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Ikom,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Cross River,Obanliku,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+South South,Cross River,Obubra,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Cross River,Obudu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+South South,Cross River,Odukpani,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Cross River,Ogoja,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+South South,Cross River,Yakurr,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Cross River,Yala,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+South South,Delta,Aniocha North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Aniocha South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Bomadi,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Burutu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Ethiope East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Ethiope West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Ika North East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Ika South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Isoko North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Isoko South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Ndokwa East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Ndokwa West,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Delta,Okpe,1,Warri,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Delta,Oshimili North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Oshimili South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Patani,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Delta,Sapele,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Udu,1,Warri,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Delta,Ughelli North,1,Warri,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Delta,Ughelli South,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Delta,Ukwuani,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Uvwie,1,Warri,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Delta,Warri North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Delta,Warri South,1,Warri,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Delta,Warri South West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Ebonyi,Abakaliki,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Afikpo North,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Afikpo South,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ebonyi,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ezza North,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ezza South,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ikwo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ishielu,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ivo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Izzi,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ohaozara,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Ohaukwu,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South East,Ebonyi,Onicha,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South South,Edo,Akoko-Edo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Egor,1,Benin City,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Edo,Esan Central,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Esan North East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Esan South East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Esan West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Etsako Central,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Etsako East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Etsako West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Igueben,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Ikpoba-Okha,1,Benin City,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Edo,Oredo,1,Benin City,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Edo,Orhionmwon,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Ovia North East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Ovia South West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Owan East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Owan West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Edo,Uhunmwonde,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ado Ekiti,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Efon-Alayee,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ekiti East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ekiti South West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ekiti West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Emure,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Gboyin,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Idosi-Osi,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ijero,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ikere,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ikole,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ilemeji,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Irepodun/Ifelodun,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Ise/Orun,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Moba,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ekiti,Oye,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Aninri,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Awgu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Enugu East,1,Enugu,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Enugu,Enugu North,1,Enugu,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Enugu,Enugu South,1,Enugu,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South East,Enugu,Ezeagu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Igbo-Etiti,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Igbo-Eze North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Igbo-Eze South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Isi-Uzo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Nkanu East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Nkanu West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Nsukka,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Oji-River,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Udenu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Udi,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Enugu,Uzo-Uwani,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Federal Capital Territory,Abaji,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Federal Capital Territory,Abuja Municipal,1,Abuja,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Federal Capital Territory,Bwari,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Federal Capital Territory,Gwagwalada,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Federal Capital Territory,Kuje,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Federal Capital Territory,Kwali,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Gombe,Akko,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Balanga,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Billiri,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Dukku,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Funakaye,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Gombe,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Kaltungo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Kwami,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Nafada,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Gombe,Shomgom,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Gombe,Yamaltu/Deba,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+South East,Imo,Aboh-Mbaise,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ahiazu-Mbaise,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ehime-Mbano,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ezinihitte,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ideato North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ideato South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ihitte/Uboma,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ikeduru,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Isiala Mbano,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Isu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Mbaitoli,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ngor-Okpala,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Njaba,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Nkwerre,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Nwangele,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Obowo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Oguta,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Ohaji/Egbema,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Okigwe,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Orlu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Orsu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Oru East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Oru West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Owerri North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Owerri West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Owerri-Municipal,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South East,Imo,Unuimo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North West,Jigawa,Auyo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Babura,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Biriniwa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Jigawa,Birni Kudu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Buji,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Dutse,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Gagarawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Garki,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Gumel,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Guri,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Jigawa,Gwaram,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Gwiwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Hadejia,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Jahun,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Kafin Hausa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Kaugama,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Jigawa,Kazaure,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Jigawa,Kiri Kasamma,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Jigawa,Maigatari,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Malam Madori,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Miga,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Ringim,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Roni,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Sule-Tankarkar,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Taura,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,Yankwashi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Jigawa,kiyawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Birnin-Gwari,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Chikun,1,Kaduna,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Giwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Igabi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kaduna,Ikara,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Jaba,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Jema'a,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Kachia,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Kaduna North,1,Kaduna,Case management,IPTp,SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North West,Kaduna,Kaduna South,1,Kaduna,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Kagarko,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Kajuru,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kaduna,Kaura,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Kauru,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Kubau,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Kudan,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Lere,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Markafi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Sabon-Gari,1,Zaria,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Sanga,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Soba,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kaduna,Zango-Kataf,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kaduna,Zaria,1,Zaria,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Ajingi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Albasu,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Bagwai,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Bebeji,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Bichi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Bunkure,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Dala,1,Kano,Case management,IPTp,SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North West,Kano,Dambatta,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Dawakin Kudu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Dawakin Tofa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Doguwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Fagge,1,Kano,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Gabasawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Garko,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Garum Mallam,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Gaya,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Gezawa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Gwale,1,Kano,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Gwarzo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Kabo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Kano Municipal,1,Kano,Case management,IPTp,SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North West,Kano,Karaye,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Kibiya,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Kiru,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Kumbotso,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Kunchi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Kura,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Madobi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Makoda,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Minjibir,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Nasarawa1,1,Kano,Case management,IPTp,SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North West,Kano,Rano,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Rimin Gado,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Rogo,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Shanono,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Sumaila,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Takali,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Tarauni,1,Kano,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Tofa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Tsanyawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Tudun Wada,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Ungogo,1,Kano,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kano,Warawa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kano,Wudil,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Bakori,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Batagarawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Batsari,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Baure,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Bindawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Charanchi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Dan Musa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Dandume,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Danja,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Daura,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Dutsi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Dutsin-Ma,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Faskari,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Funtua,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Ingawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Jibia,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Kafur,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Kankara,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Kankia,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Katsina,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Katsina,Kurfi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Kusada,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Mai'Adua,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Malumfashi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Mani,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Mashi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Matazuu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Musawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Rimi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Sabuwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Safana,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Sandamu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,Zango,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Katsina,kaita,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Aleiro,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Arewa-Dandi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Argungu,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Augie,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Bagudo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Birnin Kebbi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Bunza,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Dandi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Fakai,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Gwandu,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Jega,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Kalgo,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Koko/Besse,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Maiyama,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Ngaski,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Sakaba,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Shanga,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Suru,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Kebbi,Wasagu/Danko,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Yauri,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Kebbi,Zuru,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Kogi,Adavi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Ajaokuta,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Kogi,Ankpa,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Bassa1,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Dekina,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Ibaji,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Idah,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Igalamela-Odolu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Ijumu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Kabba/Bunu,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Kogi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Kogi,Lokoja,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Mopa-Muro,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Kogi,Ofu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Ogori/Mangongo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Okehi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Okene,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Olamabolo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kogi,Omala,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Yagba East,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kogi,Yagba West,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kwara,Asa,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Kwara,Baruten,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kwara,Edu,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kwara,Ekiti,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Kwara,Ifelodun1,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Kwara,Ilorin East,1,Iilorin,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+North Central,Kwara,Ilorin South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kwara,Ilorin West,1,Iilorin,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+North Central,Kwara,Irepodun1,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Kwara,Isin,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Kwara,Kaiama,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Kwara,Moro,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Kwara,Offa,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Kwara,Oke-Ero,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Kwara,Oyun,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North Central,Kwara,Pategi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+South West,Lagos,Agege,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Ajeromi-Ifelodun,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+South West,Lagos,Alimosho,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Amuwo-Odofin,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Apapa,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+South West,Lagos,Badagry,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Lagos,Epe,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Lagos,Eti-Osa,1,Ikorodu,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Ibeju/Lekki,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Lagos,Ifako-Ijaye,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Lagos,Ikeja,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Ikorodu,1,Ikorodu,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Kosofe,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Lagos Island,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Lagos Mainland,1,Lagos,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Lagos,Mushin,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+South West,Lagos,Ojo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Lagos,Oshodi-Isolo,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+South West,Lagos,Shomolu,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Lagos,Surulere1,1,Lagos,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North Central,Nasarawa,Akwanga,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Awe,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Doma,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Karu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Keana,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Keffi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Kokona,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Lafia,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Nasarawa-Eggon,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Nasarawa2,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Obi2,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Toto,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Nasarawa,Wamba,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Agaie,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Agwara,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Bida,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Borgu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Bosso,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Chanchaga,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Edati,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Niger,Gbako,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Gurara,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Katcha,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Kontagora,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Lapai,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Lavun,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Magama,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Mariga,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Mashegu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Mokwa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Muya,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Pailoro,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Rafi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Rijau,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Shiroro,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Suleja,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Tafa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Niger,Wushishi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+South West,Ogun,Abeokuta North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Abeokuta South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Ado-Odo/Ota,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Egbado North,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Ogun,Egbado South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Ewekoro,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Ifo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Ijebu East,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Ogun,Ijebu North,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Ogun,Ijebu North East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Ijebu ode,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Ogun,Ikenne,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Imeko-Afon,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Ipokia,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Obafemi-Owode,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Odeda,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Ogun,Odogbolu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Ogun waterside,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Remo North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ogun,Shagamu,1,Ikorodu,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Ondo,Akoko North East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Akoko North West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Akoko South East,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Ondo,Akoko South West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Akure North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Akure South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Ese-Odo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Idanre,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Ifedore,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Ilaje,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Ile-Oluji-Okeigbo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Irele,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Odigbo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Okitipupa,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Ondo East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Ondo West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Ose,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Ondo,Owo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Aiyedade,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Aiyedire,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Atakumosa East,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Atakumosa West,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Boluwaduro,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Osun,Boripe,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Osun,Ede North,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ede South,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Egbedore,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ejigbo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ife Central,1,Ife,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ife East,1,Ife,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Osun,Ife North,1,Ife,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ife South,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Osun,Ifedayo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ifelodun2,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ila,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ilesha East,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ilesha West,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Irepodun2,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Irewole,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Isokan,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Osun,Iwo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Obokun,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Odo-Otin,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Ola-oluwa,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Olorunda,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Osun,Oriade,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Osun,Orolu,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Osun,Osogbo,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Afijio,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Akinyele,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Atiba,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Atigbo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Egbeda,1,Ibadan,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Oyo,Ibadan North,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ibadan North East,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ibadan North West,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ibadan South East,1,Ibadan,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South West,Oyo,Ibadan South West,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ibarapa Central,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ibarapa East,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ibarapa North,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Ido,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Irepo,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+South West,Oyo,Iseyin,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Itesiwaju,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Iwajowa,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Kajola,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Lagelu,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ogbomosho North,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ogbomosho South,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ogo Oluwa,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Olorunsogo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Oluyole,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Ona-Ara,1,Ibadan,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+South West,Oyo,Orelope,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Ori Ire,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Oyo East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Oyo West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Saki East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Saki West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South West,Oyo,Surulere2,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North Central,Plateau,Barikin Ladi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Bassa2,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Bokkos,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Jos East,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Plateau,Jos North,1,Jos,Case management,IPTp,SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North Central,Plateau,Jos South,1,Jos,Case management,IPTp,SMC,Urban Areas (>1M population),No PBO nets,No IRS,No IPTi
+North Central,Plateau,Kanam,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Kanke,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Langtang North,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Langtang South,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Plateau,Mangu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Plateau,Mikang,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Pankshin,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Qua'an Pan,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Plateau,Riyom,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North Central,Plateau,Shendam,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North Central,Plateau,Wase,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+South South,Rivers,Abua/Odual,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Ahoada East,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Ahoada West,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Akuku Toru,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Andoni,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Asari-Toru,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Bonny,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Degema,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Eleme,1,Port Harcourt,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Rivers,Emohua,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Etche,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Gokana,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Ikwerre,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Khana,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Obia/Akpor,1,Port Harcourt,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Rivers,Ogba/Egbema/Ndoni,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Ogu/Bolo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Okrika,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Omumma,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Opobo/Nkoro,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Oyigbo,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+South South,Rivers,Port-Harcourt,1,Port Harcourt,Case management,IPTp,No SMC,Urban Areas (>1M population),No PBO nets,No IRS,IPTi
+South South,Rivers,Tai,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North West,Sokoto,Binji,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Bodinga,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Dange-Shnsi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Gada,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Gawabawa,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Goronyo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Gudu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Illela,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Isa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Kebbe,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Kware,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Rabah,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Sabon Birni,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Shagari,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Silame,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Sokoto North,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Sokoto South,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Tambuwal,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Tangaza,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Tureta,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Sokoto,Wamako,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Wurno,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Sokoto,Yabo,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Taraba,Ardo-Kola,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Bali,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Donga,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Taraba,Gashaka,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Gassol,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Ibi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Jalingo,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Karin-Lamido,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Kurmi,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North East,Taraba,Lau,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Sardauna,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North East,Taraba,Takum,0,,Case management,IPTp,No SMC,No LLINs,No PBO nets,IRS,IPTi
+North East,Taraba,Ussa,0,,Case management,IPTp,No SMC,LLINs,No PBO nets,No IRS,IPTi
+North East,Taraba,Wukari,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Taraba,Yorro,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Taraba,Zing,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Bade,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Bursari,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Damaturu,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Fika,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Fune,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Geidam,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Gujba,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Gulani,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Jakusko,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Karasuwa,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Machina,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Nangere,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Nguru,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Potiskum,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Tarmua,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North East,Yobe,Yunusari,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North East,Yobe,Yusufari,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Zamfara,Anka,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Bakura,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Birnin Magaji,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Bukkuyum,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Bungudu,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Gummi,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Zamfara,Gusau,0,,Case management,IPTp,SMC,LLINs,No PBO nets,No IRS,No IPTi
+North West,Zamfara,Kaura-Namoda,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Maradun,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Maru,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Shinkafi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Talata Mafara,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Tsafe,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi
+North West,Zamfara,Zurmi,0,,Case management,IPTp,SMC,No LLINs,No PBO nets,IRS,No IPTi

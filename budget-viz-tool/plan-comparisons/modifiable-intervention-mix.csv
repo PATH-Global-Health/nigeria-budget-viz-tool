@@ -1,0 +1,775 @@
+"state","lga","code_cm_public","code_iptp","code_smc","code_pmc","code_vacc","code_irs","code_lsm","code_itn_campaign","code_itn_routine","code_itn_urban","code_cm_private"
+"Benue","Ado",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Agatu",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Apa",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Buruku",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Gboko",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Guma",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Gwer East",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Gwer West",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Katsina Ala",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Konshisha",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Kwande",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Logo",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Makurdi",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Obi",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Ogbadibo",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Ohimini",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Oju",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Okpokwu",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Oturkpo",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Tarka",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Ukum",1,1,1,0,1,0,1,0,1,0,1
+"Benue","Ushongo",1,1,0,1,1,0,1,0,1,0,1
+"Benue","Vandeikya",1,1,0,1,1,0,1,0,1,0,1
+"Federal Capital Territory","Abaji",1,1,1,0,1,0,1,0,1,1,1
+"Federal Capital Territory","Abuja Municipal",1,1,1,0,1,0,1,0,1,1,1
+"Federal Capital Territory","Bwari",1,1,1,0,1,0,1,0,1,1,1
+"Federal Capital Territory","Gwagwalada",1,1,1,0,1,0,1,0,1,1,1
+"Federal Capital Territory","Kuje",1,1,1,0,1,0,1,0,1,1,1
+"Federal Capital Territory","Kwali",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Adavi",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Ajaokuta",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Ankpa",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Bassa",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Dekina",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Ibaji",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Idah",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Igalamela Odolu",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Ijumu",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Kabba/Bunu",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Kogi",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Lokoja",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Mopa Muro",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Ofu",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Ogori/Mangongo",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Okehi",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Okene",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Olamabolo",1,1,0,1,1,0,1,0,1,0,1
+"Kogi","Omala",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Yagba East",1,1,1,0,1,0,1,0,1,0,1
+"Kogi","Yagba West",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Asa",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Baruten",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Edu",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Ekiti",1,1,0,1,1,0,1,0,1,0,1
+"Kwara","Ifelodun",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Ilorin East",1,1,1,0,1,0,1,0,1,1,1
+"Kwara","Ilorin South",1,1,1,0,1,0,1,0,1,1,1
+"Kwara","Ilorin West",1,1,1,0,1,0,1,0,1,1,1
+"Kwara","Irepodun",1,1,0,1,1,0,1,0,1,0,1
+"Kwara","Isin",1,1,0,1,1,0,1,0,1,0,1
+"Kwara","Kaiama",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Moro",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Offa",1,1,0,1,1,0,1,0,1,0,1
+"Kwara","Oke Ero",1,1,1,0,1,0,1,0,1,0,1
+"Kwara","Oyun",1,1,0,1,1,0,1,0,1,0,1
+"Kwara","Pategi",1,1,1,0,1,0,1,0,1,0,1
+"Nasarawa","Akwanga",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Awe",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Doma",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Karu",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Keana",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Keffi",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Kokona",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Lafia",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Nasarawa",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Nasarawa Eggon",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Obi",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Toto",1,1,1,0,1,0,1,1,0,0,1
+"Nasarawa","Wamba",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Agaie",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Agwara",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Bida",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Borgu",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Bosso",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Chanchaga",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Edati",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Gbako",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Gurara",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Katcha",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Kontagora",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Lapai",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Lavun",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Magama",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Mariga",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Mashegu",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Mokwa",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Muya",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Paikoro",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Rafi",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Rijau",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Shiroro",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Suleja",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Tafa",1,1,1,0,1,0,1,1,0,0,1
+"Niger","Wushishi",1,1,1,0,1,0,1,1,0,0,1
+"Plateau","Barikin Ladi",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Bassa",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Bokkos",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Jos East",1,1,1,0,1,0,1,0,1,1,1
+"Plateau","Jos North",1,1,1,0,1,0,1,0,1,1,1
+"Plateau","Jos South",1,1,1,0,1,0,1,0,1,1,1
+"Plateau","Kanam",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Kanke",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Langtang North",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Langtang South",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Mangu",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Mikang",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Pankshin",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Qua'an Pan",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Riyom",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Shendam",1,1,1,0,1,0,1,0,1,0,1
+"Plateau","Wase",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Demsa",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Fufore",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Ganye",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Girei",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Gombi",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Guyuk",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Hong",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Jada",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Lamurde",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Madagali",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Maiha",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Mayo Belwa",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Michika",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Mubi North",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Mubi South",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Numan",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Shelleng",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Song",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Toungo",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Yola North",1,1,1,0,1,0,1,0,1,0,1
+"Adamawa","Yola South",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Alkaleri",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Bauchi",1,1,1,0,1,0,1,0,1,1,1
+"Bauchi","Bogoro",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Damban",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Darazo",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Dass",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Gamawa",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Ganjuwa",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Giade",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Itas/Gadau",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Jama'are",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Katagum",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Kirfi",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Misau",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Ningi",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Shira",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Tafawa Balewa",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Toro",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Warji",1,1,1,0,1,0,1,0,1,0,1
+"Bauchi","Zaki",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Abadam",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Askira/Uba",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Bama",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Bayo",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Biu",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Chibok",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Damboa",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Dikwa",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Gubio",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Guzamala",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Gwoza",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Hawul",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Jere",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Kaga",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Kala/Balge",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Konduga",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Kukawa",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Kwaya Kusar",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Mafa",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Magumeri",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Maiduguri",1,1,1,0,1,0,1,0,1,1,1
+"Borno","Marte",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Mobbar",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Monguno",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Ngala",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Nganzai",1,1,1,0,1,0,1,0,1,0,1
+"Borno","Shani",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Akko",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Balanga",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Billiri",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Dukku",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Funakaye",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Gombe",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Kaltungo",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Kwami",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Nafada (Bajoga)",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Shomgom",1,1,1,0,1,0,1,0,1,0,1
+"Gombe","Yamaltu/Deba",1,1,1,0,1,0,1,0,1,0,1
+"Taraba","Ardo Kola",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Bali",1,1,0,1,1,0,1,1,0,0,1
+"Taraba","Donga",1,1,0,1,1,0,1,1,0,0,1
+"Taraba","Gashaka",1,1,0,1,1,0,1,1,0,0,1
+"Taraba","Gassol",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Ibi",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Jalingo",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Karin Lamido",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Kurmi",1,1,0,1,1,0,1,1,0,0,1
+"Taraba","Lau",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Sardauna",1,1,0,1,1,0,1,1,0,0,1
+"Taraba","Takum",1,1,0,1,1,0,1,1,0,0,1
+"Taraba","Ussa",1,1,0,1,1,0,1,1,0,0,1
+"Taraba","Wukari",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Yorro",1,1,1,0,1,0,1,1,0,0,1
+"Taraba","Zing",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Bade",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Bursari",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Damaturu",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Fika",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Fune",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Geidam",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Gujba",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Gulani",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Jakusko",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Karasuwa",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Machina",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Nangere",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Nguru",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Potiskum",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Tarmua",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Yunusari",1,1,1,0,1,0,1,1,0,0,1
+"Yobe","Yusufari",1,1,1,0,1,0,1,1,0,0,1
+"Jigawa","Auyo",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Babura",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Birnin Kudu",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Biriniwa",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Buji",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Dutse",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Gagarawa",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Garki",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Gumel",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Guri",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Gwaram",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Gwiwa",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Hadejia",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Jahun",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Kafin Hausa",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Kaugama",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Kazaure",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Kiri Kasamma",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Kiyawa",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Maigatari",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Malam Madori",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Miga",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Ringim",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Roni",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Sule Tankarkar",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Taura",1,1,1,0,1,0,1,0,1,0,1
+"Jigawa","Yankwashi",1,1,1,0,1,0,1,0,1,0,1
+"Kaduna","Birnin Gwari",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Chikun",1,1,1,0,1,0,1,1,0,1,1
+"Kaduna","Giwa",1,1,1,0,1,0,1,1,0,1,1
+"Kaduna","Igabi",1,1,1,0,1,0,1,1,0,1,1
+"Kaduna","Ikara",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Jaba",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Jema'a",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Kachia",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Kaduna North",1,1,1,0,1,0,1,1,0,1,1
+"Kaduna","Kaduna South",1,1,1,0,1,0,1,1,0,1,1
+"Kaduna","Kagarko",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Kajuru",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Kaura",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Kauru",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Kubau",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Kudan",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Lere",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Markafi",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Sabon Gari",1,1,1,0,1,0,1,1,0,1,1
+"Kaduna","Sanga",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Soba",1,1,1,0,1,0,1,1,0,1,1
+"Kaduna","Zango Kataf",1,1,1,0,1,0,1,1,0,0,1
+"Kaduna","Zaria",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Ajingi",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Albasu",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Bagwai",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Bebeji",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Bichi",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Bunkure",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Dala",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Dambatta",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Dawakin Kudu",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Dawakin Tofa",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Doguwa",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Fagge",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Gabasawa",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Garko",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Garum Mallam",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Gaya",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Gezawa",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Gwale",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Gwarzo",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Kabo",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Kano Municipal",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Karaye",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Kibiya",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Kiru",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Kumbotso",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Kunchi",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Kura",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Madobi",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Makoda",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Minjibir",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Nasarawa",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Rano",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Rimin Gado",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Rogo",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Shanono",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Sumaila",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Takai",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Tarauni",1,1,1,0,1,0,1,1,0,1,1
+"Kano","Tofa",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Tsanyawa",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Tudun Wada",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Ungogo",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Warawa",1,1,1,0,1,0,1,1,0,0,1
+"Kano","Wudil",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Bakori",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Batagarawa",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Batsari",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Baure",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Bindawa",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Charanchi",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Dandume",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Danja",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Dan Musa",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Daura",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Dutsi",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Dutsin Ma",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Faskari",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Funtua",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Ingawa",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Jibia",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Kafur",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Kaita",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Kankara",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Kankia",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Katsina",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Kurfi",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Kusada",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Mai'adua",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Malumfashi",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Mani",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Mashi",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Matazu",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Musawa",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Rimi",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Sabuwa",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Safana",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Sandamu",1,1,1,0,1,0,1,1,0,0,1
+"Katsina","Zango",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Aleiro",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Arewa Dandi",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Argungu",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Augie",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Bagudo",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Birnin Kebbi",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Bunza",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Dandi",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Fakai",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Gwandu",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Jega",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Kalgo",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Koko/Besse",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Maiyama",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Ngaski",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Sakaba",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Shanga",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Suru",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Wasagu/Danko",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Yauri",1,1,1,0,1,0,1,1,0,0,1
+"Kebbi","Zuru",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Binji",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Bodinga",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Dange Shuni",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Gada",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Goronyo",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Gudu",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Gwadabawa",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Illela",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Isa",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Kebbe",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Kware",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Rabah",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Sabon Birni",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Shagari",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Silame",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Sokoto North",1,1,1,0,1,0,1,1,0,1,1
+"Sokoto","Sokoto South",1,1,1,0,1,0,1,1,0,1,1
+"Sokoto","Tambuwal",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Tangaza",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Tureta",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Wamako",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Wurno",1,1,1,0,1,0,1,1,0,0,1
+"Sokoto","Yabo",1,1,1,0,1,0,1,1,0,0,1
+"Zamfara","Anka",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Bakura",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Birnin Magaji",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Bukkuyum",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Bungudu",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Gummi",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Gusau",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Kaura Namoda",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Maradun",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Maru",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Shinkafi",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Talata Mafara",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Tsafe",1,1,1,0,1,0,1,0,1,0,1
+"Zamfara","Zurmi",1,1,1,0,1,0,1,0,1,0,1
+"Abia","Aba North",1,1,0,1,1,0,1,0,1,1,1
+"Abia","Aba South",1,1,0,1,1,0,1,0,1,1,1
+"Abia","Arochukwu",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Bende",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Ikwuano",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Isiala Ngwa North",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Isiala Ngwa South",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Isuikwato",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Obi Nwa",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Ohafia",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Osisioma Ngwa",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Ugwunagbo",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Ukwa East",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Ukwa West",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Umuahia North",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Umuahia South",1,1,0,1,1,0,1,0,1,0,1
+"Abia","Umu Nneochi",1,1,0,1,1,0,1,0,1,0,1
+"Anambra","Aguata",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Anambra East",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Anambra West",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Anaocha",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Awka North",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Awka South",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Ayamelum",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Dunukofia",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Ekwusigo",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Idemili North",1,1,0,0,1,0,1,1,0,1,1
+"Anambra","Idemili South",1,1,0,0,1,0,1,1,0,1,1
+"Anambra","Ihiala",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Njikoka",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Nnewi North",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Nnewi South",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Ogbaru",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Onitsha North",1,1,0,0,1,0,1,1,0,1,1
+"Anambra","Onitsha South",1,1,0,0,1,0,1,1,0,1,1
+"Anambra","Orumba North",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Orumba South",1,1,0,0,1,0,1,1,0,0,1
+"Anambra","Oyi",1,1,0,0,1,0,1,1,0,0,1
+"Ebonyi","Abakaliki",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Afikpo North",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Afikpo South",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ebonyi",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ezza North",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ezza South",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ikwo",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ishielu",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ivo",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Izzi",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ohaozara",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Ohaukwu",1,1,0,1,1,0,1,0,1,0,1
+"Ebonyi","Onicha",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Aninri",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Awgu",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Enugu East",1,1,0,1,1,0,1,0,1,1,1
+"Enugu","Enugu North",1,1,0,1,1,0,1,0,1,1,1
+"Enugu","Enugu South",1,1,0,1,1,0,1,0,1,1,1
+"Enugu","Ezeagu",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Igbo Etiti",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Igbo Eze North",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Igbo Eze South",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Isi Uzo",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Nkanu East",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Nkanu West",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Nsukka",1,1,0,1,1,0,1,0,1,1,1
+"Enugu","Oji River",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Udenu",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Udi",1,1,0,1,1,0,1,0,1,0,1
+"Enugu","Uzo Uwani",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Aboh Mbaise",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ahiazu Mbaise",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ehime Mbano",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ezinihitte",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ideato North",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ideato South",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ihitte/Uboma",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ikeduru",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Isiala Mbano",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Isu",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Mbaitoli",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ngor Okpala",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Njaba",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Nkwerre",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Nwangele",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Obowo",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Oguta",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Ohaji/Egbema",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Okigwe",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Orlu",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Orsu",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Oru East",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Oru West",1,1,0,1,1,0,1,0,1,0,1
+"Imo","Owerri Municipal",1,1,0,1,1,0,1,0,1,1,1
+"Imo","Owerri North",1,1,0,1,1,0,1,0,1,1,1
+"Imo","Owerri West",1,1,0,1,1,0,1,0,1,1,1
+"Imo","Unuimo",1,1,0,1,1,0,1,0,1,0,1
+"Akwa Ibom","Abak",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Eastern Obolo",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Eket",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Esit Eket",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Essien Udim",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Etim Ekpo",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Etinan",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ibeno",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ibesikpo Asutan",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ibiono Ibom",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ika",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ikono",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ikot Abasi",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ikot Ekpene",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ini",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Itu",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Mbo",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Mkpat Enin",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Nsit Atai",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Nsit Ibom",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Nsit Ubium",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Obot Akara",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Okobo",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Onna",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Oron",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Oruk Anam",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Udung Uko",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Ukanafun",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Uruan",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Urue Offong/Oruko",1,1,0,1,1,0,1,1,0,0,1
+"Akwa Ibom","Uyo",1,1,0,1,1,0,1,1,0,0,1
+"Bayelsa","Brass",1,1,0,1,1,0,1,0,1,0,1
+"Bayelsa","Ekeremor",1,1,0,1,1,0,1,0,1,0,1
+"Bayelsa","Kolokuma/Opokuma",1,1,0,1,1,0,1,0,1,0,1
+"Bayelsa","Nembe",1,1,0,1,1,0,1,0,1,0,1
+"Bayelsa","Ogbia",1,1,0,1,1,0,1,0,1,0,1
+"Bayelsa","Sagbama",1,1,0,1,1,0,1,0,1,0,1
+"Bayelsa","Southern Ijaw",1,1,0,1,1,0,1,0,1,0,1
+"Bayelsa","Yenegoa",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Abi",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Akamkpa",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Akpabuyo",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Bakassi",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Bekwara",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Biase",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Boki",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Calabar Municipal",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Calabar South",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Etung",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Ikom",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Obanliku",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Obubra",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Obudu",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Odukpani",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Ogoja",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Yakurr",1,1,0,1,1,0,1,0,1,0,1
+"Cross River","Yala",1,1,0,1,1,0,1,0,1,0,1
+"Delta","Aniocha North",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Aniocha South",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Bomadi",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Burutu",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ethiope East",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ethiope West",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ika North East",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ika South",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Isoko North",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Isoko South",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ndokwa East",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ndokwa West",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Okpe",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Oshimili North",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Oshimili South",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Patani",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Sapele",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Udu",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ughelli North",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ughelli South",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Ukwuani",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Uvwie",1,1,0,1,1,0,1,1,0,0,1
+"Delta","Warri North",1,1,0,1,1,0,1,1,0,1,1
+"Delta","Warri South",1,1,0,1,1,0,1,1,0,1,1
+"Delta","Warri South West",1,1,0,1,1,0,1,1,0,1,1
+"Edo","Akoko Edo",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Egor",1,1,0,1,1,0,1,0,1,1,1
+"Edo","Esan Central",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Esan North East",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Esan South East",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Esan West",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Etsako Central",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Etsako East",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Etsako West",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Igueben",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Ikpoba Okha",1,1,0,1,1,0,1,0,1,1,1
+"Edo","Oredo",1,1,0,1,1,0,1,0,1,1,1
+"Edo","Orhionmwon",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Ovia North East",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Ovia South West",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Owan East",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Owan West",1,1,0,1,1,0,1,0,1,0,1
+"Edo","Uhunmwonde",1,1,0,1,1,0,1,0,1,1,1
+"Rivers","Abua/Odual",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Ahoada East",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Ahoada West",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Akuku Toru",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Andoni",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Asari Toru",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Bonny",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Degema",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Eleme",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Emohua",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Etche",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Gokana",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Ikwerre",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Khana",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Obia/Akpor",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Ogba/Egbema/Ndoni",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Ogu/Bolo",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Okrika",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Omumma",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Opobo/Nkoro",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Oyigbo",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Port Harcourt",1,1,0,1,1,0,1,0,1,0,1
+"Rivers","Tai",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ado Ekiti",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Aiyekire (Gboyin)",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Efon Alayee",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ekiti East",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ekiti South West",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ekiti West",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Emure",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Idosi Osi",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ijero",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ikere",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ikole",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ilejemeje",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Irepodun/Ifelodun",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Ise/Orun",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Moba",1,1,0,1,1,0,1,0,1,0,1
+"Ekiti","Oye",1,1,0,1,1,0,1,0,1,0,1
+"Lagos","Agege",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Ajeromi Ifelodun",1,1,0,0,1,0,1,0,1,1,1
+"Lagos","Alimosho",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Amuwo Odofin",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Apapa",1,1,0,0,1,0,1,0,1,1,1
+"Lagos","Badagry",1,1,0,1,1,0,1,0,1,0,1
+"Lagos","Epe",1,1,0,1,1,0,1,0,1,0,1
+"Lagos","Eti Osa",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Ibeju/Lekki",1,1,0,1,1,0,1,0,1,0,1
+"Lagos","Ifako Ijaye",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Ikeja",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Ikorodu",1,1,0,1,1,0,1,0,1,0,1
+"Lagos","Kosofe",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Lagos Island",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Lagos Mainland",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Mushin",1,1,0,0,1,0,1,0,1,1,1
+"Lagos","Ojo",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Oshodi Isolo",1,1,0,0,1,0,1,0,1,1,1
+"Lagos","Shomolu",1,1,0,1,1,0,1,0,1,1,1
+"Lagos","Surulere",1,1,0,0,1,0,1,0,1,1,1
+"Ogun","Abeokuta North",1,1,0,1,1,0,1,0,1,1,1
+"Ogun","Abeokuta South",1,1,0,1,1,0,1,0,1,1,1
+"Ogun","Ado Odo/Ota",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ewekoro",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ifo",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ijebu East",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ijebu North",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ijebu North East",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ijebu Ode",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ikenne",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Imeko Afon",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ipokia",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Obafemi Owode",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Odeda",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Odogbolu",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Ogun Waterside",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Remo North",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Shagamu",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Yewa North",1,1,0,1,1,0,1,0,1,0,1
+"Ogun","Yewa South",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Akoko North East",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Akoko North West",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Akoko South East",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Akoko South West",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Akure North",1,1,0,1,1,0,1,0,1,1,1
+"Ondo","Akure South",1,1,0,1,1,0,1,0,1,1,1
+"Ondo","Ese Odo",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Idanre",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Ifedore",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Ilaje",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Ile Oluji Okeigbo",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Irele",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Odigbo",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Okitipupa",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Ondo East",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Ondo West",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Ose",1,1,0,1,1,0,1,0,1,0,1
+"Ondo","Owo",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Aiyedade",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Aiyedire",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Atakumosa East",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Atakumosa West",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Boluwaduro",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Boripe",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ede North",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Ede South",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Egbedore",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Ejigbo",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ife Central",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ife East",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ife North",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Ife South",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ifedayo",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ifelodun",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Ila",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ilesha East",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ilesha West",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Irepodun",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Irewole",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Isokan",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Iwo",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Obokun",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Odo Otin",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Ola Oluwa",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Olorunda",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Oriade",1,1,0,1,1,0,1,0,1,0,1
+"Osun","Orolu",1,1,0,1,1,0,1,0,1,1,1
+"Osun","Osogbo",1,1,0,1,1,0,1,0,1,1,1
+"Oyo","Afijio",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Akinyele",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Atiba",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Atigbo",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Egbeda",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Ibadan Central (Ibadan North East)",1,1,0,1,1,0,1,0,1,1,1
+"Oyo","Ibadan North",1,1,0,1,1,0,1,0,1,1,1
+"Oyo","Ibadan North West",1,1,0,1,1,0,1,0,1,1,1
+"Oyo","Ibadan South East",1,1,0,1,1,0,1,0,1,1,1
+"Oyo","Ibadan South West",1,1,0,1,1,0,1,0,1,1,1
+"Oyo","Ibarapa Central",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Ibarapa East",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Ibarapa North",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Ido",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Irepo",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Iseyin",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Itesiwaju",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Iwajowa",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Kajola",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Lagelu",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Ogbomosho North",1,1,1,0,1,0,1,0,1,1,1
+"Oyo","Ogbomosho South",1,1,0,1,1,0,1,0,1,1,1
+"Oyo","Ogo Oluwa",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Olorunsogo",1,1,1,0,1,0,1,0,1,0,1
+"Oyo","Oluyole",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Ona Ara",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Orelope",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Ori Ire",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Oyo East",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Oyo West",1,1,0,1,1,0,1,0,1,0,1
+"Oyo","Saki East",1,1,1,0,1,0,1,0,1,0,1
+"Oyo","Saki West",1,1,1,0,1,0,1,0,1,0,1
+"Oyo","Surulere",1,1,0,1,1,0,1,0,1,0,1

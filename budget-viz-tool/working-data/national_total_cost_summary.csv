@@ -1,0 +1,31 @@
+"intervention","title","state_count","lga_count","currency","total_cost","intervention_type","target_value","target","cost_per_target"
+"cb","Capacity Building",NA,NA,"Naira",17539672818,"Support Services",NA,NA,NA
+"cb","Capacity Building",NA,NA,"USD",10962295.51125,"Support Services",NA,NA,NA
+"cm_private","Private Sector Case Management",37,774,"Naira",347020628044.505,"Malaria Interventions",258169500.52052,"Population",1344.15811063989
+"cm_private","Private Sector Case Management",37,774,"USD",216887892.527816,"Malaria Interventions",258169500.52052,"Population",0.84009881914993
+"cm_public","Public Sector Case Management",37,774,"Naira",254401604268.329,"Malaria Interventions",258169500.52052,"Population",985.405339342586
+"cm_public","Public Sector Case Management",37,774,"USD",159001002.667706,"Malaria Interventions",258169500.52052,"Population",0.615878337089118
+"gc","Governance & Coordination",NA,NA,"Naira",7524109700,"Support Services",NA,NA,NA
+"gc","Governance & Coordination",NA,NA,"USD",4702568.5625,"Support Services",NA,NA,NA
+"iptp","IPTp",37,774,"Naira",23415675022.9758,"Malaria Interventions",12908475.026026,"Population",1813.97686215957
+"iptp","IPTp",37,774,"USD",14634796.8893599,"Malaria Interventions",12908475.026026,"Population",1.13373553884973
+"irs","IRS",NA,NA,"Naira",0,"Malaria Interventions",NA,NA,NA
+"irs","IRS",NA,NA,"USD",0,"Malaria Interventions",NA,NA,NA
+"itn_campaign","ITN Campaign",12,293,"Naira",333997008637.447,"Malaria Interventions",258169500.52052,"Population",1293.7121076039
+"itn_campaign","ITN Campaign",12,293,"USD",208748130.398404,"Malaria Interventions",258169500.52052,"Population",0.808570067252433
+"itn_routine","ITN Routine Distribution",25,481,"Naira",89554998593.8054,"Malaria Interventions",54443012.7087111,"Population",1644.93098633163
+"itn_routine","ITN Routine Distribution",25,481,"USD",55971874.1211284,"Malaria Interventions",54443012.7087111,"Population",1.02808186645727
+"lsm","LSM",37,NA,"Naira",254141096880,"Malaria Interventions",184267.6,"Area (Hectares)",1379195.78308938
+"lsm","LSM",37,NA,"USD",158838185.55,"Malaria Interventions",184267.6,"Area (Hectares)",861.99736443086
+"me","Monitoring & Evaluation",NA,NA,"Naira",9118142934,"Support Services",NA,NA,NA
+"me","Monitoring & Evaluation",NA,NA,"USD",5698839.33375,"Support Services",NA,NA,NA
+"pmc","PMC",20,363,"Naira",80183832488.6663,"Malaria Interventions",17555526.0353954,"Population",4567.44117647059
+"pmc","PMC",20,363,"USD",50114895.3054164,"Malaria Interventions",17555526.0353954,"Population",2.85465073529412
+"rm","Resource Mobilisation",NA,NA,"Naira",105450000,"Support Services",NA,NA,NA
+"rm","Resource Mobilisation",NA,NA,"USD",65906.25,"Support Services",NA,NA,NA
+"smc","SMC",21,385,"Naira",83339521300.1262,"Malaria Interventions",39457810.7985508,"Population",2112.11721110455
+"smc","SMC",21,385,"USD",52087200.8125789,"Malaria Interventions",39457810.7985508,"Population",1.32007325694034
+"ss_sbc","Social Behaviour Change",NA,NA,"Naira",14927760000,"Support Services",NA,NA,NA
+"ss_sbc","Social Behaviour Change",NA,NA,"USD",9329850,"Support Services",NA,NA,NA
+"vacc","Malaria Vaccine",37,774,"Naira",266843995738.01,"Malaria Interventions",9810441.01977976,"Population",27200.0000000001
+"vacc","Malaria Vaccine",37,774,"USD",166777497.336256,"Malaria Interventions",9810441.01977976,"Population",17

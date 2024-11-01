@@ -1,0 +1,13 @@
+name: budget-viz-tool
+title: budget-viz-tool
+username: ht1212
+account: ht1212
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13186633
+bundleId: 9293366
+url: https://ht1212.shinyapps.io/budget-viz-tool/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: new-scenario-summaries.R|no-pmc-summary.R

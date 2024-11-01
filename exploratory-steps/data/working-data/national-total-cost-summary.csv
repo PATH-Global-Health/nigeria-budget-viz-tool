@@ -1,0 +1,31 @@
+"intervention","title","state_count","lga_count","currency","total_cost"
+"cb","Capacity Building",NA,NA,"Naira",17539672818
+"cb","Capacity Building",NA,NA,"USD",10962295.51125
+"cm_private","Private Sector Case Management",37,774,"Naira",347020628044.505
+"cm_private","Private Sector Case Management",37,774,"USD",216887892.527816
+"cm_public","Public Sector Case Management",37,774,"Naira",254401604268.329
+"cm_public","Public Sector Case Management",37,774,"USD",159001002.667706
+"gc","Governance & Coordination",NA,NA,"Naira",7524109700
+"gc","Governance & Coordination",NA,NA,"USD",4702568.5625
+"iptp","IPTp",37,774,"Naira",23415675022.9758
+"iptp","IPTp",37,774,"USD",14634796.8893599
+"irs","IRS",NA,NA,"Naira",0
+"irs","IRS",NA,NA,"USD",0
+"itn_campaign","ITN Campaign",12,293,"Naira",333997008637.447
+"itn_campaign","ITN Campaign",12,293,"USD",208748130.398404
+"itn_routine","ITN Routine Distribution",25,481,"Naira",89554998593.8054
+"itn_routine","ITN Routine Distribution",25,481,"USD",55971874.1211284
+"lsm","LSM",37,NA,"Naira",254141096880
+"lsm","LSM",37,NA,"USD",158838185.55
+"me","Monitoring & Evaluation",NA,NA,"Naira",9118142934
+"me","Monitoring & Evaluation",NA,NA,"USD",5698839.33375
+"pmc","PMC",20,363,"Naira",80183832488.6663
+"pmc","PMC",20,363,"USD",50114895.3054164
+"rm","Resource Mobilisation",NA,NA,"Naira",105450000
+"rm","Resource Mobilisation",NA,NA,"USD",65906.25
+"smc","SMC",21,385,"Naira",83339521300.1262
+"smc","SMC",21,385,"USD",52087200.8125789
+"ss_sbc","Social Behaviour Change",NA,NA,"Naira",14927760000
+"ss_sbc","Social Behaviour Change",NA,NA,"USD",9329850
+"vacc","Malaria Vaccine",37,774,"Naira",266843995738.01
+"vacc","Malaria Vaccine",37,774,"USD",166777497.336256
