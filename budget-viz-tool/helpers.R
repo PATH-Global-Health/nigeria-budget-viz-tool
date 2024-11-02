@@ -103,16 +103,12 @@ create_base_interactive_map <- function(lga_outline, intervention_mix,
 }
 
 # Function to create the custom legend JavaScript
+# Updated Function to create the custom legend JavaScript with checkboxes
 create_legend_js <- function(intervention_mix) {
   
-  unique_interventions <-
-    intervention_mix |>
-    mutate(
-      unique_interventions = intervention_summary,
-    ) |>
-    separate_rows(
-      unique_interventions, sep = "\\+ "
-    ) |>
+  unique_interventions <- intervention_mix %>%
+    mutate(unique_interventions = intervention_summary) %>%
+    separate_rows(unique_interventions, sep = "\\+ ") %>%
     mutate(unique_interventions = trimws(unique_interventions))
   
   unique_interventions <- sort(unique(unique_interventions$unique_interventions))
@@ -125,12 +121,11 @@ create_legend_js <- function(intervention_mix) {
                 var div = L.DomUtil.create('div', 'info legend');
                 var interventions = {jsonlite::toJSON(unique_interventions, auto_unbox = TRUE)};
 
-                div.innerHTML += '<h4>Select Intervention</h4>';
+                div.innerHTML += '<h4>Select Interventions</h4>';
                 interventions.forEach(function(intervention) {{
                     div.innerHTML +=
-                        '<i style=\"width: 18px; height: 18px; display: inline-block; margin-right: 8px;\"></i>' +
-                        '<span class=\"legend-item\" style=\"cursor: pointer;\">' +
-                        intervention + '</span><br>';
+                        '<input type=\"checkbox\" class=\"legend-checkbox\" value=\"' + intervention + '\">' +
+                        '<label style=\"cursor: pointer;\">' + intervention + '</label><br>';
                 }});
 
                 return div;
@@ -140,10 +135,13 @@ create_legend_js <- function(intervention_mix) {
 
             var map = this;
 
-            // Handle clicks on the legend items
-            $('.legend-item').on('click', function() {{
-                var clickedIntervention = $(this).text().trim();
-                Shiny.setInputValue('selected_intervention', clickedIntervention, {{priority: 'event'}});
+            // Handle changes on the checkboxes
+            $('.legend-checkbox').on('change', function() {{
+                var selectedInterventions = [];
+                $('.legend-checkbox:checked').each(function() {{
+                    selectedInterventions.push($(this).val().trim());
+                }});
+                Shiny.setInputValue('selected_interventions', selectedInterventions, {{priority: 'event'}});
             }});
         }}")
 }
@@ -483,15 +481,15 @@ create_stacked_bar_plot <- function(data, currency_choice) {
 #' @param data Dataframe containing intervention_prop_breakdown data
 #' @param currency_choice Selected currency ("USD" or "NGN")
 create_lollipop_plot <- function(data, currency_choice) {
-  currency_symbol <- if(currency_choice == "USD") "$" else "₦"
+  currency_symbol <- if (currency_choice == "USD") "$" else "₦"
   
   # Get top costs and include intervention information
   top_costs <- data %>%
     filter(currency == currency_choice) %>%
     group_by(full_name, intervention) %>%
     summarise(value = sum(value), .groups = 'drop') %>%
-    arrange(desc(value)) %>%  # Order by value descending
-    head(15) 
+    arrange(desc(value)) %>%
+    head(15)
   
   plot_ly() %>%
     add_segments(
@@ -532,10 +530,12 @@ create_lollipop_plot <- function(data, currency_choice) {
       ),
       legend = list(
         title = list(text = "Intervention"),
-        font = list(size = 12)
-      ),
-      margin = list(l = 400, r = 50, t = 50, b = 50),
-      font = list(size = 14)
+        font = list(size = 12),
+        orientation = "h",  # Horizontal legend
+        x = 0.5,            # Center the legend horizontally
+        xanchor = "center", # Anchor the legend to the center
+        y = -0.2            # Position the legend below the plot
+      )
     )
 }
 

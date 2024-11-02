@@ -618,7 +618,8 @@ national_intervention_chart_data <-
          -smc_spaq_12_59_months_procurement_cost, 
          -starts_with("itn")
   ) |> 
-  bind_cols(national_data_extract |> select(cm_private_total_cost, itn_campaign_storage_hardware_cost)) |> 
+  bind_cols(national_data_extract |> select(cm_private_total_cost, itn_campaign_storage_hardware_cost, 
+                                            ss_sbc_total_cost, rm_total_cost )) |> 
   pivot_longer(
     cols = -country,
     names_to = c("full_name"),
@@ -703,7 +704,7 @@ state_intervention_chart_data <-
          -smc_spaq_12_59_months_procurement_cost, 
          -starts_with("itn")
   ) |> 
-  left_join(state_data_extract |> select(state, cm_private_total_cost)) |> 
+  left_join(state_data_extract |> select(state, cm_private_total_cost, ss_sbc_total_cost, rm_total_cost)) |> 
   pivot_longer(
     cols = -state,
     names_to = c("full_name"),
@@ -790,7 +791,7 @@ lga_intervention_chart_data <-
          -smc_spaq_12_59_months_procurement_cost, 
          -starts_with("itn")
   ) |> 
-  left_join(lga_data_extract |> select(state, lga, cm_private_total_cost)) |> 
+  left_join(lga_data_extract |> select(state, lga, cm_private_total_cost, ss_sbc_total_cost, rm_total_cost)) |> 
   pivot_longer(
     cols = c(-state,-lga),
     names_to = c("full_name"),

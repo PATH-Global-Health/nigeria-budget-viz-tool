@@ -60,20 +60,26 @@ ui <- navbarPage(
   # LANDING PAGE IS NATIONAL BUDGET SUMMARY 
   tabPanel("National Summary of Planned Interventions and Costs", 
            h4("This page provides a summary of the costs associated with the 2025 prioritised intervention package at the National level."),
-           fluidPage(
-               sidebarLayout(
-                 sidebarPanel(
-                   width = 1,
-                   radioButtons(
-                     "currency_option", 
-                     "Currency Selection:", 
-                     choices = c("USD", "Naira"), 
-                     selected = "USD",
-                     width = "100%"
-                   ) %>% tagAppendAttributes(style = "font-size: 20px;")
-                 ),
-                   mainPanel(
-                     width = 11,
+           fluidRow(
+             column(
+               width = 12,
+               # Wrapper div with grey border and padding
+               div(
+                 style = "border: 1px solid grey; padding: 10px; border-radius: 5px; background-color: #f8f9fa;",
+                 radioButtons(
+                   "currency_option", 
+                   "Currency Selection:", 
+                   choices = c("USD", "Naira"), 
+                   selected = "USD",
+                   inline = TRUE, # Makes the radio buttons display horizontally
+                   width = "100%"
+                 ) %>% tagAppendAttributes(style = "font-size: 20px;")
+               )
+             )
+           ),
+           hr(), # A horizontal line separator
+             mainPanel(
+                     width = 12,
                      fluidRow(
                                column(4, leafletOutput("map1", height = "550px")),
                                column(4, leafletOutput("map_interactive", height = "550px")),
@@ -82,12 +88,12 @@ ui <- navbarPage(
                      uiOutput("info_section"), 
                      hr(),
                      fluidRow(
-                       column(6, # Left column (half width)
+                       column(8, # Left column (half width)
                               uiOutput("table_title"),
                               DTOutput("budget_table"),
                               uiOutput("summary_text")
                        ),
-                       column(6, # Right column (half width)
+                       column(4, # Right column (half width)
                               uiOutput("donut_title"),
                               billboarderOutput("donut_chart")
                        )
@@ -111,23 +117,36 @@ ui <- navbarPage(
                      hr()
                    
                    )
-               )
-           )
-       ),
+               ), 
   
   # SECOND TAB IS STATE LEVEL SUMMARY  
   tabPanel("State Summary of Planned Interventions and Costs", 
            h4("This page provides a summary of the costs associated with the 2025 prioritised intervention package at the State level."), 
            sidebarLayout(
              sidebarPanel(
-               width=1,
-               selectizeInput("state", "Select State:", choices = c("", unique(state_outline$state)),
-                              options = list(placeholder = "Select or type a state")),
-               radioButtons("currency_option_state", "Currency Selection:", choices = c("USD", "Naira"), selected = "USD"),
-               actionButton("clear_state_selection", "Clear Selection")  # Add Clear Selection button for state
+               width = 12,  # Adjusted width to accommodate a horizontal layout if needed
+               # Wrapper div with grey border and padding for the entire sidebar
+               div(
+                 style = "border: 1px solid grey; padding: 10px; border-radius: 5px; background-color: #f8f9fa;",
+                 selectizeInput(
+                   "state", 
+                   "Select State:", 
+                   choices = c("", unique(state_outline$state)),
+                   options = list(placeholder = "Select or type a state")
+                 ),
+                 br(),  # Line break for spacing between inputs
+                 radioButtons(
+                   "currency_option_state", 
+                   "Currency Selection:", 
+                   choices = c("USD", "Naira"), 
+                   selected = "USD"
+                 ),
+                 br(),  # Line break for spacing between inputs
+                 actionButton("clear_state_selection", "Clear Selection")
+               )
              ),
              mainPanel(
-               width = 11,
+               width = 12,
                fluidRow(
                  column(4, leafletOutput("state_map1", height = "550px")),
                  column(4, leafletOutput("state_map_interactive", height = "550px")),
@@ -137,12 +156,12 @@ ui <- navbarPage(
                uiOutput("state_info_section"),   # Add the info section below the maps
                hr(),
                fluidRow(
-                 column(6, # Left column (half width)
+                 column(8, # Left column (half width)
                         uiOutput("state_table_title"),
                         DTOutput("state_budget_table"),
                         uiOutput("state_summary_text")
                  ),
-                 column(6, # Right column (half width)
+                 column(4, # Right column (half width)
                         uiOutput("state_donut_title"),
                         billboarderOutput("state_donut_chart")
                  ), 
@@ -180,8 +199,9 @@ ui <- navbarPage(
            h4("This page provides a summary of the costs associated with the 2025 prioritised intervention package at the LGA level."),
            sidebarLayout(
              sidebarPanel(
-               width = 1,
-               
+               width = 12,
+               div(
+                 style = "border: 1px solid grey; padding: 10px; border-radius: 5px; background-color: #f8f9fa;",
                # Spatial level selection (fixed to LGA for now)
                selectInput("level", "Select Spatial Level:", choices = c("LGA"), selected = "LGA"),
                
@@ -196,9 +216,10 @@ ui <- navbarPage(
                
                # Clear Selection button
                actionButton("clear_selection", "Clear Selection")
+               )
              ),
            mainPanel(
-             width = 11,
+             width = 12,
              fluidRow(
                column(4, leafletOutput("lga_map1", height = "550px")),
                column(4, leafletOutput("lga_map_interactive", height = "550px")),
@@ -208,8 +229,8 @@ ui <- navbarPage(
              uiOutput("lga_info_section"),  # LGA info section
              hr(),
              fluidRow(
-               column(6, uiOutput("lga_table_title"), DTOutput("lga_budget_table")),
-               column(6, uiOutput("lga_donut_title"), billboarderOutput("lga_donut_chart"))
+               column(8, uiOutput("lga_table_title"), DTOutput("lga_budget_table")),
+               column(4, uiOutput("lga_donut_title"), billboarderOutput("lga_donut_chart"))
              ),
              hr(),
              fluidRow(
@@ -238,7 +259,7 @@ ui <- navbarPage(
            fluidPage(
              sidebarLayout(
                sidebarPanel(
-                 width=1,
+                 width=12,
                  h4("Select plans to compare with Baseline Costed Operational Plan"),
                  checkboxGroupInput(
                    inputId = "selected_plans",
@@ -253,7 +274,7 @@ ui <- navbarPage(
                  )
                ),
                mainPanel(
-                 width=11,
+                 width=12,
                  fluidRow(
                    # Baseline Map
                    column(4, h4("Baseline Costed Operational Plan"), leafletOutput("baseline_map")),
@@ -315,28 +336,26 @@ server <- function(input, output, session) {
     #-INTERACTIVE INTERVENTION MAP------------------------------
     # Create initial map
     output$map_interactive <- renderLeaflet({
-      create_base_interactive_map(lga_outline = lga_outline, 
-                                  intervention_mix = intervention_mix) %>%
+      create_base_interactive_map(
+        lga_outline = lga_outline,
+        intervention_mix = intervention_mix
+      ) %>%
         htmlwidgets::onRender(create_legend_js(intervention_mix = intervention_mix))
     })
     
-    # Observer for legend clicks
-    observeEvent(input$selected_intervention, {
-      selected_intervention <- input$selected_intervention
+    # Observer for legend selections
+    observeEvent(input$selected_interventions, {
+      selected_interventions <- input$selected_interventions
       
-      interactive_map <-
-        left_join(lga_outline, intervention_mix) |> 
-        mutate(
-          unique_interventions = intervention_summary,
-        ) |>
-        separate_rows(
-          unique_interventions, sep = "\\+ "
-        ) |>
+      # Join and prepare the interactive map data
+      interactive_map <- left_join(lga_outline, intervention_mix) %>%
+        mutate(unique_interventions = intervention_summary) %>%
+        separate_rows(unique_interventions, sep = "\\+ ") %>%
         mutate(unique_interventions = trimws(unique_interventions))
       
-      # Filter polygons based on the selected intervention
+      # Filter polygons based on the selected interventions
       highlighted_lgas <- interactive_map %>%
-        filter(unique_interventions == selected_intervention)
+        filter(unique_interventions %in% selected_interventions)  # Use %in% for multiple selections
       
       # Update the map
       update_intervention_map(
@@ -393,15 +412,14 @@ server <- function(input, output, session) {
         arrange((intervention_type))
     
       })
-        # Render the DataTable
+     # Render the DataTable
     output$budget_table <- renderDT({
       datatable(
         filtered_cost_data(),
         options = list(
           pageLength = 20,
           scrollX = TRUE,
-          dom = 'Bfrtip',
-          autoWidth = TRUE
+          dom = 'Bfrtip'
         ),
         rownames = FALSE,
         colnames = c(
@@ -635,8 +653,7 @@ server <- function(input, output, session) {
         options = list(
           pageLength = 20,
           scrollX = TRUE,
-          dom = 'Bfrtip',
-          autoWidth = TRUE
+          dom = 'Bfrtip'
         ),
         rownames = FALSE,
         colnames = c(
@@ -976,8 +993,7 @@ server <- function(input, output, session) {
         options = list(
           pageLength = 20,
           scrollX = TRUE,
-          dom = 'Bfrtip',
-          autoWidth = TRUE
+          dom = 'Bfrtip'
         ),
         rownames = FALSE,
         colnames = c(
@@ -1130,7 +1146,7 @@ server <- function(input, output, session) {
       if (length(selected_plans) == 0) return(NULL)
       
       # Calculate the number of columns per row
-      num_columns <- 12 / min(length(selected_plans) + 1, 3)  # Adjust columns for side-by-side layout, up to 3 maps per row
+      num_columns <- 3 #12 / min(length(selected_plans) + 1, 3)  # Adjust columns for side-by-side layout, up to 3 maps per row
       
       # Create a list of columns for each selected plan
       map_outputs <- lapply(seq_along(selected_plans), function(i) {

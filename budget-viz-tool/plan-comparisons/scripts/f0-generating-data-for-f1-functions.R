@@ -1,8 +1,8 @@
 # Creating a total quantification and cost spreadsheet to be able to manipulate for 
 # different costing scenarios 
 
-state_data_extract    <- read.csv("data/working-data/codable-state-data-october.csv")
-lga_data_extract      <- read.csv("data/working-data/codable-lga-data-october.csv")|> 
+state_data_extract    <- read.csv("exploratory-steps/data/working-data/codable-state-data-october.csv")
+lga_data_extract      <- read.csv("exploratory-steps/data/working-data/codable-lga-data-october.csv")|> 
   # add state names to LGA level data 
   left_join(
     state_data_extract |>  select(spatial_level_1, spatial_level_2, state), 
@@ -85,7 +85,7 @@ fully_quantified <-
 
 # Add in unit costs and calculate costs for these interventions  
 unit_cost_data <- 
-  read.csv("data/working-data/codable-unit-costs-october.csv") |> 
+  read.csv("exploratory-steps/data/working-data/codable-unit-costs-october.csv") |> 
   # remove support services cost 
   filter(intervention != "Support Services") |> 
   filter(intervention %in% c("ITN Campaign", 
@@ -178,33 +178,50 @@ write.csv(lsm_fully_quantified_and_costed,
 
 # additional national level data 
 additional_national_level_costs <- 
-  read.csv("data/working-data/codable-national-data-october.csv") |> 
+  read.csv("exploratory-steps/data/working-data/codable-national-data-october.csv") |> 
   select(itn_campaign_storage_hardware_cost, 
          cm_eqa_national_cost) |> 
   
-
 write.csv(additional_national_level_costs, 
           row.names = FALSE, 
           "budget-viz-tool/plan-comparisons/additional-national-level-costs.csv")
 
+# national support services
 national_support_services_costs <- 
   read.csv("budget-viz-tool/working-data/national_total_cost_summary.csv") |> 
   filter(intervention_type == "Support Services")
-
 
 write.csv(national_support_services_costs, 
           row.names = FALSE, 
           "budget-viz-tool/plan-comparisons/national-support-services-costs.csv")
 
+# state support services 
+state_support_services_costs <- 
+  read.csv("budget-viz-tool/working-data/state_total_cost_summary.csv") |> 
+  filter(intervention_type == "Support Services")
 
-test <-
-  full_interventions |>
-  group_by(intervention) |>
-  summarise(total_cost = sum(total_cost, na.rm = TRUE),
-            target_value = sum(target_value, na.rm = TRUE),
-            states_targeted = n_distinct(state),
-            lgas_targeted = n_distinct(paste(state, lga, sep = "_"))
-            )
+write.csv(state_support_services_costs, 
+          row.names = FALSE, 
+          "budget-viz-tool/plan-comparisons/state-support-services-costs.csv")
+
+# lga support services 
+lga_support_services_costs <- 
+  read.csv("budget-viz-tool/working-data/lga_total_cost_summary.csv") |> 
+  filter(intervention_type == "Support Services")
+
+write.csv(lga_support_services_costs, 
+          row.names = FALSE, 
+          "budget-viz-tool/plan-comparisons/lga-support-services-costs.csv")
+
+
+# test <-
+#   full_interventions |>
+#   group_by(intervention) |>
+#   summarise(total_cost = sum(total_cost, na.rm = TRUE),
+#             target_value = sum(target_value, na.rm = TRUE),
+#             states_targeted = n_distinct(state),
+#             lgas_targeted = n_distinct(paste(state, lga, sep = "_"))
+#             )
 
 
 
@@ -213,3 +230,34 @@ test <-
 ## additional nation costs for interventions 
 ## national support service cost  
 ## and lsm specific input dataframe and cost summary
+
+# Including a full intervention breakdown excluding total cost for the 
+# itnerventional element dataframes needed  
+full_elements <- 
+  all_delivery_all_cost |> 
+  select(state, lga,contains("cost")) |> 
+  select(-contains("total_cost"), 
+         -smc_spaq_3_11_months_procurement_cost, 
+         -smc_spaq_12_59_months_procurement_cost) |> 
+  left_join(all_delivery_all_cost |> select(state, lga, cm_private_total_cost)) |> 
+  pivot_longer(
+    cols = c(-state,-lga),
+    names_to = c("full_name"),
+    values_to = "value"
+  ) |> 
+  mutate(intervention = case_when(grepl("irs", full_name) ~ "irs",
+                                  grepl("lsm", full_name) ~ "lsm", 
+                                  grepl("smc", full_name) ~ "smc", 
+                                  grepl("pmc", full_name) ~ "pmc", 
+                                  grepl("iptp", full_name) ~ "iptp", 
+                                  grepl("vacc", full_name) ~ "vacc", 
+                                  full_name == "cm_private_total_cost" ~ "cm_private",
+                                  grepl("cm", full_name) ~ "cm_public", 
+                                  grepl("routine", full_name) ~ "itn_routine", 
+                                  grepl("campaign", full_name) ~ "itn_campaign")) 
+
+write.csv(full_elements, "budget-viz-tool/working-data/elemental-cost-data.csv", 
+          row.names = FALSE)
+  
+  
+

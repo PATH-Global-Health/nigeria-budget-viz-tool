@@ -36,6 +36,7 @@
 #--------------------------------------------------------------------------------
 
 # Step 1 create a modifiable intervention mix - save this for use in data folder
+
 # intervention_mix <- read.csv("budget-viz-tool/working-data/intervention_mix.csv")
 # 
 # modifiable_intervention_data_frame <-
@@ -62,11 +63,51 @@
 #     code_itn_routine = if_else(code_itn_routine == "ITN Routine", 1, 0)
 #   ) |>
 #   # add cm_private in
-#   mutate(code_cm_private = 1)
+#   mutate(code_cm_private = 1) |> 
+#   # make pmc/smc info column  
+#   mutate(chemoprevention_split = case_when(code_smc == 1 ~ "SMC", 
+#                                            code_pmc == 1 ~ "PMC", 
+#                                            TRUE ~ NA))
+# 
+# # read in population data
+# pop_data <- 
+#   read.csv("budget-viz-tool/working-data/lga_ribbon_data.csv") |> 
+#   select(state, lga, pop_2025_projected, pop_number_children_u5) |> 
+#   distinct()
+# 
+# # read in prevalence data 
+# prev_data <- 
+#   read.csv("exploratory-steps/data/state-prev-results-2021.csv") |> 
+#   select(state = region, prev_u5_state = rdt_rate) |> 
+#   mutate(year = 2021, 
+#          state = str_to_title(state), 
+#          prev_u5_dhs_2021 = prev_u5_state*100, 
+#          state = case_when(state == "Fct" ~ "Federal Capital Territory", 
+#                            state == "Croriver" ~ "Cross River",
+#                            TRUE ~ state))  |> 
+#   select(state, prev_u5_dhs_2021 )
+# 
+# # urban population distinctions 
+# lga_urban_pop <- 
+#   read.csv("budget-viz-tool/plan-comparisons/nga-lga-urban-pct.csv") |> 
+#   mutate(percentage_urban_pop = round((urb_pop / pop )* 100, 0 )) |> 
+#   select(state, lga, percentage_urban_pop)
+# 
+# # combined extra columns  
+# modifiable_intervention_data_frame <- 
+#   modifiable_intervention_data_frame  |>  
+#   left_join(pop_data, by=c("state", "lga")) |> 
+#   left_join(prev_data, by=c("state"), multiple = "all") |> 
+#   left_join(lga_urban_pop, by=c("state", "lga")) |> 
+#   select(state, lga, starts_with("pop"), 
+#          prev_u5_dhs_2021, percentage_urban_pop, 
+#          chemoprevention_split,
+#          starts_with("code")) 
 # 
 # write.csv(modifiable_intervention_data_frame,
 #           row.names = FALSE,
 #           "budget-viz-tool/plan-comparisons/modifiable-intervention-mix.csv")
+  
 
 # modifiable_intervention_data_frame <- read.csv("budget-viz-tool/plan-comparisons/modifiable-intervention-mix.csv")
 
@@ -155,17 +196,23 @@ create_plan_cost_summary <- function(data){
                 lgas_targeted = n_distinct(paste(state, lga, sep = "_"))
                 )
     )
+  cat(data$plan_description[1])
 
-  # Ask the user if they want to proceed
-  response <- readline(prompt = "Do you want to proceed with the costing generation? (yes/no): ")
-  
-  # Check the response and stop if no and they want to fix something
-  if (tolower(response) != "yes") {
-    stop("Costing generation has been stopped by the user.")
-  }
-  
-  # Continue with the costing generation if the user chooses to proceed
-  cat("Proceeding with the costing generation...\n")
+  # # Ask the user if they want to proceed
+  # response <- readline(prompt = "Do you want to proceed with the costing generation? (yes/no): ")
+  # 
+  # # # Check the response and stop if no and they want to fix something
+  # # if (tolower(response) != "yes") {
+  # #   stop("Costing generation has been stopped by the user.")
+  # # }
+  # 
+  # # Check the response and stop if no and they want to fix something
+  # if (!tolower(response) %in% c("yes", "y", "Y", "Yes")) {
+  #   stop("Costing generation has been stopped by the user.")
+  # }
+  # 
+  # # Continue with the costing generation if the user chooses to proceed
+  # cat("Proceeding with the costing generation...\n")
   
   #-COSTING-------------------------------------------------------------------------------
   

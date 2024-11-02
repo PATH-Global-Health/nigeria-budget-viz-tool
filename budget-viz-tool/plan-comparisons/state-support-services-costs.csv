@@ -1,0 +1,371 @@
+"state","intervention","title","lga_count","currency","total_cost","intervention_type","target_value","target","cost_per_target"
+"Abia","cb","Capacity Building",NA,"Naira",439538484,"Support Services",NA,NA,NA
+"Abia","cb","Capacity Building",NA,"USD",274711.5525,"Support Services",NA,NA,NA
+"Abia","gc","Governance & Coordination",NA,"Naira",194150420,"Support Services",NA,NA,NA
+"Abia","gc","Governance & Coordination",NA,"USD",121344.0125,"Support Services",NA,NA,NA
+"Abia","me","Monitoring & Evaluation",NA,"Naira",79590226,"Support Services",NA,NA,NA
+"Abia","me","Monitoring & Evaluation",NA,"USD",49743.89125,"Support Services",NA,NA,NA
+"Abia","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Abia","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Abia","ss_sbc","Social Behaviour Change",NA,"Naira",312090426.087945,"Support Services",NA,NA,NA
+"Abia","ss_sbc","Social Behaviour Change",NA,"USD",195056.516304966,"Support Services",NA,NA,NA
+"Adamawa","cb","Capacity Building",NA,"Naira",472266570,"Support Services",NA,NA,NA
+"Adamawa","cb","Capacity Building",NA,"USD",295166.60625,"Support Services",NA,NA,NA
+"Adamawa","gc","Governance & Coordination",NA,"Naira",199910420,"Support Services",NA,NA,NA
+"Adamawa","gc","Governance & Coordination",NA,"USD",124944.0125,"Support Services",NA,NA,NA
+"Adamawa","me","Monitoring & Evaluation",NA,"Naira",98317338,"Support Services",NA,NA,NA
+"Adamawa","me","Monitoring & Evaluation",NA,"USD",61448.33625,"Support Services",NA,NA,NA
+"Adamawa","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Adamawa","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Adamawa","ss_sbc","Social Behaviour Change",NA,"Naira",383328458.129758,"Support Services",NA,NA,NA
+"Adamawa","ss_sbc","Social Behaviour Change",NA,"USD",239580.286331099,"Support Services",NA,NA,NA
+"Akwa Ibom","cb","Capacity Building",NA,"Naira",387195489,"Support Services",NA,NA,NA
+"Akwa Ibom","cb","Capacity Building",NA,"USD",241997.180625,"Support Services",NA,NA,NA
+"Akwa Ibom","gc","Governance & Coordination",NA,"Naira",214310420,"Support Services",NA,NA,NA
+"Akwa Ibom","gc","Governance & Coordination",NA,"USD",133944.0125,"Support Services",NA,NA,NA
+"Akwa Ibom","me","Monitoring & Evaluation",NA,"Naira",145135118,"Support Services",NA,NA,NA
+"Akwa Ibom","me","Monitoring & Evaluation",NA,"USD",90709.44875,"Support Services",NA,NA,NA
+"Akwa Ibom","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Akwa Ibom","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Akwa Ibom","ss_sbc","Social Behaviour Change",NA,"Naira",558031250.994205,"Support Services",NA,NA,NA
+"Akwa Ibom","ss_sbc","Social Behaviour Change",NA,"USD",348769.531871378,"Support Services",NA,NA,NA
+"Anambra","cb","Capacity Building",NA,"Naira",428543772,"Support Services",NA,NA,NA
+"Anambra","cb","Capacity Building",NA,"USD",267839.8575,"Support Services",NA,NA,NA
+"Anambra","gc","Governance & Coordination",NA,"Naira",199910420,"Support Services",NA,NA,NA
+"Anambra","gc","Governance & Coordination",NA,"USD",124944.0125,"Support Services",NA,NA,NA
+"Anambra","me","Monitoring & Evaluation",NA,"Naira",98317338,"Support Services",NA,NA,NA
+"Anambra","me","Monitoring & Evaluation",NA,"USD",61448.33625,"Support Services",NA,NA,NA
+"Anambra","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Anambra","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Anambra","ss_sbc","Social Behaviour Change",NA,"Naira",552942820.134076,"Support Services",NA,NA,NA
+"Anambra","ss_sbc","Social Behaviour Change",NA,"USD",345589.262583798,"Support Services",NA,NA,NA
+"Bauchi","cb","Capacity Building",NA,"Naira",651396708,"Support Services",NA,NA,NA
+"Bauchi","cb","Capacity Building",NA,"USD",407122.9425,"Support Services",NA,NA,NA
+"Bauchi","gc","Governance & Coordination",NA,"Naira",198470420,"Support Services",NA,NA,NA
+"Bauchi","gc","Governance & Coordination",NA,"USD",124044.0125,"Support Services",NA,NA,NA
+"Bauchi","me","Monitoring & Evaluation",NA,"Naira",93635560,"Support Services",NA,NA,NA
+"Bauchi","me","Monitoring & Evaluation",NA,"USD",58522.225,"Support Services",NA,NA,NA
+"Bauchi","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Bauchi","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Bauchi","ss_sbc","Social Behaviour Change",NA,"Naira",359582447.449154,"Support Services",NA,NA,NA
+"Bauchi","ss_sbc","Social Behaviour Change",NA,"USD",224739.029655721,"Support Services",NA,NA,NA
+"Bayelsa","cb","Capacity Building",NA,"Naira",221057055,"Support Services",NA,NA,NA
+"Bayelsa","cb","Capacity Building",NA,"USD",138160.659375,"Support Services",NA,NA,NA
+"Bayelsa","gc","Governance & Coordination",NA,"Naira",181190420,"Support Services",NA,NA,NA
+"Bayelsa","gc","Governance & Coordination",NA,"USD",113244.0125,"Support Services",NA,NA,NA
+"Bayelsa","me","Monitoring & Evaluation",NA,"Naira",37454224,"Support Services",NA,NA,NA
+"Bayelsa","me","Monitoring & Evaluation",NA,"USD",23408.89,"Support Services",NA,NA,NA
+"Bayelsa","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Bayelsa","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Bayelsa","ss_sbc","Social Behaviour Change",NA,"Naira",178095080.104534,"Support Services",NA,NA,NA
+"Bayelsa","ss_sbc","Social Behaviour Change",NA,"USD",111309.425065334,"Support Services",NA,NA,NA
+"Benue","cb","Capacity Building",NA,"Naira",636407004,"Support Services",NA,NA,NA
+"Benue","cb","Capacity Building",NA,"USD",397754.3775,"Support Services",NA,NA,NA
+"Benue","gc","Governance & Coordination",NA,"Naira",202790420,"Support Services",NA,NA,NA
+"Benue","gc","Governance & Coordination",NA,"USD",126744.0125,"Support Services",NA,NA,NA
+"Benue","me","Monitoring & Evaluation",NA,"Naira",107680894,"Support Services",NA,NA,NA
+"Benue","me","Monitoring & Evaluation",NA,"USD",67300.55875,"Support Services",NA,NA,NA
+"Benue","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Benue","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Benue","ss_sbc","Social Behaviour Change",NA,"Naira",468135639.131917,"Support Services",NA,NA,NA
+"Benue","ss_sbc","Social Behaviour Change",NA,"USD",292584.774457448,"Support Services",NA,NA,NA
+"Borno","cb","Capacity Building",NA,"Naira",279893046,"Support Services",NA,NA,NA
+"Borno","cb","Capacity Building",NA,"USD",174933.15375,"Support Services",NA,NA,NA
+"Borno","gc","Governance & Coordination",NA,"Naira",208550420,"Support Services",NA,NA,NA
+"Borno","gc","Governance & Coordination",NA,"USD",130344.0125,"Support Services",NA,NA,NA
+"Borno","me","Monitoring & Evaluation",NA,"Naira",126408006,"Support Services",NA,NA,NA
+"Borno","me","Monitoring & Evaluation",NA,"USD",79005.00375,"Support Services",NA,NA,NA
+"Borno","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Borno","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Borno","ss_sbc","Social Behaviour Change",NA,"Naira",529196809.453471,"Support Services",NA,NA,NA
+"Borno","ss_sbc","Social Behaviour Change",NA,"USD",330748.005908419,"Support Services",NA,NA,NA
+"Cross River","cb","Capacity Building",NA,"Naira",612547437,"Support Services",NA,NA,NA
+"Cross River","cb","Capacity Building",NA,"USD",382842.148125,"Support Services",NA,NA,NA
+"Cross River","gc","Governance & Coordination",NA,"Naira",195590420,"Support Services",NA,NA,NA
+"Cross River","gc","Governance & Coordination",NA,"USD",122244.0125,"Support Services",NA,NA,NA
+"Cross River","me","Monitoring & Evaluation",NA,"Naira",84272004,"Support Services",NA,NA,NA
+"Cross River","me","Monitoring & Evaluation",NA,"USD",52670.0025,"Support Services",NA,NA,NA
+"Cross River","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Cross River","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Cross River","ss_sbc","Social Behaviour Change",NA,"Naira",327355718.668333,"Support Services",NA,NA,NA
+"Cross River","ss_sbc","Social Behaviour Change",NA,"USD",204597.324167708,"Support Services",NA,NA,NA
+"Delta","cb","Capacity Building",NA,"Naira",426542412,"Support Services",NA,NA,NA
+"Delta","cb","Capacity Building",NA,"USD",266589.0075,"Support Services",NA,NA,NA
+"Delta","gc","Governance & Coordination",NA,"Naira",205670420,"Support Services",NA,NA,NA
+"Delta","gc","Governance & Coordination",NA,"USD",128544.0125,"Support Services",NA,NA,NA
+"Delta","me","Monitoring & Evaluation",NA,"Naira",117044450,"Support Services",NA,NA,NA
+"Delta","me","Monitoring & Evaluation",NA,"USD",73152.78125,"Support Services",NA,NA,NA
+"Delta","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Delta","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Delta","ss_sbc","Social Behaviour Change",NA,"Naira",457958777.411658,"Support Services",NA,NA,NA
+"Delta","ss_sbc","Social Behaviour Change",NA,"USD",286224.235882286,"Support Services",NA,NA,NA
+"Ebonyi","cb","Capacity Building",NA,"Naira",322741341,"Support Services",NA,NA,NA
+"Ebonyi","cb","Capacity Building",NA,"USD",201713.338125,"Support Services",NA,NA,NA
+"Ebonyi","gc","Governance & Coordination",NA,"Naira",188390420,"Support Services",NA,NA,NA
+"Ebonyi","gc","Governance & Coordination",NA,"USD",117744.0125,"Support Services",NA,NA,NA
+"Ebonyi","me","Monitoring & Evaluation",NA,"Naira",60863114,"Support Services",NA,NA,NA
+"Ebonyi","me","Monitoring & Evaluation",NA,"USD",38039.44625,"Support Services",NA,NA,NA
+"Ebonyi","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Ebonyi","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Ebonyi","ss_sbc","Social Behaviour Change",NA,"Naira",290040559.027383,"Support Services",NA,NA,NA
+"Ebonyi","ss_sbc","Social Behaviour Change",NA,"USD",181275.349392114,"Support Services",NA,NA,NA
+"Edo","cb","Capacity Building",NA,"Naira",418300746,"Support Services",NA,NA,NA
+"Edo","cb","Capacity Building",NA,"USD",261437.96625,"Support Services",NA,NA,NA
+"Edo","gc","Governance & Coordination",NA,"Naira",195590420,"Support Services",NA,NA,NA
+"Edo","gc","Governance & Coordination",NA,"USD",122244.0125,"Support Services",NA,NA,NA
+"Edo","me","Monitoring & Evaluation",NA,"Naira",84272004,"Support Services",NA,NA,NA
+"Edo","me","Monitoring & Evaluation",NA,"USD",52670.0025,"Support Services",NA,NA,NA
+"Edo","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Edo","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Edo","ss_sbc","Social Behaviour Change",NA,"Naira",325659575.04829,"Support Services",NA,NA,NA
+"Edo","ss_sbc","Social Behaviour Change",NA,"USD",203537.234405181,"Support Services",NA,NA,NA
+"Ekiti","cb","Capacity Building",NA,"Naira",257159328,"Support Services",NA,NA,NA
+"Ekiti","cb","Capacity Building",NA,"USD",160724.58,"Support Services",NA,NA,NA
+"Ekiti","gc","Governance & Coordination",NA,"Naira",192710420,"Support Services",NA,NA,NA
+"Ekiti","gc","Governance & Coordination",NA,"USD",120444.0125,"Support Services",NA,NA,NA
+"Ekiti","me","Monitoring & Evaluation",NA,"Naira",74908448,"Support Services",NA,NA,NA
+"Ekiti","me","Monitoring & Evaluation",NA,"USD",46817.78,"Support Services",NA,NA,NA
+"Ekiti","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Ekiti","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Ekiti","ss_sbc","Social Behaviour Change",NA,"Naira",300217420.747642,"Support Services",NA,NA,NA
+"Ekiti","ss_sbc","Social Behaviour Change",NA,"USD",187635.887967276,"Support Services",NA,NA,NA
+"Enugu","cb","Capacity Building",NA,"Naira",421172577,"Support Services",NA,NA,NA
+"Enugu","cb","Capacity Building",NA,"USD",263232.860625,"Support Services",NA,NA,NA
+"Enugu","gc","Governance & Coordination",NA,"Naira",194150420,"Support Services",NA,NA,NA
+"Enugu","gc","Governance & Coordination",NA,"USD",121344.0125,"Support Services",NA,NA,NA
+"Enugu","me","Monitoring & Evaluation",NA,"Naira",79590226,"Support Services",NA,NA,NA
+"Enugu","me","Monitoring & Evaluation",NA,"USD",49743.89125,"Support Services",NA,NA,NA
+"Enugu","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Enugu","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Enugu","ss_sbc","Social Behaviour Change",NA,"Naira",439301197.591183,"Support Services",NA,NA,NA
+"Enugu","ss_sbc","Social Behaviour Change",NA,"USD",274563.248494489,"Support Services",NA,NA,NA
+"Federal Capital Territory","cb","Capacity Building",NA,"Naira",231051423,"Support Services",NA,NA,NA
+"Federal Capital Territory","cb","Capacity Building",NA,"USD",144407.139375,"Support Services",NA,NA,NA
+"Federal Capital Territory","gc","Governance & Coordination",NA,"Naira",178310420,"Support Services",NA,NA,NA
+"Federal Capital Territory","gc","Governance & Coordination",NA,"USD",111444.0125,"Support Services",NA,NA,NA
+"Federal Capital Territory","me","Monitoring & Evaluation",NA,"Naira",28090668,"Support Services",NA,NA,NA
+"Federal Capital Territory","me","Monitoring & Evaluation",NA,"USD",17556.6675,"Support Services",NA,NA,NA
+"Federal Capital Territory","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Federal Capital Territory","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Federal Capital Territory","ss_sbc","Social Behaviour Change",NA,"Naira",105160904.442677,"Support Services",NA,NA,NA
+"Federal Capital Territory","ss_sbc","Social Behaviour Change",NA,"USD",65725.5652766731,"Support Services",NA,NA,NA
+"Gombe","cb","Capacity Building",NA,"Naira",388696509,"Support Services",NA,NA,NA
+"Gombe","cb","Capacity Building",NA,"USD",242935.318125,"Support Services",NA,NA,NA
+"Gombe","gc","Governance & Coordination",NA,"Naira",185510420,"Support Services",NA,NA,NA
+"Gombe","gc","Governance & Coordination",NA,"USD",115944.0125,"Support Services",NA,NA,NA
+"Gombe","me","Monitoring & Evaluation",NA,"Naira",51499558,"Support Services",NA,NA,NA
+"Gombe","me","Monitoring & Evaluation",NA,"USD",32187.22375,"Support Services",NA,NA,NA
+"Gombe","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Gombe","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Gombe","ss_sbc","Social Behaviour Change",NA,"Naira",193360372.684922,"Support Services",NA,NA,NA
+"Gombe","ss_sbc","Social Behaviour Change",NA,"USD",120850.232928076,"Support Services",NA,NA,NA
+"Imo","cb","Capacity Building",NA,"Naira",418301754,"Support Services",NA,NA,NA
+"Imo","cb","Capacity Building",NA,"USD",261438.59625,"Support Services",NA,NA,NA
+"Imo","gc","Governance & Coordination",NA,"Naira",208550420,"Support Services",NA,NA,NA
+"Imo","gc","Governance & Coordination",NA,"USD",130344.0125,"Support Services",NA,NA,NA
+"Imo","me","Monitoring & Evaluation",NA,"Naira",126408006,"Support Services",NA,NA,NA
+"Imo","me","Monitoring & Evaluation",NA,"USD",79005.00375,"Support Services",NA,NA,NA
+"Imo","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Imo","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Imo","ss_sbc","Social Behaviour Change",NA,"Naira",517323804.113169,"Support Services",NA,NA,NA
+"Imo","ss_sbc","Social Behaviour Change",NA,"USD",323327.377570731,"Support Services",NA,NA,NA
+"Jigawa","cb","Capacity Building",NA,"Naira",463397379,"Support Services",NA,NA,NA
+"Jigawa","cb","Capacity Building",NA,"USD",289623.361875,"Support Services",NA,NA,NA
+"Jigawa","gc","Governance & Coordination",NA,"Naira",208550420,"Support Services",NA,NA,NA
+"Jigawa","gc","Governance & Coordination",NA,"USD",130344.0125,"Support Services",NA,NA,NA
+"Jigawa","me","Monitoring & Evaluation",NA,"Naira",126408006,"Support Services",NA,NA,NA
+"Jigawa","me","Monitoring & Evaluation",NA,"USD",79005.00375,"Support Services",NA,NA,NA
+"Jigawa","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Jigawa","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Jigawa","ss_sbc","Social Behaviour Change",NA,"Naira",486793218.952392,"Support Services",NA,NA,NA
+"Jigawa","ss_sbc","Social Behaviour Change",NA,"USD",304245.761845245,"Support Services",NA,NA,NA
+"Kaduna","cb","Capacity Building",NA,"Naira",647398356,"Support Services",NA,NA,NA
+"Kaduna","cb","Capacity Building",NA,"USD",404623.9725,"Support Services",NA,NA,NA
+"Kaduna","gc","Governance & Coordination",NA,"Naira",202790420,"Support Services",NA,NA,NA
+"Kaduna","gc","Governance & Coordination",NA,"USD",126744.0125,"Support Services",NA,NA,NA
+"Kaduna","me","Monitoring & Evaluation",NA,"Naira",107680894,"Support Services",NA,NA,NA
+"Kaduna","me","Monitoring & Evaluation",NA,"USD",67300.55875,"Support Services",NA,NA,NA
+"Kaduna","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Kaduna","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Kaduna","ss_sbc","Social Behaviour Change",NA,"Naira",432516623.11101,"Support Services",NA,NA,NA
+"Kaduna","ss_sbc","Social Behaviour Change",NA,"USD",270322.889444381,"Support Services",NA,NA,NA
+"Kano","cb","Capacity Building",NA,"Naira",746082282,"Support Services",NA,NA,NA
+"Kano","cb","Capacity Building",NA,"USD",466301.42625,"Support Services",NA,NA,NA
+"Kano","gc","Governance & Coordination",NA,"Naira",233030420,"Support Services",NA,NA,NA
+"Kano","gc","Governance & Coordination",NA,"USD",145644.0125,"Support Services",NA,NA,NA
+"Kano","me","Monitoring & Evaluation",NA,"Naira",205998232,"Support Services",NA,NA,NA
+"Kano","me","Monitoring & Evaluation",NA,"USD",128748.895,"Support Services",NA,NA,NA
+"Kano","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Kano","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Kano","ss_sbc","Social Behaviour Change",NA,"Naira",820933512.100898,"Support Services",NA,NA,NA
+"Kano","ss_sbc","Social Behaviour Change",NA,"USD",513083.445063061,"Support Services",NA,NA,NA
+"Katsina","cb","Capacity Building",NA,"Naira",999540807,"Support Services",NA,NA,NA
+"Katsina","cb","Capacity Building",NA,"USD",624713.004375,"Support Services",NA,NA,NA
+"Katsina","gc","Governance & Coordination",NA,"Naira",218630420,"Support Services",NA,NA,NA
+"Katsina","gc","Governance & Coordination",NA,"USD",136644.0125,"Support Services",NA,NA,NA
+"Katsina","me","Monitoring & Evaluation",NA,"Naira",159180452,"Support Services",NA,NA,NA
+"Katsina","me","Monitoring & Evaluation",NA,"USD",99487.7825,"Support Services",NA,NA,NA
+"Katsina","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Katsina","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Katsina","ss_sbc","Social Behaviour Change",NA,"Naira",612307846.835587,"Support Services",NA,NA,NA
+"Katsina","ss_sbc","Social Behaviour Change",NA,"USD",382692.404272242,"Support Services",NA,NA,NA
+"Kebbi","cb","Capacity Building",NA,"Naira",552337275,"Support Services",NA,NA,NA
+"Kebbi","cb","Capacity Building",NA,"USD",345210.796875,"Support Services",NA,NA,NA
+"Kebbi","gc","Governance & Coordination",NA,"Naira",199910420,"Support Services",NA,NA,NA
+"Kebbi","gc","Governance & Coordination",NA,"USD",124944.0125,"Support Services",NA,NA,NA
+"Kebbi","me","Monitoring & Evaluation",NA,"Naira",98317338,"Support Services",NA,NA,NA
+"Kebbi","me","Monitoring & Evaluation",NA,"USD",61448.33625,"Support Services",NA,NA,NA
+"Kebbi","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Kebbi","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Kebbi","ss_sbc","Social Behaviour Change",NA,"Naira",381632314.509715,"Support Services",NA,NA,NA
+"Kebbi","ss_sbc","Social Behaviour Change",NA,"USD",238520.196568572,"Support Services",NA,NA,NA
+"Kogi","cb","Capacity Building",NA,"Naira",624662286,"Support Services",NA,NA,NA
+"Kogi","cb","Capacity Building",NA,"USD",390413.92875,"Support Services",NA,NA,NA
+"Kogi","gc","Governance & Coordination",NA,"Naira",199910420,"Support Services",NA,NA,NA
+"Kogi","gc","Governance & Coordination",NA,"USD",124944.0125,"Support Services",NA,NA,NA
+"Kogi","me","Monitoring & Evaluation",NA,"Naira",98317338,"Support Services",NA,NA,NA
+"Kogi","me","Monitoring & Evaluation",NA,"USD",61448.33625,"Support Services",NA,NA,NA
+"Kogi","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Kogi","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Kogi","ss_sbc","Social Behaviour Change",NA,"Naira",405378325.190319,"Support Services",NA,NA,NA
+"Kogi","ss_sbc","Social Behaviour Change",NA,"USD",253361.453243949,"Support Services",NA,NA,NA
+"Kwara","cb","Capacity Building",NA,"Naira",448154985,"Support Services",NA,NA,NA
+"Kwara","cb","Capacity Building",NA,"USD",280096.865625,"Support Services",NA,NA,NA
+"Kwara","gc","Governance & Coordination",NA,"Naira",192710420,"Support Services",NA,NA,NA
+"Kwara","gc","Governance & Coordination",NA,"USD",120444.0125,"Support Services",NA,NA,NA
+"Kwara","me","Monitoring & Evaluation",NA,"Naira",74908448,"Support Services",NA,NA,NA
+"Kwara","me","Monitoring & Evaluation",NA,"USD",46817.78,"Support Services",NA,NA,NA
+"Kwara","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Kwara","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Kwara","ss_sbc","Social Behaviour Change",NA,"Naira",315482713.328031,"Support Services",NA,NA,NA
+"Kwara","ss_sbc","Social Behaviour Change",NA,"USD",197176.695830019,"Support Services",NA,NA,NA
+"Lagos","cb","Capacity Building",NA,"Naira",305500611,"Support Services",NA,NA,NA
+"Lagos","cb","Capacity Building",NA,"USD",190937.881875,"Support Services",NA,NA,NA
+"Lagos","gc","Governance & Coordination",NA,"Naira",198470420,"Support Services",NA,NA,NA
+"Lagos","gc","Governance & Coordination",NA,"USD",124044.0125,"Support Services",NA,NA,NA
+"Lagos","me","Monitoring & Evaluation",NA,"Naira",93635560,"Support Services",NA,NA,NA
+"Lagos","me","Monitoring & Evaluation",NA,"USD",58522.225,"Support Services",NA,NA,NA
+"Lagos","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Lagos","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Lagos","ss_sbc","Social Behaviour Change",NA,"Naira",415555186.910578,"Support Services",NA,NA,NA
+"Lagos","ss_sbc","Social Behaviour Change",NA,"USD",259721.991819111,"Support Services",NA,NA,NA
+"Nasarawa","cb","Capacity Building",NA,"Naira",470017896,"Support Services",NA,NA,NA
+"Nasarawa","cb","Capacity Building",NA,"USD",293761.185,"Support Services",NA,NA,NA
+"Nasarawa","gc","Governance & Coordination",NA,"Naira",188390420,"Support Services",NA,NA,NA
+"Nasarawa","gc","Governance & Coordination",NA,"USD",117744.0125,"Support Services",NA,NA,NA
+"Nasarawa","me","Monitoring & Evaluation",NA,"Naira",60863114,"Support Services",NA,NA,NA
+"Nasarawa","me","Monitoring & Evaluation",NA,"USD",38039.44625,"Support Services",NA,NA,NA
+"Nasarawa","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Nasarawa","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Nasarawa","ss_sbc","Social Behaviour Change",NA,"Naira",249333112.146347,"Support Services",NA,NA,NA
+"Nasarawa","ss_sbc","Social Behaviour Change",NA,"USD",155833.195091467,"Support Services",NA,NA,NA
+"Niger","cb","Capacity Building",NA,"Naira",760574334,"Support Services",NA,NA,NA
+"Niger","cb","Capacity Building",NA,"USD",475358.95875,"Support Services",NA,NA,NA
+"Niger","gc","Governance & Coordination",NA,"Naira",205670420,"Support Services",NA,NA,NA
+"Niger","gc","Governance & Coordination",NA,"USD",128544.0125,"Support Services",NA,NA,NA
+"Niger","me","Monitoring & Evaluation",NA,"Naira",117044450,"Support Services",NA,NA,NA
+"Niger","me","Monitoring & Evaluation",NA,"USD",73152.78125,"Support Services",NA,NA,NA
+"Niger","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Niger","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Niger","ss_sbc","Social Behaviour Change",NA,"Naira",464743351.891831,"Support Services",NA,NA,NA
+"Niger","ss_sbc","Social Behaviour Change",NA,"USD",290464.594932394,"Support Services",NA,NA,NA
+"Ogun","cb","Capacity Building",NA,"Naira",405934551,"Support Services",NA,NA,NA
+"Ogun","cb","Capacity Building",NA,"USD",253709.094375,"Support Services",NA,NA,NA
+"Ogun","gc","Governance & Coordination",NA,"Naira",198470420,"Support Services",NA,NA,NA
+"Ogun","gc","Governance & Coordination",NA,"USD",124044.0125,"Support Services",NA,NA,NA
+"Ogun","me","Monitoring & Evaluation",NA,"Naira",93635560,"Support Services",NA,NA,NA
+"Ogun","me","Monitoring & Evaluation",NA,"USD",58522.225,"Support Services",NA,NA,NA
+"Ogun","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Ogun","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Ogun","ss_sbc","Social Behaviour Change",NA,"Naira",400289894.33019,"Support Services",NA,NA,NA
+"Ogun","ss_sbc","Social Behaviour Change",NA,"USD",250181.183956369,"Support Services",NA,NA,NA
+"Ondo","cb","Capacity Building",NA,"Naira",407309058,"Support Services",NA,NA,NA
+"Ondo","cb","Capacity Building",NA,"USD",254568.16125,"Support Services",NA,NA,NA
+"Ondo","gc","Governance & Coordination",NA,"Naira",195590420,"Support Services",NA,NA,NA
+"Ondo","gc","Governance & Coordination",NA,"USD",122244.0125,"Support Services",NA,NA,NA
+"Ondo","me","Monitoring & Evaluation",NA,"Naira",84272004,"Support Services",NA,NA,NA
+"Ondo","me","Monitoring & Evaluation",NA,"USD",52670.0025,"Support Services",NA,NA,NA
+"Ondo","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Ondo","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Ondo","ss_sbc","Social Behaviour Change",NA,"Naira",344317154.868765,"Support Services",NA,NA,NA
+"Ondo","ss_sbc","Social Behaviour Change",NA,"USD",215198.221792978,"Support Services",NA,NA,NA
+"Osun","cb","Capacity Building",NA,"Naira",510490668,"Support Services",NA,NA,NA
+"Osun","cb","Capacity Building",NA,"USD",319056.6675,"Support Services",NA,NA,NA
+"Osun","gc","Governance & Coordination",NA,"Naira",212870420,"Support Services",NA,NA,NA
+"Osun","gc","Governance & Coordination",NA,"USD",133044.0125,"Support Services",NA,NA,NA
+"Osun","me","Monitoring & Evaluation",NA,"Naira",140453340,"Support Services",NA,NA,NA
+"Osun","me","Monitoring & Evaluation",NA,"USD",87783.3375,"Support Services",NA,NA,NA
+"Osun","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Osun","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Osun","ss_sbc","Social Behaviour Change",NA,"Naira",563119681.854335,"Support Services",NA,NA,NA
+"Osun","ss_sbc","Social Behaviour Change",NA,"USD",351949.801158959,"Support Services",NA,NA,NA
+"Oyo","cb","Capacity Building",NA,"Naira",549087249,"Support Services",NA,NA,NA
+"Oyo","cb","Capacity Building",NA,"USD",343179.530625,"Support Services",NA,NA,NA
+"Oyo","gc","Governance & Coordination",NA,"Naira",217190420,"Support Services",NA,NA,NA
+"Oyo","gc","Governance & Coordination",NA,"USD",135744.0125,"Support Services",NA,NA,NA
+"Oyo","me","Monitoring & Evaluation",NA,"Naira",154498674,"Support Services",NA,NA,NA
+"Oyo","me","Monitoring & Evaluation",NA,"USD",96561.67125,"Support Services",NA,NA,NA
+"Oyo","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Oyo","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Oyo","ss_sbc","Social Behaviour Change",NA,"Naira",595346410.635155,"Support Services",NA,NA,NA
+"Oyo","ss_sbc","Social Behaviour Change",NA,"USD",372091.506646972,"Support Services",NA,NA,NA
+"Plateau","cb","Capacity Building",NA,"Naira",567078321,"Support Services",NA,NA,NA
+"Plateau","cb","Capacity Building",NA,"USD",354423.950625,"Support Services",NA,NA,NA
+"Plateau","gc","Governance & Coordination",NA,"Naira",194150420,"Support Services",NA,NA,NA
+"Plateau","gc","Governance & Coordination",NA,"USD",121344.0125,"Support Services",NA,NA,NA
+"Plateau","me","Monitoring & Evaluation",NA,"Naira",79590226,"Support Services",NA,NA,NA
+"Plateau","me","Monitoring & Evaluation",NA,"USD",49743.89125,"Support Services",NA,NA,NA
+"Plateau","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Plateau","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Plateau","ss_sbc","Social Behaviour Change",NA,"Naira",351101729.348938,"Support Services",NA,NA,NA
+"Plateau","ss_sbc","Social Behaviour Change",NA,"USD",219438.580843086,"Support Services",NA,NA,NA
+"Rivers","cb","Capacity Building",NA,"Naira",310747965,"Support Services",NA,NA,NA
+"Rivers","cb","Capacity Building",NA,"USD",194217.478125,"Support Services",NA,NA,NA
+"Rivers","gc","Governance & Coordination",NA,"Naira",202790420,"Support Services",NA,NA,NA
+"Rivers","gc","Governance & Coordination",NA,"USD",126744.0125,"Support Services",NA,NA,NA
+"Rivers","me","Monitoring & Evaluation",NA,"Naira",107680894,"Support Services",NA,NA,NA
+"Rivers","me","Monitoring & Evaluation",NA,"USD",67300.55875,"Support Services",NA,NA,NA
+"Rivers","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Rivers","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Rivers","ss_sbc","Social Behaviour Change",NA,"Naira",541069814.793773,"Support Services",NA,NA,NA
+"Rivers","ss_sbc","Social Behaviour Change",NA,"USD",338168.634246108,"Support Services",NA,NA,NA
+"Sokoto","cb","Capacity Building",NA,"Naira",471266898,"Support Services",NA,NA,NA
+"Sokoto","cb","Capacity Building",NA,"USD",294541.81125,"Support Services",NA,NA,NA
+"Sokoto","gc","Governance & Coordination",NA,"Naira",202790420,"Support Services",NA,NA,NA
+"Sokoto","gc","Governance & Coordination",NA,"USD",126744.0125,"Support Services",NA,NA,NA
+"Sokoto","me","Monitoring & Evaluation",NA,"Naira",107680894,"Support Services",NA,NA,NA
+"Sokoto","me","Monitoring & Evaluation",NA,"USD",67300.55875,"Support Services",NA,NA,NA
+"Sokoto","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Sokoto","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Sokoto","ss_sbc","Social Behaviour Change",NA,"Naira",413859043.290535,"Support Services",NA,NA,NA
+"Sokoto","ss_sbc","Social Behaviour Change",NA,"USD",258661.902056584,"Support Services",NA,NA,NA
+"Taraba","cb","Capacity Building",NA,"Naira",460399707,"Support Services",NA,NA,NA
+"Taraba","cb","Capacity Building",NA,"USD",287749.816875,"Support Services",NA,NA,NA
+"Taraba","gc","Governance & Coordination",NA,"Naira",192710420,"Support Services",NA,NA,NA
+"Taraba","gc","Governance & Coordination",NA,"USD",120444.0125,"Support Services",NA,NA,NA
+"Taraba","me","Monitoring & Evaluation",NA,"Naira",74908448,"Support Services",NA,NA,NA
+"Taraba","me","Monitoring & Evaluation",NA,"USD",46817.78,"Support Services",NA,NA,NA
+"Taraba","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Taraba","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Taraba","ss_sbc","Social Behaviour Change",NA,"Naira",284952128.167254,"Support Services",NA,NA,NA
+"Taraba","ss_sbc","Social Behaviour Change",NA,"USD",178095.080104534,"Support Services",NA,NA,NA
+"Yobe","cb","Capacity Building",NA,"Naira",316994655,"Support Services",NA,NA,NA
+"Yobe","cb","Capacity Building",NA,"USD",198121.659375,"Support Services",NA,NA,NA
+"Yobe","gc","Governance & Coordination",NA,"Naira",194150420,"Support Services",NA,NA,NA
+"Yobe","gc","Governance & Coordination",NA,"USD",121344.0125,"Support Services",NA,NA,NA
+"Yobe","me","Monitoring & Evaluation",NA,"Naira",79590226,"Support Services",NA,NA,NA
+"Yobe","me","Monitoring & Evaluation",NA,"USD",49743.89125,"Support Services",NA,NA,NA
+"Yobe","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Yobe","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Yobe","ss_sbc","Social Behaviour Change",NA,"Naira",301913564.367685,"Support Services",NA,NA,NA
+"Yobe","ss_sbc","Social Behaviour Change",NA,"USD",188695.977729803,"Support Services",NA,NA,NA
+"Zamfara","cb","Capacity Building",NA,"Naira",427545780,"Support Services",NA,NA,NA
+"Zamfara","cb","Capacity Building",NA,"USD",267216.1125,"Support Services",NA,NA,NA
+"Zamfara","gc","Governance & Coordination",NA,"Naira",189830420,"Support Services",NA,NA,NA
+"Zamfara","gc","Governance & Coordination",NA,"USD",118644.0125,"Support Services",NA,NA,NA
+"Zamfara","me","Monitoring & Evaluation",NA,"Naira",65544892,"Support Services",NA,NA,NA
+"Zamfara","me","Monitoring & Evaluation",NA,"USD",40965.5575,"Support Services",NA,NA,NA
+"Zamfara","rm","Resource Mobilisation",NA,"Naira",NA,"Support Services",NA,NA,NA
+"Zamfara","rm","Resource Mobilisation",NA,"USD",NA,"Support Services",NA,NA,NA
+"Zamfara","ss_sbc","Social Behaviour Change",NA,"Naira",249333112.146347,"Support Services",NA,NA,NA
+"Zamfara","ss_sbc","Social Behaviour Change",NA,"USD",155833.195091467,"Support Services",NA,NA,NA
