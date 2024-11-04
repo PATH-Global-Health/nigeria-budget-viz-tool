@@ -74,6 +74,8 @@ country_outline <- sf::st_read("working-data/shapefiles/country_shapefile.shp")
 state_outline   <- sf::st_read("working-data/shapefiles/state_shapefile.shp")
 lga_outline     <- sf::st_read("working-data/shapefiles/lga_shapefile.shp")
 
+# rmapshaper - ms_simplify() - to help shapefiles render on leaflet 
+
 state_outline$state[which(state_outline$state == "Akwa-Ibom")] <- "Akwa Ibom"
 
 
