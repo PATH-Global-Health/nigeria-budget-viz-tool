@@ -1,8 +1,12 @@
 "intervention","full_name","value","currency","country"
+"Entomological Surveillance","Ento Surveillance",297962833,"Naira",NA
+"Entomological Surveillance","Ento Surveillance",186226.770625,"USD",NA
 "IPTp","IPTp SP Distribution",4682181146.46072,"Naira",NA
 "IPTp","IPTp SP Distribution",2926363.21653795,"USD",NA
 "IPTp","IPTp SP Procurement",18728724585.8429,"Naira",NA
 "IPTp","IPTp SP Procurement",11705452.8661518,"USD",NA
+"IRS","IRS",166998504318.723,"Naira",NA
+"IRS","IRS",104374065.199202,"USD",NA
 "ITN Campaign","ITN Campaign Campaign",26332510736.3745,"Naira",NA
 "ITN Campaign","ITN Campaign Campaign",16457819.210234,"USD",NA
 "ITN Campaign","ITN Campaign Net Distribution Procurement",9017987728.89536,"Naira",NA
@@ -29,16 +33,16 @@
 "LSM","LSM Bti Procurement",141517529.600001,"USD",NA
 "LSM","LSM Operational",27713070000,"Naira",NA
 "LSM","LSM Operational",17320668.75,"USD",NA
-"Malaria Vaccine","Malaria Vaccine Operational",15694612297.4833,"Naira",NA
-"Malaria Vaccine","Malaria Vaccine Operational",9809132.68592706,"USD",NA
-"Malaria Vaccine","Malaria Vaccine Procurement",251113796759.733,"Naira",NA
-"Malaria Vaccine","Malaria Vaccine Procurement",156946122.974833,"USD",NA
+"Malaria Vaccine","Malaria Vaccine Operational",11129697363.3123,"Naira",NA
+"Malaria Vaccine","Malaria Vaccine Operational",6956060.85207016,"USD",NA
+"Malaria Vaccine","Malaria Vaccine Procurement",190064065027.848,"Naira",NA
+"Malaria Vaccine","Malaria Vaccine Procurement",118790040.642405,"USD",NA
 "PMC","PMC Distribution",1190911484.18846,"Naira",NA
 "PMC","PMC Distribution",744319.677617786,"USD",NA
 "PMC","PMC SP Procurement",34374514883.9035,"Naira",NA
 "PMC","PMC SP Procurement",21484071.8024397,"USD",NA
-"Private Sector Case Management","CM Private ",346797599738.79,"Naira",NA
-"Private Sector Case Management","CM Private ",216748499.836744,"USD",NA
+"Private Sector Case Management","CM Private",346797599738.79,"Naira",NA
+"Private Sector Case Management","CM Private",216748499.836744,"USD",NA
 "Public Sector Case Management","CM AL Distribution",33943328610.145,"Naira",NA
 "Public Sector Case Management","CM AL Distribution",21214580.3813407,"USD",NA
 "Public Sector Case Management","CM AL Procurement",135773314440.58,"Naira",NA

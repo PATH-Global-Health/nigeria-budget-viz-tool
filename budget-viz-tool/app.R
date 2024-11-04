@@ -88,12 +88,12 @@ ui <- navbarPage(
                      uiOutput("info_section"), 
                      hr(),
                      fluidRow(
-                       column(8, # Left column (half width)
+                       column(6, # Left column (half width)
                               uiOutput("table_title"),
                               DTOutput("budget_table"),
                               uiOutput("summary_text")
                        ),
-                       column(4, # Right column (half width)
+                       column(6, # Right column (half width)
                               uiOutput("donut_title"),
                               billboarderOutput("donut_chart")
                        )

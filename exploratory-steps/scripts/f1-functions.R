@@ -93,8 +93,21 @@ create_plan_cost_summary_grouped <- function(data, grouping = "national"){
     plan_data_cost$total_cost[which(plan_data_cost$intervention == "cm_public")] <- 
       plan_data_cost$total_cost[which(plan_data_cost$intervention == "cm_public")] + 
       additional_national_costs$cm_eqa_national_cost
+    
+    # add the cost of IRS 
+    irs_data <- 
+      data.frame(intervention = "irs", 
+                 total_cost = additional_national_costs$irs_total_cost)
+    
+    plan_data_cost <- bind_rows(plan_data_cost, irs_data)
+    
+    # add the cost of Entomological surveillance  
+    ento_data <- 
+      data.frame(intervention = "ento_surveillance", 
+                 total_cost = additional_national_costs$ento_surveillance_total_cost)
+    
+    plan_data_cost <- bind_rows(plan_data_cost, ento_data)
   }
-  
   
   # format this data and add in USD cost  
   exchange_rate <- 1600 #keeping as in the spreadsheet
@@ -113,7 +126,9 @@ create_plan_cost_summary_grouped <- function(data, grouping = "national"){
                              intervention == "iptp" ~ "IPTp", 
                              intervention == "vacc" ~ "Malaria Vaccine", 
                              intervention == "cm_public" ~ "Public Sector Case Management", 
-                             intervention == "cm_private" ~ "Private Sector Case Management" )) |> 
+                             intervention == "cm_private" ~ "Private Sector Case Management",
+                             intervention == "irs" ~ "IRS", 
+                             intervention == "ento_surveillance" ~ "Entomological Surveillance")) |> 
     crossing(currency = c("Naira", "USD")) |> 
     mutate(total_cost = case_when(currency == "USD" ~ total_cost /1600, 
                                   TRUE ~ total_cost))  
@@ -201,7 +216,9 @@ create_plan_cost_elements_grouped <- function(data, grouping = "national"){
                    names_to = "full_name", 
                    values_to = "value") |> 
       mutate(intervention = case_when(grepl("itn", full_name) ~ "itn_campaign", 
-                                      TRUE ~ "cm_public"))
+                                      grepl("cm", full_name) ~ "cm_public", 
+                                      grepl("irs", full_name) ~ "irs", 
+                                      grepl("ento", full_name) ~ "ento_surveillance"))
     
     plan_data_grouped <- 
       bind_rows(plan_data_grouped, 
@@ -228,8 +245,6 @@ create_plan_cost_elements_grouped <- function(data, grouping = "national"){
         plan_data_grouped$value[which(plan_data_grouped$full_name == "itn_campaign_campaign_cost"&
                                         plan_data_grouped$intervention == "itn_campaign")] + (19127 * 584)
 
-
-      
   }
     # Adjust costs for ITN routine
     if (plan_data_grouped$value[which(plan_data_grouped$full_name == "itn_routine_net_procurement_cost"  &
@@ -246,7 +261,6 @@ create_plan_cost_elements_grouped <- function(data, grouping = "national"){
         plan_data_grouped$value[which(plan_data_grouped$full_name == "itn_routine_net_operational_cost"&
                                         plan_data_grouped$intervention == "itn_routine")] + (3093 * 1396)
     }
-    
     
   } else if (grouping == "state") {
     # Group by full_name and state, then summarize values
@@ -267,7 +281,7 @@ create_plan_cost_elements_grouped <- function(data, grouping = "national"){
   
   plan_data_grouped <- 
     plan_data_grouped |> 
-    mutate(intervention = case_when(grepl("irs", full_name) ~ "IRS",
+    mutate(intervention = case_when(grepl("irs", intervention) ~ "IRS",
                                     grepl("lsm", full_name) ~ "LSM", 
                                     grepl("smc", full_name) ~ "SMC", 
                                     grepl("pmc", full_name) ~ "PMC", 
@@ -285,6 +299,7 @@ create_plan_cost_elements_grouped <- function(data, grouping = "national"){
                                     intervention == "itn_routine" ~ "ITN Routine", 
                                     intervention == "itn_routine_urban" ~ "ITN Routine Urban",
                                     full_name == "itn_campaign_storage_hardware_cost" ~ "ITN Campaign Net Storage",
+                                    grepl("ento", intervention) ~ "Entomological Surveillance", 
                                     TRUE ~ intervention), 
            full_name = str_replace_all(full_name, "_", " "), 
            full_name = str_to_title(full_name),
@@ -309,8 +324,10 @@ create_plan_cost_elements_grouped <- function(data, grouping = "national"){
            full_name = str_replace(full_name, "Phc", "Primary Health Center"), 
            full_name = str_replace(full_name, "Lga", "LGA"), 
            full_name = str_replace(full_name, "Gc", "GC"), 
+           full_name = str_replace(full_name, "Irs", "IRS"), 
            full_name = str_remove(full_name, " Cost"), 
-           full_name = str_remove(full_name, "Total")) |> 
+           full_name = str_remove(full_name, "Total"), 
+           full_name = str_trim(full_name)) |> 
     crossing(currency = c("Naira", "USD")) |> 
     mutate(value = case_when(currency == "USD" ~ value /exchange_rate, 
                              TRUE ~ value))  

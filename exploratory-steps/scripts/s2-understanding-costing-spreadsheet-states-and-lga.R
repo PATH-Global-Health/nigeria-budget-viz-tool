@@ -12,11 +12,13 @@ library(janitor)
 
 # this is a tricky spreadsheet to work through and needs a lot of reformatting
 raw_states_lga <- 
-  readxl::read_xlsx("exploratory-steps/data/Pragmatic Plan Template-18102024.xlsx",
+  readxl::read_xlsx("exploratory-steps/data/Pragmatic Plan Template-02112024.xlsx",
                     sheet = "States and LGAs", skip = 4) |> 
   janitor::clean_names() |> 
   # remove rows with all NA data - this will be NA in the state/lga name col
   filter(!is.na(x2))
+
+colnames(raw_states_lga)
 
 # work through renaming column headings  
 working_states_lga <- 
@@ -57,7 +59,7 @@ working_states_lga <-
          pop_number_children_u1 = number_of_1yr_children, #number of children under 1 year old - assumed to be blanket 4% of the pop_2025_projected
          pop_number_children_1_2_yrs = number_of_1_2yrs_children, #number of children 1-2 years old - assumed to be blanket 4% of the pop_2025_projected
          pop_number_children_0_2_yrs = number_of_0_2yrs_children, #sum of pop_number_children_u1 pop_number_children_1_2
-         pop_number_children_5_36_mons = children_5_36_mons_3_8_percent_of_pop, #number of children 5-36 months assuming 3.8% of pop_2025_projected
+         pop_number_children_5_36_mons = children_5_36_months_3_2_percent_of_pop, #number of children 5-36 months assuming 3.8% of pop_2025_projected
          
          # SPATIAL ADMIN DATA 
          admin_number_states = number_of_states, #number of states in admin levels >=state and NA if LGA row
@@ -163,28 +165,31 @@ working_states_lga <-
          lsm_operational_cost = operational_cost, # total cost of running LSM: calculated as national cost (cost link - unit cost per ward * number of wards) * proportion of LGAs at that spatial level
          lsm_total_cost = total_116, # sum cost of previous two 
          
+         # ENTOMOLOGICAL SURVEILLANCE
+         ento_surveillance_total_cost = x117, # Cost of Entomological surveillance at the national level only
+         
          # SMC 
          smc_spaq_3_11_months_procurement_cost = procure_spaq_3_11_months, # total cost of procuring SP-AQ for SMC in children aged 3-11 months old: calculated as national cost (cost link - unit cost per spaq unit cost * total number of SPAQ needed) * proportion of doses needed at spatial level  
          smc_spaq_12_59_months_procurement_cost = procure_spaq_12_59_months, # total cost of procuring SP-AQ for SMC in children aged 12-59 months old: calculated as national cost (cost link - unit cost per sqaq unit cost * total number of SPAQ needed) * proportion of doses needed at spatial level
          smc_spaq_total_procurement_cost = procure_spaq_total, # sum of previous two values 
          smc_campaign_cost = smc_campaign, # total cost of SMC campaign: calculated as national cost (cost link - unit cost per child * total children targeted) * proportion of total u5 population targeted for SMC in that LGA 
-         smc_total_cost = total_124, # total cost of SMC - summed totals from above  
+         smc_total_cost = total_125, # total cost of SMC - summed totals from above  
          #❓ why are the costs of spaq packs different for each age category?  - drug sizes are different?? 
          
          # PMC  
-         pmc_sp_procurement_cost = procurement_126, # total cost of procuring SP for PMC: calculated as national cost (cost link - unit cost per SP * total SP quantity) * proportion of total SP needed at spatial scale
+         pmc_sp_procurement_cost = procurement_127, # total cost of procuring SP for PMC: calculated as national cost (cost link - unit cost per SP * total SP quantity) * proportion of total SP needed at spatial scale
          pmc_distribution_cost = distribution, # total cost of distributing SP for PMC to health facilities: calcualated as national cost (cost link - unit cost per child * total children targeted) * proportion of total children at spatial scale 
-         pmc_total_cost = total_129, # total cost of PMC - summed totals from above 
+         pmc_total_cost = total_130, # total cost of PMC - summed totals from above 
          
          # IPTp 
-         iptp_sp_procurement_cost = procurement_131, # total cost of procuring SP for IPTp: calculated as national cost (cost link - unit cost per SP * total sp needed) * proportion of total needed at spatial scale 
+         iptp_sp_procurement_cost = procurement_132, # total cost of procuring SP for IPTp: calculated as national cost (cost link - unit cost per SP * total sp needed) * proportion of total needed at spatial scale 
          iptp_sp_distribution_cost = distrbution, # total cost of distributing SP for IPTP: calcualted as national cost (cost link - unit cost per SP * total SP doses distributed) * proportion of total SP needed at spatial scale
-         iptp_total_cost = total_134, # total cost of IPTp - summed totals from above 
+         iptp_total_cost = total_135, # total cost of IPTp - summed totals from above 
          
          # VACCINE 
-         vacc_procurement_cost = procurement_136, # total cost of procuring vaccine doses: calculated as national cost (cost link - unit cost per dose * total doses needed) * proportion of total doses needed at spatial scale 
-         vacc_operational_cost = operational_138, # total cost of vaccine delivery: calcualted as national cost (cost link - unit cost per child * total children targeted) * proportion of total children targeted at spatial scale
-         vacc_total_cost = total_139, # total cost - summed from above
+         vacc_procurement_cost = procurement_137, # total cost of procuring vaccine doses: calculated as national cost (cost link - unit cost per dose * total doses needed) * proportion of total doses needed at spatial scale 
+         vacc_operational_cost = operational_139, # total cost of vaccine delivery: calcualted as national cost (cost link - unit cost per child * total children targeted) * proportion of total children targeted at spatial scale
+         vacc_total_cost = total_140, # total cost - summed from above
          
          # CASE MANAGEMENT 
          cm_rdt_kits_procurement_cost = rdt_kits_procurement, # total cost of procuring rdt kits: calculated as national cost (cost link - unit cost per kit * total rdt kits needed) * proportion of total kits needed at spatial scale 

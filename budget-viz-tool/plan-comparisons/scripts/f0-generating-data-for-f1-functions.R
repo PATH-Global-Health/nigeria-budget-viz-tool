@@ -180,7 +180,9 @@ write.csv(lsm_fully_quantified_and_costed,
 additional_national_level_costs <- 
   read.csv("exploratory-steps/data/working-data/codable-national-data-october.csv") |> 
   select(itn_campaign_storage_hardware_cost, 
-         cm_eqa_national_cost) |> 
+         cm_eqa_national_cost, 
+         irs_total_cost, 
+         ento_surveillance_total_cost) 
   
 write.csv(additional_national_level_costs, 
           row.names = FALSE, 

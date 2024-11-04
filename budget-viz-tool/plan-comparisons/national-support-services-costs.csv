@@ -1,11 +1,11 @@
-"intervention","title","state_count","lga_count","currency","total_cost","intervention_type","target_value","target","cost_per_target"
-"cb","Capacity Building",NA,NA,"Naira",17539672818,"Support Services",NA,NA,NA
-"cb","Capacity Building",NA,NA,"USD",10962295.51125,"Support Services",NA,NA,NA
-"gc","Governance & Coordination",NA,NA,"Naira",7524109700,"Support Services",NA,NA,NA
-"gc","Governance & Coordination",NA,NA,"USD",4702568.5625,"Support Services",NA,NA,NA
-"me","Monitoring & Evaluation",NA,NA,"Naira",9118142934,"Support Services",NA,NA,NA
-"me","Monitoring & Evaluation",NA,NA,"USD",5698839.33375,"Support Services",NA,NA,NA
-"rm","Resource Mobilisation",NA,NA,"Naira",105450000,"Support Services",NA,NA,NA
-"rm","Resource Mobilisation",NA,NA,"USD",65906.25,"Support Services",NA,NA,NA
-"ss_sbc","Social Behaviour Change",NA,NA,"Naira",14927760000,"Support Services",NA,NA,NA
-"ss_sbc","Social Behaviour Change",NA,NA,"USD",9329850,"Support Services",NA,NA,NA
+"intervention","total_cost","target_value","state_count","lga_count","intervention_type","title","currency","target","cost_per_target"
+"cb",17539672818,NA,NA,NA,"Support Services","Capacity Building","Naira","Population",NA
+"cb",10962295.51125,NA,NA,NA,"Support Services","Capacity Building","USD","Population",NA
+"gc",7524109700,NA,NA,NA,"Support Services","Governance & Coordination","Naira","Population",NA
+"gc",4702568.5625,NA,NA,NA,"Support Services","Governance & Coordination","USD","Population",NA
+"me",9118142934,NA,NA,NA,"Support Services","Monitoring & Evaluation","Naira","Population",NA
+"me",5698839.33375,NA,NA,NA,"Support Services","Monitoring & Evaluation","USD","Population",NA
+"rm",105450000,NA,NA,NA,"Support Services","Resource Mobilisation","Naira","Population",NA
+"rm",65906.25,NA,NA,NA,"Support Services","Resource Mobilisation","USD","Population",NA
+"ss_sbc",14927760000,NA,NA,NA,"Support Services","Social Behaviour Change","Naira","Population",NA
+"ss_sbc",9329850,NA,NA,NA,"Support Services","Social Behaviour Change","USD","Population",NA

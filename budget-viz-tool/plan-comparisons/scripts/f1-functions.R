@@ -35,8 +35,8 @@
 #   
 #--------------------------------------------------------------------------------
 
-# Step 1 create a modifiable intervention mix - save this for use in data folder
-
+# # Step 1 create a modifiable intervention mix - save this for use in data folder
+# 
 # intervention_mix <- read.csv("budget-viz-tool/working-data/intervention_mix.csv")
 # 
 # modifiable_intervention_data_frame <-
@@ -63,51 +63,51 @@
 #     code_itn_routine = if_else(code_itn_routine == "ITN Routine", 1, 0)
 #   ) |>
 #   # add cm_private in
-#   mutate(code_cm_private = 1) |> 
-#   # make pmc/smc info column  
-#   mutate(chemoprevention_split = case_when(code_smc == 1 ~ "SMC", 
-#                                            code_pmc == 1 ~ "PMC", 
+#   mutate(code_cm_private = 1) |>
+#   # make pmc/smc info column
+#   mutate(chemoprevention_split = case_when(code_smc == 1 ~ "SMC",
+#                                            code_pmc == 1 ~ "PMC",
 #                                            TRUE ~ NA))
 # 
 # # read in population data
-# pop_data <- 
-#   read.csv("budget-viz-tool/working-data/lga_ribbon_data.csv") |> 
-#   select(state, lga, pop_2025_projected, pop_number_children_u5) |> 
+# pop_data <-
+#   read.csv("budget-viz-tool/working-data/lga_ribbon_data.csv") |>
+#   select(state, lga, pop_2025_projected, pop_number_children_u5) |>
 #   distinct()
 # 
-# # read in prevalence data 
-# prev_data <- 
-#   read.csv("exploratory-steps/data/state-prev-results-2021.csv") |> 
-#   select(state = region, prev_u5_state = rdt_rate) |> 
-#   mutate(year = 2021, 
-#          state = str_to_title(state), 
-#          prev_u5_dhs_2021 = prev_u5_state*100, 
-#          state = case_when(state == "Fct" ~ "Federal Capital Territory", 
+# # read in prevalence data
+# prev_data <-
+#   read.csv("exploratory-steps/data/state-prev-results-2021.csv") |>
+#   select(state = region, prev_u5_state = rdt_rate) |>
+#   mutate(year = 2021,
+#          state = str_to_title(state),
+#          prev_u5_dhs_2021 = prev_u5_state*100,
+#          state = case_when(state == "Fct" ~ "Federal Capital Territory",
 #                            state == "Croriver" ~ "Cross River",
-#                            TRUE ~ state))  |> 
+#                            TRUE ~ state))  |>
 #   select(state, prev_u5_dhs_2021 )
 # 
-# # urban population distinctions 
-# lga_urban_pop <- 
-#   read.csv("budget-viz-tool/plan-comparisons/nga-lga-urban-pct.csv") |> 
-#   mutate(percentage_urban_pop = round((urb_pop / pop )* 100, 0 )) |> 
+# # urban population distinctions
+# lga_urban_pop <-
+#   read.csv("budget-viz-tool/plan-comparisons/nga-lga-urban-pct.csv") |>
+#   mutate(percentage_urban_pop = round((urb_pop / pop )* 100, 0 )) |>
 #   select(state, lga, percentage_urban_pop)
 # 
-# # combined extra columns  
-# modifiable_intervention_data_frame <- 
-#   modifiable_intervention_data_frame  |>  
-#   left_join(pop_data, by=c("state", "lga")) |> 
-#   left_join(prev_data, by=c("state"), multiple = "all") |> 
-#   left_join(lga_urban_pop, by=c("state", "lga")) |> 
-#   select(state, lga, starts_with("pop"), 
-#          prev_u5_dhs_2021, percentage_urban_pop, 
+# # combined extra columns
+# modifiable_intervention_data_frame <-
+#   modifiable_intervention_data_frame  |>
+#   left_join(pop_data, by=c("state", "lga")) |>
+#   left_join(prev_data, by=c("state"), multiple = "all") |>
+#   left_join(lga_urban_pop, by=c("state", "lga")) |>
+#   select(state, lga, starts_with("pop"),
+#          prev_u5_dhs_2021, percentage_urban_pop,
 #          chemoprevention_split,
-#          starts_with("code")) 
+#          starts_with("code"))
 # 
 # write.csv(modifiable_intervention_data_frame,
 #           row.names = FALSE,
 #           "budget-viz-tool/plan-comparisons/modifiable-intervention-mix.csv")
-  
+
 
 # modifiable_intervention_data_frame <- read.csv("budget-viz-tool/plan-comparisons/modifiable-intervention-mix.csv")
 
@@ -128,6 +128,14 @@ create_intervention_mix_for_map <- function(data, plan_name = NULL,
       "The following states have a mix of values for 'code_lsm':",
       paste(inconsistent_states, collapse = ", "), 
       "LSM can only be targeted at the State Level so all LGAs need a consistent value"
+    ))
+  }
+  
+  # add check about IRS - not being recalculated  
+  if(sum(data$code_irs >0)){
+    stop(paste(
+      "Stopping: IRS is only costed at the National Level Currently - we can't account for changes in IRS targeting at this time please remove 1's from this column",
+      "If you want to remove IRS completely - specify in the costing function arguements"
     ))
   }
   
@@ -178,13 +186,13 @@ create_intervention_mix_for_map <- function(data, plan_name = NULL,
 }
 
 # # test - works :) 
-# plan_poop <- create_intervention_mix_for_map(modifiable_intervention_data_frame, plan_name = "baseline", 
+# data <- create_intervention_mix_for_map(modifiable_intervention_data_frame, plan_name = "baseline",
 #                                              plan_description = "Costed Operational Plan - Baseline")
 
 # Function to convert new intervention_mix_for_map dataframe into the national 
 # level summary cost data for comparison tab  
 
-create_plan_cost_summary <- function(data){ 
+create_plan_cost_summary <- function(data, remove_irs = 0){ 
   
   #-SUMMARY------------------------------------------------------------------------------
   # Print a summary of the interventions and number of states/LGAs being targeted
@@ -292,6 +300,22 @@ create_plan_cost_summary <- function(data){
       plan_data_cost$total_cost[which(plan_data_cost$intervention == "cm_public")] + 
       additional_national_costs$cm_eqa_national_cost
     
+    # add the cost of IRS if removal is o (No)
+    if(remove_irs == 0){
+      irs_data <- 
+        data.frame(intervention = "irs", 
+                   total_cost = additional_national_costs$irs_total_cost)
+      
+      plan_data_cost <- bind_rows(plan_data_cost, irs_data)
+    }
+    
+    # add the cost of Entomological surveillance  
+    ento_data <- 
+      data.frame(intervention = "ento_surveillance", 
+                 total_cost = additional_national_costs$ento_surveillance_total_cost)
+    
+    plan_data_cost <- bind_rows(plan_data_cost, ento_data)
+    
     # format this data and add in USD cost  
     exchange_rate <- 1600 #keeping as in the spreadsheet
 
@@ -309,7 +333,9 @@ create_plan_cost_summary <- function(data){
                                intervention == "iptp" ~ "IPTp", 
                                intervention == "vacc" ~ "Malaria Vaccine", 
                                intervention == "cm_public" ~ "Public Sector Case Management", 
-                               intervention == "cm_private" ~ "Private Sector Case Management" )) |> 
+                               intervention == "cm_private" ~ "Private Sector Case Management",
+                               intervention == "irs" ~ "IRS", 
+                               intervention == "ento_surveillance" ~ "Entomological Surveillance")) |> 
       crossing(currency = c("Naira", "USD")) |> 
       mutate(total_cost = case_when(currency == "USD" ~ total_cost /1600, 
                                     TRUE ~ total_cost))  

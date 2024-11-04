@@ -5,9 +5,12 @@
 "ITN Campaign-Storage of Hardwares","ITN Campaign","Storage","Dual-AI",NA,"per year",8e+06,5000,2024,"NMEP/GF"
 "ITN Routine Distribution-Pocurement cost per ITN (Dual AI)","ITN Routine Distribution","Procurement","Dual-AI",NA,"per ITN",5584.9688864,3.490605554,2024,"NMEP"
 "ITN Routine Distribution-Operational cost per ITN","ITN Routine Distribution","Operational","Dual-AI",NA,"per ITN",1396.2422216,0.8726513885,2024,"NMEP"
-"IRS-Cost per LGA","IRS","Combined",NA,"LGA","per lGA",347858863000,217411789.375,2024,NA
-"LSM-Bti-Procurement cost per kg","LSM","Procurement","Bti",NA,"per kg",102400,64,2024,NA
-"LSM-Operational cost per LGA","LSM","Operational",NA,"LGA","per ward",35805000,22378.125,2024,NA
+"IRS-Cost per LGA","IRS","Combined",NA,"LGA","per lGA",347858863000,217411789.375,2024,"NMEP"
+"LSM-Bti-Procurement cost per kg","LSM","Procurement","Bti",NA,"per kg",102400,64,2024,"NMEP"
+"LSM-Operational cost per LGA","LSM","Operational",NA,"LGA","per LGA",35805000,22378.125,2024,"NMEP"
+"Entomological Surveillance-Establishment cost","Entomological Surveillance",NA,NA,NA,"per unit",79764500,49852.8125,2024,"NMEP"
+"Entomological Surveillance-Procurement cost","Entomological Surveillance","Procurement",NA,NA,"per unit",45192533,28245.333125,2024,"NMEP"
+"Entomological Surveillance-Operational cost","Entomological Surveillance","Operational",NA,NA,"per unit",173005800,108128.625,2024,"NMEP"
 "Malaria Vaccine-Procurement cost","Vaccine","Procurement","R21",NA,"per dose",6400,4,2024,"NPHCDA"
 "Malaria Vaccine-Operational cost","Vaccine","Operational","R21",NA,"per child",1600,1,2024,"NPHCDA"
 "SMC-SPAQ-3-11 months-Procurement cost per SPAQ","SMC","Procurement","SPAQ-3-11 months",NA,"per SPAQ",390,0.24375,2024,"NMEP"

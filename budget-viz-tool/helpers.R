@@ -10,11 +10,11 @@ create_intervention_map_static <- function(lga_outline, state_outline,
                                            zoom = 5.2) {
   
   # Join intervention mix data with LGA outline
-  lga_outline <- left_join(lga_outline, intervention_mix, by = c("state","lga"))
+  lga_outline <- left_join(lga_outline, intervention_mix)
   
   # Define color palette based on unique values in intervention_summary
   color_pal <- colorFactor(
-    palette = colorRampPalette(RColorBrewer::brewer.pal(15, "Paired"))(length(unique(intervention_mix$intervention_summary))),
+    palette = colorRampPalette(RColorBrewer::brewer.pal(12, "Paired"))(length(unique(intervention_mix$intervention_summary))),
     domain = unique(intervention_mix$intervention_summary)
   )
   
@@ -436,7 +436,7 @@ create_stacked_bar_plot <- function(data, currency_choice) {
     mutate(
       category = case_when(
         grepl("Procurement", full_name) ~ "Procurement",
-        grepl("Distribution|Campaign|Operational|EQA|Storage", full_name) ~ "Implementation",
+        grepl("Distribution|Campaign|Operational|EQA|Storage|IRS", full_name) ~ "Implementation",
         TRUE ~ "Support"
       )
     ) %>%
@@ -548,7 +548,7 @@ create_prop_plot <- function(data, currency_choice) {
     mutate(
       category = case_when(
         grepl("Procurement", full_name) ~ "Procurement",
-        grepl("Distribution|Campaign|Operational", full_name) ~ "Implementation",
+        grepl("Distribution|Campaign|Operational|EQA|Storage|IRS", full_name) ~ "Implementation",
         TRUE ~ "Support"
       )
     ) %>%
@@ -680,7 +680,7 @@ highlight_lga <- function(map_id, lga_outline) {
 
 plan_colors <- function(plans) {
   # Generate a set of distinct colors for the plan names
-  palette <- brewer.pal(min(length(plans), 9), "Set1")  # Use Set1 palette for up to 9 colors
+  palette <- brewer.pal(min(length(plans), 12), "Paired")  # Use Set1 palette for up to 9 colors
   color_map <- setNames(palette[seq_along(plans)], plans)
   return(color_map)
 }

@@ -5,7 +5,7 @@ account: ht1212
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13186633
-bundleId: 9303466
+bundleId: 9311780
 url: https://ht1212.shinyapps.io/budget-viz-tool/
 version: 1
 asMultiple: FALSE

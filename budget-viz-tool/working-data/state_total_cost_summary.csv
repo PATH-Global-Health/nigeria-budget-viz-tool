@@ -489,80 +489,80 @@
 "smc","Yobe",2016548.38311718,805716.103089199,1,17,"Malaria Interventions","SMC","USD","Population",2.50280263157895
 "smc","Zamfara",4584166724.85493,1144758.34685647,1,14,"Malaria Interventions","SMC","Naira","Population",4004.48421052632
 "smc","Zamfara",2865104.20303433,1144758.34685647,1,14,"Malaria Interventions","SMC","USD","Population",2.50280263157895
-"vacc","Abia",4942578209.00975,181712.433788403,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Abia",3089111.3806311,181712.433788403,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Adamawa",5645811525.05731,207566.599767436,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Adamawa",3528632.20316082,207566.599767436,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Akwa Ibom",7556887471.3458,277826.744709913,1,31,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Akwa Ibom",4723054.66959112,277826.744709913,1,31,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Anambra",7297468622.32605,268289.287044593,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Anambra",4560917.88895378,268289.287044593,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Bauchi",9061161799.92726,333130.94785508,1,20,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Bauchi",5663226.12495454,333130.94785508,1,20,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Bayelsa",3066588290.30175,112742.216327901,1,8,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Bayelsa",1916617.68143859,112742.216327901,1,8,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Benue",7766484596.43089,285532.521351917,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Benue",4854052.87276931,285532.521351917,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Borno",8242862447.32513,303046.4128936,1,27,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Borno",5151789.02957821,303046.4128936,1,27,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Cross River",5137943343.63626,188894.975488131,1,18,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Cross River",3211214.58977266,188894.975488131,1,18,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Delta",7761860697.99331,285362.525086172,1,25,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Delta",4851162.93624582,285362.525086172,1,25,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Ebonyi",3816583324.56436,140315.563120198,1,13,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Ebonyi",2385364.57785272,140315.563120198,1,13,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Edo",5626923650.22006,206872.192605702,1,18,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Edo",3516827.28138754,206872.192605702,1,18,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Ekiti",4437004971.75419,163125.182456189,1,16,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Ekiti",2773128.10734637,163125.182456189,1,16,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Enugu",5922705749.76561,217746.534478834,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Enugu",3701691.09360351,217746.534478834,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Federal Capital Territory",7846657207.27665,288480.043803539,1,6,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Federal Capital Territory",4904160.75454791,288480.043803539,1,6,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Gombe",4472018704.75351,164412.452049156,1,11,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Gombe",2795011.69047095,164412.452049156,1,11,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Imo",7372084392.65684,271032.513889459,1,27,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Imo",4607552.74541052,271032.513889459,1,27,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Jigawa",7773789439.72033,285801.081766428,1,27,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Jigawa",4858618.39982521,285801.081766428,1,27,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Kaduna",11224212390.7656,412654.866475564,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Kaduna",7015132.74422847,412654.866475564,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Kano",18206957187.826,669373.424673427,1,44,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Kano",11379348.2423912,669373.424673427,1,44,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Katsina",10592786925.5774,389440.695008098,1,34,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Katsina",6620491.82848586,389440.695008098,1,34,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Kebbi",6090097311.8493,223900.636013621,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Kebbi",3806310.81990581,223900.636013621,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Kogi",6039777464.5347,222050.641630784,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Kogi",3774860.91533419,222050.641630784,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Kwara",4255500134.77741,156452.210521966,1,16,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Kwara",2659687.58423588,156452.210521966,1,16,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Lagos",17264524624.9634,634725.168755689,1,20,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Lagos",10790327.8906021,634725.168755689,1,20,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Nasarawa",3419489879.67418,125716.539440435,1,13,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Nasarawa",2137181.17479636,125716.539440435,1,13,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Niger",7743906265.01949,284702.435639936,1,25,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Niger",4839941.41563718,284702.435639936,1,25,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Ogun",7198145881.76954,264637.715707966,1,20,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Ogun",4498841.17610596,264637.715707966,1,20,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Ondo",6284156939.02695,231035.181116061,1,18,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Ondo",3927598.08689184,231035.181116061,1,18,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Osun",6437334136.79226,236666.695728431,1,30,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Osun",4023333.83549516,236666.695728431,1,30,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Oyo",10788359592.1793,396630.866559847,1,33,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Oyo",6742724.74511205,396630.866559847,1,33,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Plateau",5747606917.84719,211309.077435989,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Plateau",3592254.32365449,211309.077435989,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Rivers",10161008601.7539,373566.491958358,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Rivers",6350630.3760962,373566.491958358,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Sokoto",6748053378.68986,248090.197245752,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Sokoto",4217533.36168116,248090.197245752,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Taraba",4055053419.8094,149082.846015942,1,16,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Taraba",2534408.38738088,149082.846015942,1,16,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Yobe",4638196412.32003,170521.926579725,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Yobe",2898872.75770002,170521.926579725,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
-"vacc","Zamfara",6165827147.97526,226684.821159696,1,14,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc","Zamfara",3853641.96748454,226684.821159696,1,14,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
+"vacc","Abia",3727078577.83442,153020.996874444,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Abia",2329424.11114651,153020.996874444,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Adamawa",4257369797.64405,174792.926119946,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Adamawa",2660856.12352753,174792.926119946,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Akwa Ibom",5698465905.55035,233959.363966243,1,31,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Akwa Ibom",3561541.19096897,233959.363966243,1,31,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Anambra",5502844431.49751,225927.820669131,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Anambra",3439277.76968594,225927.820669131,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Bauchi",6832802761.36826,280531.324509542,1,20,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Bauchi",4270501.72585517,280531.324509542,1,20,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Bayelsa",2312439993.96651,94940.8137498113,1,8,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Bayelsa",1445274.99622907,94940.8137498113,1,8,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Benue",5856518023.66481,240448.439033193,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Benue",3660323.7647905,240448.439033193,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Borno",6215743028.90321,255196.979278821,1,27,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Borno",3884839.39306451,255196.979278821,1,27,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Cross River",3874398696.47106,159069.453042637,1,18,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Cross River",2421499.18529441,159069.453042637,1,18,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Delta",5853031253.78803,240305.284283092,1,25,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Delta",3658144.53361752,240305.284283092,1,25,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Ebonyi",2877993093.47779,118160.474206482,1,13,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Ebonyi",1798745.68342362,118160.474206482,1,13,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Edo",4243126908.46561,174208.162194275,1,18,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Edo",2651954.31779101,174208.162194275,1,18,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Ekiti",3345838038.50077,137368.574699948,1,16,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Ekiti",2091148.77406298,137368.574699948,1,16,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Enugu",4466169029.46099,183365.502719018,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Enugu",2791355.64341312,183365.502719018,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Federal Capital Territory",5916974248.69077,242930.56320298,1,6,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Federal Capital Territory",3698108.90543173,242930.56320298,1,6,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Gombe",3372241046.94562,138452.59119929,1,11,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Gombe",2107650.65434101,138452.59119929,1,11,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Imo",5559110377.61072,228237.906433228,1,27,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Imo",3474443.9860067,228237.906433228,1,27,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Jigawa",5862026429.15425,240674.595171729,1,27,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Jigawa",3663766.51822141,240674.595171729,1,27,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Kaduna",8463906848.9454,347498.834926791,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Kaduna",5289941.78059087,347498.834926791,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Kano",13729425662.622,563682.883935517,1,44,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Kano",8580891.03913873,563682.883935517,1,44,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Katsina",7987764191.1495,327950.058954188,1,34,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Katsina",4992352.61946844,327950.058954188,1,34,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Kebbi",4592394954.22534,188547.90401147,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Kebbi",2870246.84639084,188547.90401147,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Kogi",4554449975.50466,186990.014004871,1,21,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Kogi",2846531.23469041,186990.014004871,1,21,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Kwara",3208969634.79269,131749.229913235,1,16,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Kwara",2005606.02174543,131749.229913235,1,16,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Lagos",13018760081.3074,534505.405267948,1,20,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Lagos",8136725.05081711,534505.405267948,1,20,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Nasarawa",2578554539.49582,105866.559528787,1,13,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Nasarawa",1611596.58718489,105866.559528787,1,13,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Niger",5839492250.52211,239749.419486262,1,25,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Niger",3649682.65657632,239749.419486262,1,25,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Ogun",5427947557.24165,222852.813227761,1,20,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Ogun",3392467.22327603,222852.813227761,1,20,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Ondo",4738730621.29842,194555.941992473,1,18,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330175
+"vacc","Ondo",2961706.63831152,194555.941992473,1,18,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Osun",4854237838.0306,199298.2700871,1,30,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Osun",3033898.64876912,199298.2700871,1,30,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Oyo",8135240804.62487,334004.940260924,1,33,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Oyo",5084525.50289055,334004.940260924,1,33,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Plateau",4334131239.09132,177944.486261885,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Plateau",2708832.02443207,177944.486261885,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Rivers",7662170609.61302,314582.309017565,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Rivers",4788856.63100814,314582.309017565,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Sokoto",5088543696.47639,208918.060838528,1,23,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Sokoto",3180339.81029774,208918.060838528,1,23,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Taraba",3057817619.43506,125543.449276583,1,16,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Taraba",1911136.01214691,125543.449276583,1,16,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Yobe",3497551633.40346,143597.41185661,1,17,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Yobe",2185969.77087716,143597.41185661,1,17,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
+"vacc","Zamfara",4649500990.38547,190892.480976586,1,14,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc","Zamfara",2905938.11899092,190892.480976586,1,14,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
 "cb","Abia",439538484,NA,NA,NA,"Support Services","Capacity Building","Naira","Population",NA
 "cb","Abia",274711.5525,NA,NA,NA,"Support Services","Capacity Building","USD","Population",NA
 "gc","Abia",194150420,NA,NA,NA,"Support Services","Governance & Coordination","Naira","Population",NA

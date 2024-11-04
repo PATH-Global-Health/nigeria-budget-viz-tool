@@ -3,8 +3,12 @@
 "cm_private",216748499.836744,258135070.16184,37,774,"Malaria Interventions","Private Sector Case Management","USD","Population",0.839670873472755
 "cm_public",254372135065.919,258135070.16184,37,774,"Malaria Interventions","Public Sector Case Management","Naira","Population",985.422611915682
 "cm_public",158982584.416199,258135070.16184,37,774,"Malaria Interventions","Public Sector Case Management","USD","Population",0.615889132447301
+"ento_surveillance",297962833,NA,NA,NA,"Malaria Interventions","Entomological Surveillance","Naira","Population",NA
+"ento_surveillance",186226.770625,NA,NA,NA,"Malaria Interventions","Entomological Surveillance","USD","Population",NA
 "iptp",23410905732.3036,12906753.508092,37,774,"Malaria Interventions","IPTp","Naira","Population",1813.84929352109
 "iptp",14631816.0826898,12906753.508092,37,774,"Malaria Interventions","IPTp","USD","Population",1.13365580845068
+"irs",166998504318.723,NA,NA,NA,"Malaria Interventions","IRS","Naira","Population",NA
+"irs",104374065.199202,NA,NA,NA,"Malaria Interventions","IRS","USD","Population",NA
 "itn_campaign",287184275025.183,79246085.8887516,12,269,"Malaria Interventions","ITN Campaign","Naira","Population",3623.95532605033
 "itn_campaign",179490171.890739,79246085.8887516,12,269,"Malaria Interventions","ITN Campaign","USD","Population",2.26497207878146
 "itn_campaign_urban",46812739055.5731,12989759.477911,5,24,"Malaria Interventions","ITN Campaign Urban","Naira","Population",3603.81877240897
@@ -19,8 +23,8 @@
 "pmc",22228391.4800575,9160857.57068044,20,363,"Malaria Interventions","PMC","USD","Population",2.426453125
 "smc",95763150457.0785,23913978.7854207,21,385,"Malaria Interventions","SMC","Naira","Population",4004.48421052632
 "smc",59851969.035674,23913978.7854207,21,385,"Malaria Interventions","SMC","USD","Population",2.50280263157895
-"vacc",266808409057.216,9809132.66614994,37,774,"Malaria Interventions","Malaria Vaccine","Naira","Population",27200.0000548405
-"vacc",166755255.66076,9809132.66614994,37,774,"Malaria Interventions","Malaria Vaccine","USD","Population",17.0000000342753
+"vacc",201193762391.16,8260322.24517889,37,774,"Malaria Interventions","Malaria Vaccine","Naira","Population",24356.6481330176
+"vacc",125746101.494475,8260322.24517889,37,774,"Malaria Interventions","Malaria Vaccine","USD","Population",15.222905083136
 "cb",17539672818,NA,NA,NA,"Support Services","Capacity Building","Naira","Population",NA
 "cb",10962295.51125,NA,NA,NA,"Support Services","Capacity Building","USD","Population",NA
 "gc",7524109700,NA,NA,NA,"Support Services","Governance & Coordination","Naira","Population",NA

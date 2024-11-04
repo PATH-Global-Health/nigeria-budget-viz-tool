@@ -17,7 +17,7 @@ library(janitor)
 # Data also has additional rows of formula copied columns with no reference 
 # data so removing those empty rows from the data frame
 raw_unit_cost <- 
-  readxl::read_xlsx("exploratory-steps/data/Pragmatic Plan Template-09102024.xlsx", 
+  readxl::read_xlsx("exploratory-steps/data/Pragmatic Plan Template-02112024.xlsx", 
                     sheet = "Unit Cost", 
                     skip = 9 # skip the first 9 rows data to be 
                              # extracted separately 
@@ -82,6 +82,7 @@ working_unit_cost <-
         grepl("PMC", resource) ~ "PMC",
         grepl("IPTp", resource) ~ "IPTp",
         grepl("Case Management", resource) ~ "Case Management",
+        grepl("Ento", resource) ~ "Entomological Surveillance", 
         TRUE ~ "Support Services"
       ), 
     cost_category = 
@@ -95,6 +96,8 @@ working_unit_cost <-
         grepl("IRS-Cost per LGA", resource) ~ "Combined",
         grepl("LSM-Bti-Procurement cost per kg", resource) ~ "Procurement",
         grepl("LSM-Operational cost per LGA", resource) ~ "Operational",
+        grepl("Entomological Surveillance-Procurement cost", resource) ~ "Procurement", 
+        grepl("Entomological Surveillance-Operational cost", resource) ~ "Operational",
         grepl("Malaria Vaccine-Procurement cost", resource) ~ "Procurement",
         grepl("Malaria Vaccine-Operational cost", resource) ~ "Operational",
         grepl("Procurement cost per SP", resource) ~ "Procurement",
@@ -168,6 +171,7 @@ working_unit_cost <-
         grepl("IRS", resource) ~ NA,
         grepl("Vaccine", resource) ~ "R21",
         grepl("SMC-Campaign", resource) ~ NA,
+        grepl("Ento", resource) ~ NA,
         TRUE ~ resource  # Default value for rows that don't match any condition is just the resource value where no removal needed
       ),
     cost_spatial_level = 
