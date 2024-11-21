@@ -714,31 +714,31 @@ server <- function(input, output, session) {
   #       "Total Cost" = "total_cost",
   #       "Cost per Target" = "cost_per_target"
   #     )) %>%
-  #     formatStyle(
-  #       columns=1:7,
-  #       fontSize = '14px'
-  #     ) %>%
-  #     formatCurrency(
-  #       columns = "Total Cost",
-  #       currency = if (input$currency_option == "USD") "$" else "₦",
-  #       interval = 3,
-  #       mark = ",",
-  #       digits = 0
-  #     ) %>%
-  #     formatCurrency(
-  #       columns = "Cost per Target",
-  #       currency = if (input$currency_option == "USD") "$" else "₦",
-  #       interval = 3,
-  #       mark = ",",
-  #       digits = 2
-  #     ) %>%
-  #     formatCurrency(
-  #       columns = "Target Population or Area",
-  #       currency = "",  # No currency symbol
-  #       interval = 3,   # Add comma separator
-  #       mark = ",", 
-  #       digits = 0      # No decimals
-  #     ) 
+      # formatStyle(
+      #   columns=1:7,
+      #   fontSize = '14px'
+      # ) %>%
+      # formatCurrency(
+      #   columns = "Total Cost",
+      #   currency = if (input$currency_option == "USD") "$" else "₦",
+      #   interval = 3,
+      #   mark = ",",
+      #   digits = 0
+      # ) %>%
+      # formatCurrency(
+      #   columns = "Cost per Target",
+      #   currency = if (input$currency_option == "USD") "$" else "₦",
+      #   interval = 3,
+      #   mark = ",",
+      #   digits = 2
+      # ) %>%
+      # formatCurrency(
+      #   columns = "Target Population or Area",
+      #   currency = "",  # No currency symbol
+      #   interval = 3,   # Add comma separator
+      #   mark = ",",
+      #   digits = 0      # No decimals
+      # )
   # })
   # 
   # # Reactive: Title for Proportional Cost Breakdown

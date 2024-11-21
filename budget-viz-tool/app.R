@@ -123,12 +123,12 @@ ui <- navbarPage(
              uiOutput("info_section"), 
              hr(),
              fluidRow(
-               column(8, # Left column (half width)
+               column(6, # Left column (half width)
                       uiOutput("table_title"),
                       DTOutput("budget_table"),
                       uiOutput("summary_text")
                ),
-               column(4, # Right column (half width)
+               column(6, # Right column (half width)
                       uiOutput("donut_title"),
                       billboarderOutput("donut_chart")
                )
@@ -156,48 +156,58 @@ ui <- navbarPage(
   
 
   
-  # FOURTH TAB IS BUDGET COMPARISONS 
-  tabPanel("Plan Comparison",
-           fluidPage(
-             sidebarLayout(
-               sidebarPanel(
-                 width=12,
-                 h4("Select plans to compare with Baseline Costed Operational Plan"),
-                 checkboxGroupInput(
-                   inputId = "selected_plans",
-                   label = NULL,
-                   choices = setNames(unique_plans, plan_labels)
-                 ),
-                 radioButtons(
-                   inputId = "currency_option_plan",
-                   label = "Select Currency",
-                   choices = c("USD", "Naira"),
-                   selected = "USD"  # Default to USD
-                 )
-               ),
-               mainPanel(
-                 width=12,
-                 fluidRow(
-                   # Baseline Map
-                   column(4, h4("Baseline Costed Operational Plan"), leafletOutput("baseline_map")),
-                   
-                   # Dynamic Maps for Selected Plans
-                   uiOutput("selected_plans_maps")
-                 ), 
-                 # Cost Comparison Visualizations
-                 h4("Cost Comparison Visualisations"), 
-                 fluidRow(
-                   column(6, plotlyOutput("cost_comparison_plot", height = "700px")),  # Adjust height here
-                   column(6, plotlyOutput("cost_difference_plot", height = "700px"))  # Adjust height here
-                 ), 
-                 # Summary Data Tables
-                 h4("Cost Summary Tables"), 
-                 uiOutput("summary_data_tables")  # Add this output for the tables
-               )
-             )
-           )
-  ),
-  
+  # FOURTH TAB IS BUDGET COMPARISONS
+  tabPanel(
+    "Plan Comparison",
+    fluidPage(
+      # Sidebar
+      sidebarLayout(
+        sidebarPanel(
+          width = 12,
+          h4("Select plans to compare with Baseline Costed Operational Plan"),
+          checkboxGroupInput(
+            inputId = "selected_plans",
+            label = NULL,
+            choices = setNames(unique_plans, plan_labels)
+          ),
+          radioButtons(
+            inputId = "currency_option_plan",
+            label = "Select Currency",
+            choices = c("USD", "Naira"),
+            selected = "USD"  # Default to USD
+          )
+        ),
+        # Main Panel
+        mainPanel(
+          width = 12,
+          # Baseline Map (Full Width)
+          fluidRow(
+            column(
+              width = 12,
+              h4("Baseline Costed Operational Plan", style = "text-align: center;"),
+              leafletOutput("baseline_map", height = "600px")  # Full-width map
+            )
+          ),
+          hr(),
+          # Dynamic Comparison Maps (Max 2 per row)
+          fluidRow(
+            uiOutput("selected_plans_maps")
+          ),
+          hr(),
+          # Cost Comparison Visualizations
+          h4("Cost Comparison Visualizations"),
+          fluidRow(
+            column(6, plotlyOutput("cost_comparison_plot", height = "700px")),
+            column(6, plotlyOutput("cost_difference_plot", height = "700px"))
+          ),
+          hr(),
+          # Summary Data Tables
+          h4("Cost Summary Tables"),
+          uiOutput("summary_data_tables")
+        )
+      )
+    )
+  ), 
   
   
   # SIXTH TAB IS METHODOLOGY 
@@ -227,8 +237,16 @@ server <- function(input, output, session) {
     )
   })
   
-  #-SUMMARY TAB-------------------------------------------------------------------------------
+  # Reactive: Store the selected state polygon (only if spatial level is State)
+  selected_state_outline <- reactive({
+    req(input$spatial_level == "State", input$state_selection)  # Ensure spatial level is State and a state is selected
+    
+    # Filter the selected state from the state_outline dataset
+    state_outline %>%
+      filter(state == input$state_selection)  
+  })
   
+  #-SUMMARY TAB-------------------------------------------------------------------------------
   
   #-INTERVENTION MIX MAP------------------------------------
   output$map1 <- renderLeaflet({
@@ -279,51 +297,78 @@ server <- function(input, output, session) {
   })
   
   #-ICON SUMMARIES---------------------------------------------------
+  # Reactive: Store either national or state data based on input
+  icon_summary_data <- reactive({
+    if (input$spatial_level == "National") {
+      req(national_ribbon_data)  # Ensure national data exists
+      national_ribbon_data
+    } else if (input$spatial_level == "State") {
+      req(input$state_selection)  # Ensure a state is selected
+      filter(state_ribbon_data, state == input$state_selection)  # Filter state-level data
+    } else {
+      NULL  # Return NULL if no valid selection
+    }
+  })
+  
+  # Render Icons
   output$info_section <- renderUI({
+    req(icon_summary_data())  # Ensure valid data exists
+    
     create_icon_summaries(
-      data = national_ribbon_data,
-      currency_choice = input$currency_option
+      data = icon_summary_data(),  # Use the reactive data
+      currency_choice = input$currency_option  # Use the selected currency
     )
   })
   
   #-TOTAL COST SUMMARY TABLE-----------------------------------------
+  # Reactive: Generate dynamic table title
+  table_title_text <- reactive({
+    if (input$spatial_level == "National") {
+      "Intervention and Total Cost Breakdown at the National Level"
+    } else if (input$spatial_level == "State" && !is.null(input$state_selection) && input$state_selection != "") {
+      paste("Intervention and Total Cost Breakdown at the State Level:", input$state_selection, "State")
+    } else {
+      "Intervention and Total Cost Breakdown"  # Fallback title
+    }
+  })
+  
   output$table_title <- renderUI({
-    h3(paste("Intervention and Total Cost Breakdown"),
-       style = "text-align: left; margin-top: 20px;")
-  } 
-  )
-  
-  observe({
-    print(names(national_total_cost_summary))
+    h3(table_title_text(), style = "text-align: left; margin-top: 20px;")
   })
   
-  # Reactive function to reduce data based on selected currency
-  filtered_cost_data <- reactive({
-    req(national_total_cost_summary)  # Ensure the dataset is loaded
+  # Reactive: Filter and prepare data for the summary table
+  summary_table_data <- reactive({
+    req(input$spatial_level)  # Ensure a spatial level is selected
     
-    # Filter based on currency selection
-    currency_display <- input$currency_option
-    
-    # Prepare formatted cost column based on selected currency
-    national_total_cost_summary |> 
-      filter(currency == currency_display) |> 
-      filter(intervention != "IRS") |> 
-      filter(total_cost != 0) |> 
-      select(intervention_type, title, state_count, lga_count, target, target_value, total_cost, cost_per_target)  |> 
-      arrange((intervention_type))
-    
+    # Select the dataset based on spatial level
+    if (input$spatial_level == "National") {
+      # Filter national data
+      national_total_cost_summary %>%
+        filter(currency == input$currency_option, total_cost != 0) %>%
+        select(intervention_type, title, state_count, lga_count, target, target_value, total_cost, cost_per_target) |> 
+        arrange(intervention_type)
+    } else if (input$spatial_level == "State" && !is.null(input$state_selection) && input$state_selection != "") {
+      # Filter state-specific data
+      state_total_cost_summary %>%
+        filter(state == input$state_selection, currency == input$currency_option, total_cost != 0) %>%
+        select(intervention_type, title, lga_count, target, target_value, total_cost, cost_per_target)  |> 
+        arrange(intervention_type)
+    } else {
+      NULL  # Return NULL if no valid selection
+    }
   })
+  
+  
   # Render the DataTable
   output$budget_table <- renderDT({
-    datatable(
-      filtered_cost_data(),
-      options = list(
-        pageLength = 20,
-        scrollX = TRUE,
-        dom = 'Bfrtip'
-      ),
-      rownames = FALSE,
-      colnames = c(
+    req(summary_table_data())  # Ensure valid data exists
+    
+    # Get the filtered dataset
+    data <- summary_table_data()
+    
+    # Define column names dynamically based on spatial level
+    if (input$spatial_level == "National") {
+      col_names <- c(
         "Category" = "intervention_type",
         "Item" = "title",
         "States Targeted" = "state_count",
@@ -332,9 +377,32 @@ server <- function(input, output, session) {
         "Target Population or Area" = "target_value",
         "Total Cost" = "total_cost",
         "Cost per Target" = "cost_per_target"
-      )) %>%
+      )
+    } else {
+      col_names <- c(
+        "Category" = "intervention_type",
+        "Item" = "title",
+        "LGAs Targeted" = "lga_count",
+        "Target Denominator" = "target",
+        "Target Population or Area" = "target_value",
+        "Total Cost" = "total_cost",
+        "Cost per Target" = "cost_per_target"
+      )
+    }
+    
+    # Render the DataTable
+    datatable(
+      data,
+      options = list(
+        pageLength = 20,
+        scrollX = TRUE,
+        dom = 'Bfrtip'
+      ),
+      rownames = FALSE,
+      colnames = col_names
+    ) %>%
       formatStyle(
-        columns=1:8,
+        columns = 1:ncol(data),
         fontSize = '14px'
       ) %>%
       formatCurrency(
@@ -355,9 +423,9 @@ server <- function(input, output, session) {
         columns = "Target Population or Area",
         currency = "",  # No currency symbol
         interval = 3,   # Add comma separator
-        mark = ",", 
+        mark = ",",
         digits = 0      # No decimals
-      ) 
+      )
   })
   
   # Text undeneath
@@ -369,34 +437,86 @@ server <- function(input, output, session) {
   #-ROPORTIONAL COST BREAKDOWN PLOTS------------------------------------------
   
   # Donut chart title 
+  # Reactive: Generate dynamic table title
+  donut_title_text <- reactive({
+    if (input$spatial_level == "National") {
+      "Proportional Cost Breakdown at the National Level"
+    } else if (input$spatial_level == "State" && !is.null(input$state_selection) && input$state_selection != "") {
+      paste("Proportional Cost Breakdown at the State Level:", input$state_selection, "State")
+    } else {
+      "Proportional Cost Breakdown"  # Fallback title
+    }
+  })
+  
   output$donut_title <- renderUI({
-    h3(paste("Proportional Cost Breakdown"),
-       style = "text-align: left; margin-top: 20px; margin-bottom: 50px;")
-  } 
-  )
+    h3(donut_title_text(), style = "text-align: left; margin-top: 20px; margin-bottom: 50px;")
+  })
+
+  # Render the Main Donut Chart
+  donut_chart_data <- reactive({
+    req(input$spatial_level)  # Ensure a spatial level is selected
+    
+    if (input$spatial_level == "National") {
+      # Use national data
+      national_total_cost_summary %>%
+        filter(currency == input$currency_option, total_cost != 0)
+    } else if (input$spatial_level == "State" && !is.null(input$state_selection) && input$state_selection != "") {
+      # Use state-specific data
+      state_total_cost_summary %>%
+        filter(state == input$state_selection, currency == input$currency_option, total_cost != 0)
+    } else {
+      NULL  # Return NULL if no valid selection
+    }
+  })
+  
   # Render the Main Donut Chart
   output$donut_chart <- renderBillboarder({
+    req(donut_chart_data())  # Ensure valid data exists
+    
+    # Use the filtered data to create the donut chart
     create_cost_donut(
-      data = national_total_cost_summary,
+      data = donut_chart_data(),
       currency_choice = input$currency_option
     )
   })
   
   #-COST BREAKDOWN PLOTS------------------------------------------------------
+  # Reactive: Prepare data for the cost visualization plots
+  cost_visualization_data <- reactive({
+    req(input$spatial_level)  # Ensure a spatial level is selected
+    
+    if (input$spatial_level == "National") {
+      # Use national data
+      national_intervention_chart_data %>%
+        filter(currency == input$currency_option)
+    } else if (input$spatial_level == "State" && !is.null(input$state_selection) && input$state_selection != "") {
+      # Use state-specific data
+      state_intervention_chart_data %>%
+        filter(state == input$state_selection, currency == input$currency_option)
+    } else {
+      NULL  # Return NULL if no valid selection
+    }
+  })
+  
+  # render plots
   output$treemap_plot <- renderPlotly({
-    create_treemap_plot(national_intervention_chart_data, input$currency_option)
+    # Create the treemap plot
+    create_treemap_plot(cost_visualization_data(), input$currency_option)
   })
   
   output$stacked_bar_plot <- renderPlotly({
-    create_stacked_bar_plot(national_intervention_chart_data, input$currency_option)
+    # Create the stacked bar plot
+    create_stacked_bar_plot(cost_visualization_data(), input$currency_option)
   })
   
   output$lollipop_plot <- renderPlotly({
-    create_lollipop_plot(national_intervention_chart_data, input$currency_option)
+    # Create top 10 plot
+    create_lollipop_plot(cost_visualization_data(), input$currency_option)
   })
   
   output$prop_plot <- renderPlotly({
-    create_prop_plot(national_intervention_chart_data, input$currency_option)
+    # Create proportional cost bar plot
+    create_prop_plot(cost_visualization_data(), input$currency_option)
   })
   
   #-STATE LEVEL COST MAP------------------------------------------------------
@@ -429,17 +549,131 @@ server <- function(input, output, session) {
     )
   })
   
+  #-STATE HIGHLIGHT OPTIONS FOR ALL MAPS---------------------------------------------------------
+  # Observe changes in the selected state and apply highlighting
+  observeEvent(input$state_selection, {
+    req(input$spatial_level == "State")  # Ensure spatial level is State
+    req(selected_state_outline())       # Ensure the selected state outline exists
+    
+    # Highlight the selected state on map1
+    highlight_state("map1", selected_state_outline())
+    highlight_state("map_interactive", selected_state_outline())
+    highlight_state("map2", selected_state_outline())
+    highlight_state("total_cost_map", selected_state_outline())
+    highlight_state("cost_per_person_map", selected_state_outline())
+  })
+  
+  # remove highlights if national level is reselected 
+  observeEvent(input$spatial_level, {
+    req(input$spatial_level == "National")  # Ensure spatial level is State
+   
+    # Clear highlights from all maps
+    leafletProxy("map1") %>% clearGroup("highlight")
+    leafletProxy("map2") %>% clearGroup("highlight")
+    leafletProxy("map_interactive") %>% clearGroup("highlight")
+    leafletProxy("total_cost_map") %>% clearGroup("highlight")
+    leafletProxy("cost_per_person_map") %>% clearGroup("highlight")
+  })
+  
+  #-CLEAR SELECTIONS-----------------------------------------------------------------------------
+  # Clear state selection and reset everything
+  observeEvent(input$clear_selection, {
+    # Reset spatial level and state dropdown
+    updateSelectInput(session, "spatial_level", selected = "National")
+    updateSelectizeInput(session, "state_selection", selected = "")
+    updateRadioButtons(session, "currency_option", selected = "USD")  # Reset currency option to default
+    
+    # Clear highlights from all maps
+    leafletProxy("map1") %>% clearGroup("highlight")
+    leafletProxy("map2") %>% clearGroup("highlight")
+    leafletProxy("map_interactive") %>% clearGroup("highlight")
+    leafletProxy("total_cost_map") %>% clearGroup("highlight")
+    leafletProxy("cost_per_person_map") %>% clearGroup("highlight")
+    
+    # Reset UI elements to National level
+    output$info_section <- renderUI({
+      create_icon_summaries(
+        data = national_ribbon_data,  # Reset to national data
+        currency_choice = "USD"
+      )
+    })
+    
+    output$table_title <- renderUI({
+      h3("Intervention and Total Cost Breakdown at the National Level", style = "text-align: left; margin-top: 20px;")
+    })
+    
+    output$budget_table <- renderDT({
+      datatable(
+        national_total_cost_summary %>%
+          filter(currency == "USD", total_cost != 0) %>%
+          select(intervention_type, title, state_count, lga_count, target, target_value, total_cost, cost_per_target),
+        options = list(pageLength = 20, scrollX = TRUE),
+        rownames = FALSE,
+        colnames = c(
+          "Category" = "intervention_type",
+          "Item" = "title",
+          "States Targeted" = "state_count",
+          "LGAs Targeted" = "lga_count",
+          "Target Denominator" = "target",
+          "Target Population or Area" = "target_value",
+          "Total Cost" = "total_cost",
+          "Cost per Target" = "cost_per_target"
+        )
+      )
+    })
+    
+    output$donut_title <- renderUI({
+      h3("Proportional Cost Breakdown at the National Level", style = "text-align: left; margin-top: 20px; margin-bottom: 50px;")
+    })
+    
+    output$donut_chart <- renderBillboarder({
+      create_cost_donut(
+        data = national_total_cost_summary %>% filter(currency == "USD", total_cost != 0),
+        currency_choice = "USD"
+      )
+    })
+    
+    # Reset cost visualization plots
+    output$treemap_plot <- renderPlotly({
+      create_treemap_plot(
+        data = national_intervention_chart_data %>% filter(currency == "USD"),
+        currency_choice = "USD"
+      )
+    })
+    
+    output$stacked_bar_plot <- renderPlotly({
+      create_stacked_bar_plot(
+        data = national_intervention_chart_data %>% filter(currency == "USD"),
+        currency_choice = "USD"
+      )
+    })
+    
+    output$lollipop_plot <- renderPlotly({
+      create_lollipop_plot(
+        data = national_intervention_chart_data %>% filter(currency == "USD"),
+        currency_choice = "USD"
+      )
+    })
+    
+    output$prop_plot <- renderPlotly({
+      create_prop_plot(
+        data = national_intervention_chart_data %>% filter(currency == "USD"),
+        currency_choice = "USD"
+      )
+    })
+  })
 
-  #-PLAN COMPARISON PAGE-------------------------------------------------------------------------
+
+  #-PLAN COMPARISON PAGE ------------------------------------------------------------------------
   
   # Baseline Map
   output$baseline_map <- renderLeaflet({
     create_intervention_map_static(
-      lga_outline = lga_outline,
+      lga_outline = intervention_mix_map_plan_comp[intervention_mix_map_plan_comp$plan == "Baseline",],
       state_outline = state_outline,
       country_outline = country_outline,
       intervention_mix = plan_comparison_mixes[plan_comparison_mixes$plan == "Baseline", ]
-    )
+    ) 
   })
   
   # Dynamic Maps for Selected Plans
@@ -447,24 +681,27 @@ server <- function(input, output, session) {
     selected_plans <- input$selected_plans
     if (length(selected_plans) == 0) return(NULL)
     
-    # Calculate the number of columns per row
-    num_columns <- 3 #12 / min(length(selected_plans) + 1, 3)  # Adjust columns for side-by-side layout, up to 3 maps per row
+    # Limit to 2 maps per row
+    num_columns <- 6  # 12 divided by 2 maps per row
     
-    # Create a list of columns for each selected plan
+    # Create map outputs
     map_outputs <- lapply(seq_along(selected_plans), function(i) {
       plan <- selected_plans[i]
       description <- plan_descriptions[unique_plans == plan]
       
-      # Create a column with a title and the leaflet map
       column(
-        num_columns,
-        h4(paste(plan, "-", description)),  # Add the title
-        leafletOutput(outputId = paste0("map_", plan))
+        width = num_columns,
+        div(
+          style = "padding: 10px;",
+          h4(paste(plan, "-", description), style = "text-align: center;"),
+          leafletOutput(outputId = paste0("map_", plan), height = "450px")
+        )
       )
     })
     
-    # Return the map outputs in a fluidRow
-    do.call(fluidRow, map_outputs)
+    # Arrange maps in rows of 2
+    rows <- split(map_outputs, ceiling(seq_along(map_outputs) / 2))
+    lapply(rows, fluidRow) %>% tagList()
   })
   
   # Generate Leaflet Maps for Each Selected Plan
@@ -475,46 +712,42 @@ server <- function(input, output, session) {
     lapply(selected_plans, function(plan) {
       output[[paste0("map_", plan)]] <- renderLeaflet({
         create_intervention_map_static(
-          lga_outline = lga_outline,
+          lga_outline = intervention_mix_map_plan_comp[intervention_mix_map_plan_comp$plan == plan, ],
           state_outline = state_outline,
           country_outline = country_outline,
           intervention_mix = plan_comparison_mixes[plan_comparison_mixes$plan == plan, ]
-        )
+        ) 
       })
     })
   })
   
-  
-  # Reactive function to prepare cost data based on selected currency and plans
+  # Reactive function for Cost Comparison Data
   prepare_cost_data <- reactive({
-    req(input$currency_option_plan, input$selected_plans)  # Ensure inputs are available
+    req(input$currency_option_plan, input$selected_plans)
     
-    # Filter and summarize data based on the selected currency and plans
     total_cost_comparisons %>%
-      filter(currency == input$currency_option_plan, 
-             plan %in% c("Baseline", input$selected_plans))
+      filter(currency == input$currency_option_plan, plan %in% c("Baseline", input$selected_plans))
   })
   
   # Cost Comparison Plot
   output$cost_comparison_plot <- renderPlotly({
     cost_data <- prepare_cost_data()
-    if (nrow(cost_data) == 0) return(NULL)  # Return if no data
+    req(nrow(cost_data) > 0)
     
     currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"
     
-    # Divide the full_cost by 1 million to express in millions and round to remove decimals
     cost_data <- cost_data %>%
-      mutate(full_cost_millions = round(full_cost / 1e6))  # Round to nearest whole number
+      mutate(full_cost_millions = round(full_cost / 1e6))
     
     p <- ggplot(cost_data, aes(x = plan, y = full_cost_millions, fill = plan)) +
       geom_bar(stat = "identity", width = 0.6) +
       geom_text(aes(label = paste0(currency_symbol, format(full_cost_millions, big.mark = ","), "M")),
-                vjust = -0.5, size = 4) +  # Add labels above the bars
+                vjust = -0.5, size = 4) +
       theme_minimal() +
       labs(y = paste("Total Cost (", input$currency_option_plan, " in Millions)"), x = "") +
       theme(text = element_text(size = 12)) +
       scale_y_continuous(labels = scales::comma) +
-      guides(fill = "none")  # Remove the legend
+      guides(fill = "none")
     
     ggplotly(p, tooltip = "text") %>%
       layout(hoverlabel = list(bgcolor = "white"))
@@ -523,26 +756,22 @@ server <- function(input, output, session) {
   # Cost Difference Plot
   output$cost_difference_plot <- renderPlotly({
     cost_data <- prepare_cost_data()
-    if (nrow(cost_data) == 0) return(NULL)  # Return if no data
+    req(nrow(cost_data) > 0)
     
     baseline_cost <- cost_data$full_cost[cost_data$plan == "Baseline"]
-    if (length(baseline_cost) == 0) return(NULL)
+    req(length(baseline_cost) > 0)
     
-    # Calculate differences for selected plans, convert to millions, and round to remove decimals
     diff_data <- cost_data %>%
       filter(plan != "Baseline") %>%
       mutate(
-        difference_millions = round((full_cost - baseline_cost) / 1e6),  # Difference in millions, rounded
-        percent_change = round((difference_millions * 1e6 / baseline_cost) * 100),  # Percentage change, rounded
+        difference_millions = round((full_cost - baseline_cost) / 1e6),
+        percent_change = round((difference_millions * 1e6 / baseline_cost) * 100),
         label = paste(plan, "vs Baseline")
       )
     
     currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"
     
-    p <- ggplot(diff_data, aes(x = difference_millions, y = label,
-                               text = paste0("Difference: ", ifelse(difference_millions >= 0, "+", ""), currency_symbol,
-                                             format(difference_millions, big.mark = ","), "M<br>",
-                                             "Change from Baseline: ", sprintf("%.0f%%", percent_change)))) +  # No decimals
+    p <- ggplot(diff_data, aes(x = difference_millions, y = label)) +
       geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
       geom_segment(aes(x = 0, xend = difference_millions, y = label, yend = label),
                    color = ifelse(diff_data$difference_millions >= 0, "#ED7D31", "#4472C4")) +

@@ -9,8 +9,6 @@ create_intervention_map_static <- function(lga_outline, state_outline,
                                            center_lng = 9, center_lat = 4, 
                                            zoom = 5.2) {
   
-  
-  
   # Define color palette based on unique values in intervention_summary
   color_pal <- colorFactor(
     palette = colorRampPalette(RColorBrewer::brewer.pal(15, "Paired"))(length(unique(intervention_mix$intervention_summary))),

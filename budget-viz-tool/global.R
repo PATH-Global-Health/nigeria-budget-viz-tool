@@ -98,7 +98,12 @@ interactive_map <-
 # sf::st_write(interactive_map, "budget-viz-tool/working-data/shapefiles/interactive_map.shp")
 # interactive_map <- sf::st_read("budget-viz-tool/working-data/shapefiles/interactive_map.shp")
 
-
+# prevalence data 
 prev_outline <- 
   state_outline |> 
   left_join(prevalence_data |> filter(year == 2021))
+
+
+# intervention mix map data for plan comparisons 
+intervention_mix_map_plan_comp <- 
+  left_join(lga_outline, plan_comparison_mixes, multiple="all", by=c("state", "lga"))
