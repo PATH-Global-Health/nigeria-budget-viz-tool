@@ -256,7 +256,7 @@ server <- function(input, output, session) {
       country_outline = country_outline,
       intervention_mix = intervention_mix
     )
-  })
+  }) |> bindCache(input$spatial_level, input$state_selection)
   
   #-INTERACTIVE INTERVENTION MAP------------------------------
   # Create initial map
@@ -266,7 +266,7 @@ server <- function(input, output, session) {
       intervention_mix = intervention_mix
     ) %>%
       htmlwidgets::onRender(create_legend_js(intervention_mix = intervention_mix))
-  })
+  }) |> bindCache(input$selected_intervention, input$spatial_level, input$state_selection)
   
   # Observer for legend clicks
   observeEvent(input$selected_intervention, {
@@ -274,7 +274,8 @@ server <- function(input, output, session) {
     
     # Filter polygons based on the selected intervention
     highlighted_lgas <- interactive_map %>%
-      filter(unique_interventions == selected_intervention)
+      filter(unique_interventions == selected_intervention) |> 
+      bindCache(input$selected_intervention)
     
     # Update the map
     update_intervention_map(
@@ -282,7 +283,8 @@ server <- function(input, output, session) {
       highlighted_lgas = highlighted_lgas,
       state_outline = state_outline,
       country_outline = country_outline
-    )
+    ) |> 
+      bindCache(input$selected_intervention, input$spatial_level, input$state_selection)
   })
   
   

@@ -107,3 +107,4 @@ prev_outline <-
 # intervention mix map data for plan comparisons 
 intervention_mix_map_plan_comp <- 
   left_join(lga_outline, plan_comparison_mixes, multiple="all", by=c("state", "lga"))
+
