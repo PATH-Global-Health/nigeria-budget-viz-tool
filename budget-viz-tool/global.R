@@ -30,7 +30,7 @@ lga_data_total_cost <- read.csv("working-data/lga_data_total_cost.csv")
 intervention_mix <- read.csv("working-data/intervention_mix.csv")
 
 # prevalence data 
-prevalence_data <- read.csv("working-data/prevalence_data.csv")
+prevalence_data <- read.csv("working-data/prevalence_data.csv") 
 
 # ribbon data 
 national_ribbon_data <- read.csv("working-data/national_ribbon_data.csv")
@@ -71,13 +71,34 @@ total_cost_comparisons <-
 #-read in other data sources----------------------------------------------------
 # Shape files
 country_outline <- sf::st_read("working-data/shapefiles/country_shapefile.shp")
-state_outline   <- sf::st_read("working-data/shapefiles/state_shapefile.shp")
-lga_outline     <- sf::st_read("working-data/shapefiles/lga_shapefile.shp")
+state_outline   <- sf::st_read("working-data/shapefiles/state_shapefile_simp.shp")
+lga_outline     <- sf::st_read("working-data/shapefiles/lga_shapefile_simp.shp")
 
 # rmapshaper - ms_simplify() - to help shapefiles render on leaflet 
 
 state_outline$state[which(state_outline$state == "Akwa-Ibom")] <- "Akwa Ibom"
 
+# intervention mix map  
+# Join intervention mix data with LGA outline
+intervention_mix_map <- left_join(lga_outline, intervention_mix, by = c("state","lga"))
+# sf::st_write(intervention_mix_map, "budget-viz-tool/working-data/shapefiles/intervention_mix_map.shp")
+# intervention_mix_map <- sf::st_read("budget-viz-tool/working-data/shapefiles/intervention_mix_map.shp")
+
+# intervention single map 
+interactive_map <-
+  left_join(lga_outline, intervention_mix) |> 
+  mutate(
+    unique_interventions = intervention_summary,
+  ) |>
+  separate_rows(
+    unique_interventions, sep = "\\+ "
+  ) |>
+  mutate(unique_interventions = trimws(unique_interventions))
+
+# sf::st_write(interactive_map, "budget-viz-tool/working-data/shapefiles/interactive_map.shp")
+# interactive_map <- sf::st_read("budget-viz-tool/working-data/shapefiles/interactive_map.shp")
 
 
-
+prev_outline <- 
+  state_outline |> 
+  left_join(prevalence_data |> filter(year == 2021))

@@ -9,12 +9,11 @@ create_intervention_map_static <- function(lga_outline, state_outline,
                                            center_lng = 9, center_lat = 4, 
                                            zoom = 5.2) {
   
-  # Join intervention mix data with LGA outline
-  lga_outline <- left_join(lga_outline, intervention_mix)
+  
   
   # Define color palette based on unique values in intervention_summary
   color_pal <- colorFactor(
-    palette = colorRampPalette(RColorBrewer::brewer.pal(12, "Paired"))(length(unique(intervention_mix$intervention_summary))),
+    palette = colorRampPalette(RColorBrewer::brewer.pal(15, "Paired"))(length(unique(intervention_mix$intervention_summary))),
     domain = unique(intervention_mix$intervention_summary)
   )
   
@@ -71,22 +70,11 @@ create_intervention_map_static <- function(lga_outline, state_outline,
     ) %>%
     setView(lng = center_lng, lat = center_lat, zoom = zoom)
 }
+
 #-interactive intervention map--------------------------------------------------
 # Function to create the base interactive map
-#-interactive intervention map--------------------------------------------------
-# Function to create the base interactive map
-create_base_interactive_map <- function(lga_outline, intervention_mix, 
+create_base_interactive_map <- function(interactive_map, intervention_mix, 
                                         center_lng = 9, center_lat = 4, zoom = 5.2) {
-  
-  interactive_map <-
-    left_join(lga_outline, intervention_mix) |> 
-    mutate(
-      unique_interventions = intervention_summary,
-    ) |>
-    separate_rows(
-      unique_interventions, sep = "\\+ "
-    ) |>
-    mutate(unique_interventions = trimws(unique_interventions))
   
   unique_interventions <- sort(unique(interactive_map$unique_interventions))
   
@@ -104,11 +92,17 @@ create_base_interactive_map <- function(lga_outline, intervention_mix,
 
 # Function to create the custom legend JavaScript
 # Updated Function to create the custom legend JavaScript with checkboxes
+# Function to create the custom legend JavaScript
 create_legend_js <- function(intervention_mix) {
   
-  unique_interventions <- intervention_mix %>%
-    mutate(unique_interventions = intervention_summary) %>%
-    separate_rows(unique_interventions, sep = "\\+ ") %>%
+  unique_interventions <-
+    intervention_mix |>
+    mutate(
+      unique_interventions = intervention_summary,
+    ) |>
+    separate_rows(
+      unique_interventions, sep = "\\+ "
+    ) |>
     mutate(unique_interventions = trimws(unique_interventions))
   
   unique_interventions <- sort(unique(unique_interventions$unique_interventions))
@@ -121,10 +115,10 @@ create_legend_js <- function(intervention_mix) {
                 var div = L.DomUtil.create('div', 'info legend');
                 var interventions = {jsonlite::toJSON(unique_interventions, auto_unbox = TRUE)};
 
-                div.innerHTML += '<h4>Select Interventions</h4>';
+                div.innerHTML += '<h4>Select Intervention</h4>';
                 interventions.forEach(function(intervention) {{
                     div.innerHTML +=
-                        '<input type=\"checkbox\" class=\"legend-checkbox\" value=\"' + intervention + '\">' +
+                        '<input type=\"radio\" name=\"legend-radio\" class=\"legend-radio\" value=\"' + intervention + '\" style=\"margin-right: 5px;\">' +
                         '<label style=\"cursor: pointer;\">' + intervention + '</label><br>';
                 }});
 
@@ -135,13 +129,10 @@ create_legend_js <- function(intervention_mix) {
 
             var map = this;
 
-            // Handle changes on the checkboxes
-            $('.legend-checkbox').on('change', function() {{
-                var selectedInterventions = [];
-                $('.legend-checkbox:checked').each(function() {{
-                    selectedInterventions.push($(this).val().trim());
-                }});
-                Shiny.setInputValue('selected_interventions', selectedInterventions, {{priority: 'event'}});
+            // Handle changes on the radio buttons
+            $('.legend-radio').on('change', function() {{
+                var selectedIntervention = $('input[name=\"legend-radio\"]:checked').val();
+                Shiny.setInputValue('selected_intervention', selectedIntervention, {{priority: 'event'}});
             }});
         }}")
 }
@@ -177,114 +168,46 @@ update_intervention_map <- function(map_id, highlighted_lgas, state_outline, cou
 }
 
 #-Prevalence map with interactivity---------------------------------------------
-#-Prevalence map with interactivity---------------------------------------------
-create_prevalence_map <- function(prevalence_data, lga_outline, state_outline, country_outline, 
+create_prevalence_map <- function(prevalence_data, state_outline, country_outline, 
                                   color_pal_prevalence, center_lng = 9, center_lat = 4, 
                                   zoom = 5.2) {
   
-  prev_outline <- 
-    lga_outline |> 
-    left_join(prevalence_data)
-  
-  # Ensure years are properly extracted and valid
-  years <- try(sort(unique(prevalence_data$year)))
-  req(years)
-  req(length(years) > 0)
-  
-  # Convert years to character
-  years <- as.character(years)
-  
   # Initialize base map
-  base_map <- leaflet() %>%
+  leaflet() %>%
     addTiles() %>%
-    setView(lng = center_lng, lat = center_lat, zoom = zoom)
-  
-  # Add polygons for each year
-  base_map <- add_year_layers(base_map, years, prev_outline, color_pal_prevalence)
-  
-  # Add boundaries (moved to after year layers but before controls)
-  base_map <- add_boundaries(base_map, state_outline, country_outline)
-  
-  # Add controls and legend
-  base_map %>%
-    add_controls_and_legend(years, prev_outline, color_pal_prevalence)
-}
-
-# Helper function to add year layers
-add_year_layers <- function(base_map, years, prevalence_data, color_pal_prevalence) {
-  for(yr in years) {
-    yr_num <- as.numeric(yr)
-    
-    year_data <- prevalence_data %>% 
-      filter(year == yr_num) %>%
-      filter(!is.na(prev_u5_state))
-    
-    if(nrow(year_data) > 0) {
-      base_map <- base_map %>%
-        addPolygons(
-          data = year_data,
-          fillColor = ~color_pal_prevalence()(prev_u5_state),
-          color = "grey",
-          weight = 1,
-          fillOpacity = 1,
-          layerId = ~paste(lga, yr),
-          group = yr,
-          highlightOptions = highlightOptions(
-            weight = 3,
-            color = "black",
-            fillOpacity = 1,
-            bringToFront = TRUE
-          ),
-          label = ~sprintf(
-            "<strong>%s</strong><br>State: %s<br>Under 5 prevalence (%s): %.0f%%",
-            lga, state, yr, prev_u5_state
-          ) %>% lapply(htmltools::HTML),
-          labelOptions = labelOptions(
-            direction = "auto",
-            textsize = "12px",
-            style = list("font-weight" = "normal", "padding" = "3px 8px"),
-            sticky = TRUE
-          )
-        )
-    }
-  }
-  base_map
-}
-
-# Helper function to add boundaries
-add_boundaries <- function(base_map, state_outline, country_outline) {
-  base_map %>%
+    setView(lng = center_lng, lat = center_lat, zoom = zoom) %>%
+    # Add main prevalence polygons
     addPolygons(
-      data = state_outline,
-      fillColor = "transparent",
-      color = "black",
+      data = prev_outline,
+      fillColor = ~color_pal_prevalence()(prev_u5_state),
+      color = "grey",
       weight = 2,
-      options = pathOptions(interactive = FALSE),
-      group = "boundaries"  # Add this line
+      fillOpacity = 1,
+      highlightOptions = highlightOptions(
+        weight = 3,
+        color = "black",
+        fillOpacity = 1,
+        bringToFront = TRUE
+      ),
+      label = ~sprintf(
+        "<strong>State: %s<br>Under 5 prevalence: %.0f%%",
+         state, prev_u5_state
+      ) %>% lapply(htmltools::HTML),
+      labelOptions = labelOptions(
+        direction = "auto",
+        textsize = "12px",
+        style = list("font-weight" = "normal", "padding" = "3px 8px"),
+        sticky = TRUE
+      )
     ) %>%
+     # Add country outline
     addPolygons(
       data = country_outline,
       fillColor = "transparent",
       color = "black",
-      weight = 2,
-      options = pathOptions(interactive = FALSE),
-      group = "boundaries"  # Add this line
-    )
-}
-
-# Helper function to add controls and legend
-add_controls_and_legend <- function(base_map, years, prevalence_data, color_pal_prevalence) {
-  base_map %>%
-    addLayersControl(
-      baseGroups = years,
-      overlayGroups = c("boundaries"),  # Add this line
-      options = layersControlOptions(
-        collapsed = FALSE,
-        position = "topright"
-      )
+      weight = 3
     ) %>%
-    # Show boundaries by default
-    showGroup("boundaries") %>%  # Add this line
+    # Add legend
     addLegend(
       pal = color_pal_prevalence(),
       values = prevalence_data$prev_u5,
@@ -436,7 +359,7 @@ create_stacked_bar_plot <- function(data, currency_choice) {
     mutate(
       category = case_when(
         grepl("Procurement", full_name) ~ "Procurement",
-        grepl("Distribution|Campaign|Operational|EQA|Storage|IRS", full_name) ~ "Implementation",
+        grepl("Distribution|Campaign|Operational|EQA|Storage", full_name) ~ "Implementation",
         TRUE ~ "Support"
       )
     ) %>%
@@ -548,7 +471,7 @@ create_prop_plot <- function(data, currency_choice) {
     mutate(
       category = case_when(
         grepl("Procurement", full_name) ~ "Procurement",
-        grepl("Distribution|Campaign|Operational|EQA|Storage|IRS", full_name) ~ "Implementation",
+        grepl("Distribution|Campaign|Operational", full_name) ~ "Implementation",
         TRUE ~ "Support"
       )
     ) %>%
@@ -680,74 +603,8 @@ highlight_lga <- function(map_id, lga_outline) {
 
 plan_colors <- function(plans) {
   # Generate a set of distinct colors for the plan names
-  palette <- brewer.pal(min(length(plans), 12), "Paired")  # Use Set1 palette for up to 9 colors
+  palette <- brewer.pal(min(length(plans), 9), "Set1")  # Use Set1 palette for up to 9 colors
   color_map <- setNames(palette[seq_along(plans)], plans)
   return(color_map)
 }
 
-# Helper Function to Sum Costs Across Interventions per Plan
-# sum_costs_per_plan <- function(data, currency) {
-#   data %>%
-#     filter(currency == currency) %>%
-#     group_by(plan) %>%
-#     summarise(full_cost = sum(total_cost, na.rm = TRUE))
-# }
-# 
-# # Helper Function to Create Cost Comparison Plot
-# create_cost_comparison_plot <- function(data, selected_plans, currency_symbol) {
-#   # Filter to include only baseline and selected plans
-#   plot_data <- data %>%
-#     filter(plan == "Baseline" | plan %in% selected_plans)
-#   
-#   p <- ggplot(plot_data, aes(x = plan, y = full_cost,
-#                              text = paste0(
-#                                "Plan: ", plan, "<br>",
-#                                "Cost: ", currency_symbol, 
-#                                format(full_cost, big.mark = ",")
-#                              ))) +
-#     geom_bar(stat = "identity", fill = c("#4472C4", rep("#ED7D31", length(selected_plans))), width = 0.6) +
-#     geom_text(aes(label = paste0(currency_symbol, format(full_cost, big.mark = ","))),
-#               vjust = -0.5) +
-#     theme_minimal() +
-#     labs(y = paste("Total Cost (", currency_symbol, ")"), x = "") +
-#     theme(text = element_text(size = 12)) +
-#     scale_y_continuous(labels = scales::comma)
-#   
-#   ggplotly(p, tooltip = "text") %>%
-#     layout(hoverlabel = list(bgcolor = "white"))
-# }
-# 
-# # Helper Function to Create Cost Difference Plot
-# create_cost_difference_plot <- function(data, selected_plans, currency_symbol) {
-#   baseline_cost <- data$full_cost[data$plan == "Baseline"]
-#   if (length(baseline_cost) == 0) return(NULL)
-#   
-#   # Calculate cost differences for each selected plan
-#   diff_data <- data %>%
-#     filter(plan %in% selected_plans) %>%
-#     mutate(
-#       Value = full_cost - baseline_cost,
-#       PercentChange = (Value / baseline_cost) * 100,
-#       Label = paste(plan, "vs Baseline")
-#     )
-#   
-#   p <- ggplot(diff_data, aes(x = Value, y = Label,
-#                              text = paste0(
-#                                "Difference: ", ifelse(Value >= 0, "+", ""), currency_symbol,
-#                                format(Value, big.mark = ","), "<br>",
-#                                "Change from Baseline: ", sprintf("%.1f%%", PercentChange)
-#                              ))) +
-#     geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
-#     geom_segment(aes(x = 0, xend = Value, y = Label, yend = Label),
-#                  color = ifelse(diff_data$Value >= 0, "#ED7D31", "#4472C4")) +
-#     geom_point(size = 4, color = ifelse(diff_data$Value >= 0, "#ED7D31", "#4472C4")) +
-#     theme_minimal() +
-#     labs(x = paste("Change in Cost (", currency_symbol, ")"), y = "") +
-#     theme(text = element_text(size = 12),
-#           panel.grid.major.y = element_blank(),
-#           panel.grid.minor.y = element_blank()) +
-#     scale_x_continuous(labels = scales::comma)
-#   
-#   ggplotly(p, tooltip = "text") %>%
-#     layout(hoverlabel = list(bgcolor = "white"))
-# }
