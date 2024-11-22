@@ -4,6 +4,7 @@
 
 
 #-code to create intervention mix map 1 - with no interactivity-----------------
+# Function to create static intervention map with a toggleable legend
 create_intervention_map_static <- function(lga_outline, state_outline, 
                                            country_outline, intervention_mix,
                                            center_lng = 9, center_lat = 4, 
@@ -24,7 +25,6 @@ create_intervention_map_static <- function(lga_outline, state_outline,
       color = "grey",
       weight = 1,
       fillOpacity = 0.9,
-      layerId = ~lga,
       highlightOptions = highlightOptions(
         weight = 3, 
         color = "black",
@@ -64,156 +64,9 @@ create_intervention_map_static <- function(lga_outline, state_outline,
       values = lga_outline$intervention_summary,
       title = "Intervention Mix",
       position = "bottomright",
-      opacity = 1
+      opacity = 0.7
     ) %>%
     setView(lng = center_lng, lat = center_lat, zoom = zoom)
-}
-
-#-interactive intervention map--------------------------------------------------
-# Function to create the base interactive map
-create_base_interactive_map <- function(interactive_map, intervention_mix, 
-                                        center_lng = 9, center_lat = 4, zoom = 5.2) {
-  
-  unique_interventions <- sort(unique(interactive_map$unique_interventions))
-  
-  leaflet(interactive_map) %>%
-    addTiles() %>%
-    addPolygons(
-      fillColor = "transparent", 
-      color = "grey", 
-      weight = 1,
-      fillOpacity = 0.7, 
-      layerId = ~lga
-    ) %>%
-    setView(lng = center_lng, lat = center_lat, zoom = zoom)
-}
-
-# Function to create the custom legend JavaScript
-# Updated Function to create the custom legend JavaScript with checkboxes
-# Function to create the custom legend JavaScript
-create_legend_js <- function(intervention_mix) {
-  
-  unique_interventions <-
-    intervention_mix |>
-    mutate(
-      unique_interventions = intervention_summary,
-    ) |>
-    separate_rows(
-      unique_interventions, sep = "\\+ "
-    ) |>
-    mutate(unique_interventions = trimws(unique_interventions))
-  
-  unique_interventions <- sort(unique(unique_interventions$unique_interventions))
-  
-  glue("
-        function(el, x) {{
-            var legend = L.control({{ position: 'bottomright' }});
-
-            legend.onAdd = function(map) {{
-                var div = L.DomUtil.create('div', 'info legend');
-                var interventions = {jsonlite::toJSON(unique_interventions, auto_unbox = TRUE)};
-
-                div.innerHTML += '<h4>Select Intervention</h4>';
-                interventions.forEach(function(intervention) {{
-                    div.innerHTML +=
-                        '<input type=\"radio\" name=\"legend-radio\" class=\"legend-radio\" value=\"' + intervention + '\" style=\"margin-right: 5px;\">' +
-                        '<label style=\"cursor: pointer;\">' + intervention + '</label><br>';
-                }});
-
-                return div;
-            }};
-
-            legend.addTo(this);
-
-            var map = this;
-
-            // Handle changes on the radio buttons
-            $('.legend-radio').on('change', function() {{
-                var selectedIntervention = $('input[name=\"legend-radio\"]:checked').val();
-                Shiny.setInputValue('selected_intervention', selectedIntervention, {{priority: 'event'}});
-            }});
-        }}")
-}
-
-# Function to update map based on selection
-update_intervention_map <- function(map_id, highlighted_lgas, state_outline, country_outline,
-                                    fill_color = "#1B7339", center_lng = 9, center_lat = 4, zoom = 5.2) {
-  leafletProxy(map_id) %>%
-    clearShapes() %>%
-    addPolygons(
-      data = highlighted_lgas,
-      fillColor = fill_color,  
-      color = "grey", 
-      weight = 2,
-      fillOpacity = 0.9, 
-      layerId = ~lga
-    ) %>%
-    addPolygons(
-      data = state_outline,
-      fillColor = "transparent",
-      color = "black",
-      weight = 2,
-      options = pathOptions(interactive = FALSE)
-    ) %>%
-    addPolygons(
-      data = country_outline,
-      fillColor = "transparent",
-      color = "black",
-      weight = 2,
-      options = pathOptions(interactive = FALSE)
-    ) %>%
-    setView(lng = center_lng, lat = center_lat, zoom = zoom)
-}
-
-#-Prevalence map with interactivity---------------------------------------------
-create_prevalence_map <- function(prevalence_data, state_outline, country_outline, 
-                                  color_pal_prevalence, center_lng = 9, center_lat = 4, 
-                                  zoom = 5.2) {
-  
-  # Initialize base map
-  leaflet() %>%
-    addTiles() %>%
-    setView(lng = center_lng, lat = center_lat, zoom = zoom) %>%
-    # Add main prevalence polygons
-    addPolygons(
-      data = prev_outline,
-      fillColor = ~color_pal_prevalence()(prev_u5_state),
-      color = "grey",
-      weight = 2,
-      fillOpacity = 1,
-      highlightOptions = highlightOptions(
-        weight = 3,
-        color = "black",
-        fillOpacity = 1,
-        bringToFront = TRUE
-      ),
-      label = ~sprintf(
-        "<strong>State: %s<br>Under 5 prevalence: %.0f%%",
-        state, prev_u5_state
-      ) %>% lapply(htmltools::HTML),
-      labelOptions = labelOptions(
-        direction = "auto",
-        textsize = "12px",
-        style = list("font-weight" = "normal", "padding" = "3px 8px"),
-        sticky = TRUE
-      )
-    ) %>%
-    # Add country outline
-    addPolygons(
-      data = country_outline,
-      fillColor = "transparent",
-      color = "black",
-      weight = 3
-    ) %>%
-    # Add legend
-    addLegend(
-      pal = color_pal_prevalence(),
-      values = prevalence_data$prev_u5,
-      title = "DHS Under-5 Prevalence",
-      position = "bottomright",
-      opacity = 1,
-      labFormat = labelFormat(suffix = "%")
-    )
 }
 
 #' Create Icon Summary Cards
@@ -318,22 +171,24 @@ create_cost_donut <- function(data, currency_choice) {
 create_treemap_plot <- function(data, currency_choice) {
   currency_symbol <- if(currency_choice == "USD") "$" else "₦"
   
-  intervention_totals <- data %>%
+  intervention_totals <- 
+    data %>%
     filter(currency == currency_choice) %>%
-    group_by(intervention) %>%
-    summarise(total_value = sum(value)) %>%
-    arrange(desc(total_value))
+    arrange(desc(total_cost)) %>%
+    mutate(
+      formatted_cost = paste0(currency_symbol, format(round(total_cost, 0), big.mark = ",", scientific = FALSE))
+    )
   
   plot_ly(
     data = intervention_totals,
     type = "treemap",
-    labels = ~intervention,
+    labels = ~paste(title, "<br>", formatted_cost), 
     parents = "",
-    values = ~round(total_value,0),
-    textinfo = "label+value",
+    values = ~total_cost,  # Keep numeric values for rendering
+    textinfo = "label",  # Display only custom label
     hovertemplate = paste(
       "<b>%{label}</b><br>",
-      "Total Cost: ", currency_symbol, "%{value:,.0f}<br>",
+      
       "<extra></extra>"
     )
   ) %>%
@@ -352,28 +207,35 @@ create_treemap_plot <- function(data, currency_choice) {
 create_stacked_bar_plot <- function(data, currency_choice) {
   currency_symbol <- if(currency_choice == "USD") "$" else "₦"
   
-  proc_impl_split <- data %>%
-    filter(currency == currency_choice) %>%
-    mutate(
-      category = case_when(
-        grepl("Procurement", full_name) ~ "Procurement",
-        grepl("Distribution|Campaign|Operational|EQA|Storage", full_name) ~ "Implementation",
-        TRUE ~ "Support"
-      )
-    ) %>%
-    group_by(intervention, category) %>%
-    summarise(value = sum(value), .groups = 'drop') %>%
-    group_by(intervention) %>%
-    mutate(total_intervention_cost = sum(value)) %>%
-    ungroup() %>%
-    mutate(intervention = reorder(intervention, -total_intervention_cost))
+  int_names = c("ITN Campaign",
+                "ITN Routine Distribution",
+                "LSM",
+                "IRS",
+                "Entomological surveillance",
+                "Malaria Vaccine",
+                "SMC",
+                "PMC", 
+                "IPTp",
+                "Public Sector CM",
+                "Private Sector CM",
+                "Capacity Building",
+                "Governance & Coordination",
+                "Monitoring & Evaluation",
+                "Resource Mobilisation",
+                "Social Behaviour Change")
+  
+  proc_impl_split <-
+    data %>%
+    filter(currency == currency_choice) |> 
+    mutate(title = factor(title, levels = int_names)) %>%  # Set the custom order
+    arrange(title)
   
   plot_ly(data = proc_impl_split) %>%
     add_bars(
-      x = ~intervention,
-      y = ~value,
-      color = ~category,
-      text = ~scales::dollar(value, prefix = currency_symbol),
+      x = ~title,
+      y = ~total_cost,
+      color = ~intervention_type,
+      text = ~scales::dollar(total_cost, prefix = currency_symbol),
       hoverinfo = "text"
     ) %>%
     layout(
@@ -394,215 +256,3 @@ create_stacked_bar_plot <- function(data, currency_choice) {
       font = list(size = 14)
     )
 }
-
-#' Create Lollipop Plot
-#' @param data Dataframe containing intervention_prop_breakdown data
-#' @param currency_choice Selected currency ("USD" or "NGN")
-#' Create Lollipop Plot
-#' @param data Dataframe containing intervention_prop_breakdown data
-#' @param currency_choice Selected currency ("USD" or "NGN")
-create_lollipop_plot <- function(data, currency_choice) {
-  currency_symbol <- if (currency_choice == "USD") "$" else "₦"
-  
-  # Get top costs and include intervention information
-  top_costs <- data %>%
-    filter(currency == currency_choice) %>%
-    group_by(full_name, intervention) %>%
-    summarise(value = sum(value), .groups = 'drop') %>%
-    arrange(desc(value)) %>%
-    head(15)
-  
-  plot_ly() %>%
-    add_segments(
-      data = top_costs,
-      x = 0,
-      xend = ~value,
-      y = ~full_name,
-      yend = ~full_name,
-      line = list(color = "gray"),
-      showlegend = FALSE
-    ) %>%
-    add_markers(
-      data = top_costs,
-      x = ~value,
-      y = ~full_name,
-      color = ~intervention,
-      colors = "Set1", 
-      marker = list(size = 12),
-      text = ~paste0(
-        intervention, "<br>",
-        "Cost: ", scales::dollar(value, prefix = currency_symbol)
-      ),
-      hoverinfo = "text"
-    ) %>%
-    layout(
-      title = list(
-        text = "Top 15 Specific Cost Components",
-        font = list(size = 16)
-      ),
-      xaxis = list(
-        title = paste0("Cost (", currency_choice, ")"),
-        tickfont = list(size = 12)
-      ),
-      yaxis = list(
-        title = "",
-        tickfont = list(size = 12),
-        automargin = TRUE
-      ),
-      legend = list(
-        title = list(text = "Intervention"),
-        font = list(size = 12),
-        orientation = "h",  # Horizontal legend
-        x = 0.5,            # Center the legend horizontally
-        xanchor = "center", # Anchor the legend to the center
-        y = -0.2            # Position the legend below the plot
-      )
-    )
-}
-
-#' Create Proportion Plot
-#' @param data Dataframe containing intervention_prop_breakdown data
-#' @param currency_choice Selected currency ("USD" or "NGN")
-create_prop_plot <- function(data, currency_choice) {
-  prop_split <- data %>%
-    filter(currency == currency_choice) %>%
-    mutate(
-      category = case_when(
-        grepl("Procurement", full_name) ~ "Procurement",
-        grepl("Distribution|Campaign|Operational", full_name) ~ "Implementation",
-        TRUE ~ "Support"
-      )
-    ) %>%
-    group_by(intervention, category) %>%
-    summarise(total = sum(value)) %>%
-    group_by(intervention) %>%
-    mutate(proportion = total / sum(total)) %>%
-    filter(category != "Support")
-  
-  plot_ly(data = prop_split) %>%
-    add_bars(
-      x = ~intervention,
-      y = ~proportion,
-      color = ~category,
-      colors = c("Procurement" = "#fc8d62", "Implementation" = "#66c2a5"),
-      text = ~scales::percent(proportion, accuracy = 0.1),
-      hoverinfo = "text"
-    ) %>%
-    layout(
-      title = list(
-        text = "Proportion of Procurement vs Implementation Costs",
-        font = list(size = 16)
-      ),
-      barmode = 'stack',
-      xaxis = list(
-        title = "",
-        tickfont = list(size = 12)
-      ),
-      yaxis = list(
-        title = "Proportion of Total Cost",
-        tickfont = list(size = 12),
-        tickformat = ".0%"
-      ),
-      legend = list(font = list(size = 12)),
-      font = list(size = 14)
-    )
-}
-
-#' Create color palette for maps
-#' @param values Numeric vector of values to create palette for
-create_map_palette <- function(values) {
-  colorNumeric(
-    palette = "RdBu",
-    domain = values, 
-    reverse = TRUE
-  )
-}
-
-#' Format cost values for map labels
-#' @param value Numeric cost value
-#' @param currency_option Currency choice ("USD" or "NGN")
-#' @param is_per_person Boolean indicating if value is per person
-format_cost_label <- function(value, currency_option, is_per_person = FALSE) {
-  currency_symbol <- if(currency_option == "USD") "$" else "₦"
-  
-  if(is_per_person) {
-    paste0(currency_symbol, round(value, 2))
-  } else {
-    paste0(currency_symbol, format(round(value), big.mark = ","))
-  }
-}
-
-#' Create Nigeria state-level cost map
-#' @param data SF object with state polygons and cost data
-#' @param map_type Type of map ("total" or "per_person")
-#' @param currency_option Selected currency ("USD" or "NGN")
-create_nigeria_cost_map <- function(data, map_type = "total", currency_option = "USD") {
-  # Determine which values to map
-  values <- if(map_type == "total") data$full_cost else data$cost_per_person
-  title <- if(map_type == "total") "Total Cost" else "Cost per Person"
-  
-  # Create color palette
-  pal <- create_map_palette(values)
-  
-  # Create map
-  leaflet(data) %>%
-    addProviderTiles(providers$CartoDB.Positron) %>%
-    addPolygons(
-      fillColor = ~pal(values),
-      weight = 2,
-      opacity = 1,
-      color = "grey",
-      dashArray = "3",
-      fillOpacity = 1,
-      label = ~paste0(
-        state, ": ",
-        format_cost_label(
-          if(map_type == "total") full_cost else cost_per_person,
-          currency_option,
-          is_per_person = map_type == "per_person"
-        )
-      )
-    ) %>%
-    addLegend(
-      position = "bottomright",
-      pal = pal,
-      values = values,
-      title = paste(title, "(", currency_option, ")"),
-      labFormat = labelFormat(
-        prefix = if(currency_option == "USD") "$" else "₦"
-      )
-    )
-}
-
-# Helper: Highlight a single state on the map
-highlight_state <- function(map_id, state_outline) {
-  leafletProxy(map_id) %>%
-    clearGroup("highlight") %>%
-    addPolylines(
-      data = state_outline,
-      color = "red", 
-      weight = 3, 
-      opacity = 1, 
-      group = "highlight"
-    )
-}
-
-highlight_lga <- function(map_id, lga_outline) {
-  leafletProxy(map_id) %>%
-    clearGroup("highlight") %>%
-    addPolylines(
-      data = lga_outline,
-      color = "red", 
-      weight = 3, 
-      opacity = 1, 
-      group = "highlight"
-    )
-}
-
-plan_colors <- function(plans) {
-  # Generate a set of distinct colors for the plan names
-  palette <- brewer.pal(min(length(plans), 9), "Set1")  # Use Set1 palette for up to 9 colors
-  color_map <- setNames(palette[seq_along(plans)], plans)
-  return(color_map)
-}
-

@@ -29,7 +29,7 @@ lga_data_total_cost <- read.csv("working-data/lga_data_total_cost.csv")
 # intervention mix data 
 intervention_mix <- read.csv("working-data/intervention_mix.csv") |> 
   select(state, lga, intervention_summary) |> 
-  distinct()
+  distinct() 
 
 # prevalence data 
 prevalence_data <- read.csv("working-data/prevalence_data.csv") 
@@ -83,7 +83,7 @@ state_outline$state[which(state_outline$state == "Akwa-Ibom")] <- "Akwa Ibom"
 # Join intervention mix data with LGA outline
 # intervention_mix_map <- left_join(lga_outline, intervention_mix, by = c("state","lga"))
 # sf::st_write(intervention_mix_map, "budget-viz-tool/working-data/shapefiles/intervention_mix_map.shp")
-intervention_mix_map <- sf::st_read("budget-viz-tool/working-data/shapefiles/intervention_mix_map.shp") |> 
+intervention_mix_map <- sf::st_read("working-data/shapefiles/intervention_mix_map.shp") |> 
   rename(intervention_summary = intrvn_)
 
 # # intervention single map 
@@ -99,7 +99,7 @@ intervention_mix_map <- sf::st_read("budget-viz-tool/working-data/shapefiles/int
 
 # sf::st_write(interactive_map, "budget-viz-tool/working-data/shapefiles/interactive_map.shp")
 interactive_map <- 
-  sf::st_read("budget-viz-tool/working-data/shapefiles/interactive_map.shp") |> 
+  sf::st_read("working-data/shapefiles/interactive_map.shp") |> 
   rename(intervention_summary = intrvn_, 
          unique_interventions = unq_ntr)
 
@@ -109,7 +109,7 @@ interactive_map <-
 #   left_join(prevalence_data |> filter(year == 2021))
 # sf::st_write(prev_outline, "budget-viz-tool/working-data/shapefiles/prev_outline.shp")
 prev_outline <- 
-  sf::st_read("budget-viz-tool/working-data/shapefiles/prev_outline.shp") |> 
+  sf::st_read("working-data/shapefiles/prev_outline.shp") |> 
   rename(prev_u5_state = prv_5_s)
 
 # intervention mix map data for plan comparisons 
@@ -122,6 +122,6 @@ prev_outline <-
 # sf::st_write(intervention_mix_map_plan_comp, "budget-viz-tool/working-data/shapefiles/intervention_mix_map_plan_comp.shp")
 
 intervention_mix_map_plan_comp <- 
-  sf::st_read("budget-viz-tool/working-data/shapefiles/intervention_mix_map_plan_comp.shp") |> 
+  sf::st_read("working-data/shapefiles/intervention_mix_map_plan_comp.shp") |> 
   rename(intervention_summary = intrvn_, 
          plan_description = pln_dsc)
