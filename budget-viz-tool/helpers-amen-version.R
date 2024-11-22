@@ -189,7 +189,7 @@ create_prevalence_map <- function(prevalence_data, state_outline, country_outlin
       ),
       label = ~sprintf(
         "<strong>State: %s<br>Under 5 prevalence: %.0f%%",
-         state, prev_u5_state
+        state, prev_u5_state
       ) %>% lapply(htmltools::HTML),
       labelOptions = labelOptions(
         direction = "auto",
@@ -198,7 +198,7 @@ create_prevalence_map <- function(prevalence_data, state_outline, country_outlin
         sticky = TRUE
       )
     ) %>%
-     # Add country outline
+    # Add country outline
     addPolygons(
       data = country_outline,
       fillColor = "transparent",

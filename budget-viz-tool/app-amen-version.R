@@ -11,8 +11,8 @@
 #-------------------------------------------------------------------------------              
 
 # load packages-----------------------------------------------------------------
-source("global.R")  # loads data
-source("helpers.R") # functions for server outputs
+source("global-amen-version.R")  # loads data
+source("helpers-amen-version.R") # functions for server outputs
 
 #-SHINY UI----------------------------------------------------------------------
 ui <- navbarPage(
@@ -117,8 +117,8 @@ ui <- navbarPage(
              width = 12,
              fluidRow(
                column(4, leafletOutput("map1", height = "550px")),
-               # column(4, leafletOutput("map_interactive", height = "550px")),
-               # column(4, leafletOutput("map2", height = "550px"))
+               column(4, leafletOutput("map_interactive", height = "550px")),
+               column(4, leafletOutput("map2", height = "550px"))
              ),
              uiOutput("info_section"), 
              hr(),
@@ -154,7 +154,7 @@ ui <- navbarPage(
            )
   ), 
   
-
+  
   
   # FOURTH TAB IS BUDGET COMPARISONS
   tabPanel(
@@ -256,47 +256,45 @@ server <- function(input, output, session) {
       country_outline = country_outline,
       intervention_mix = intervention_mix
     )
-  }) |> bindCache(input$spatial_level, input$state_selection)
+  })
   
   #-INTERACTIVE INTERVENTION MAP------------------------------
   # Create initial map
-  # output$map_interactive <- renderLeaflet({
-  #   create_base_interactive_map(
-  #     interactive_map = interactive_map,
-  #     intervention_mix = intervention_mix
-  #   ) %>%
-  #     htmlwidgets::onRender(create_legend_js(intervention_mix = intervention_mix))
-  # }) |> bindCache(input$selected_intervention, input$spatial_level, input$state_selection)
+  output$map_interactive <- renderLeaflet({
+    create_base_interactive_map(
+      interactive_map = interactive_map,
+      intervention_mix = intervention_mix
+    ) %>%
+      htmlwidgets::onRender(create_legend_js(intervention_mix = intervention_mix))
+  })
   
   # Observer for legend clicks
-  # observeEvent(input$selected_intervention, {
-  #   selected_intervention <- input$selected_intervention
-  #   
-  #   # Filter polygons based on the selected intervention
-  #   highlighted_lgas <- interactive_map %>%
-  #     filter(unique_interventions == selected_intervention) |> 
-  #     bindCache(input$selected_intervention)
-  #   
-  #   # Update the map
-  #   update_intervention_map(
-  #     map_id = "map_interactive",
-  #     highlighted_lgas = highlighted_lgas,
-  #     state_outline = state_outline,
-  #     country_outline = country_outline
-  #   ) |> 
-  #     bindCache(input$selected_intervention, input$spatial_level, input$state_selection)
-  # })
+  observeEvent(input$selected_intervention, {
+    selected_intervention <- input$selected_intervention
+    
+    # Filter polygons based on the selected intervention
+    highlighted_lgas <- interactive_map %>%
+      filter(unique_interventions == selected_intervention)
+    
+    # Update the map
+    update_intervention_map(
+      map_id = "map_interactive",
+      highlighted_lgas = highlighted_lgas,
+      state_outline = state_outline,
+      country_outline = country_outline
+    )
+  })
   
   
   #-PREVALENCE MAP--------------------------------------------
-  # output$map2 <- renderLeaflet({
-  #   create_prevalence_map(
-  #     prevalence_data = prevalence_data,
-  #     state_outline = state_outline,
-  #     country_outline = country_outline,
-  #     color_pal_prevalence = color_pal_prevalence
-  #   )
-  # })
+  output$map2 <- renderLeaflet({
+    create_prevalence_map(
+      prevalence_data = prevalence_data,
+      state_outline = state_outline,
+      country_outline = country_outline,
+      color_pal_prevalence = color_pal_prevalence
+    )
+  })
   
   #-ICON SUMMARIES---------------------------------------------------
   # Reactive: Store either national or state data based on input
@@ -453,7 +451,7 @@ server <- function(input, output, session) {
   output$donut_title <- renderUI({
     h3(donut_title_text(), style = "text-align: left; margin-top: 20px; margin-bottom: 50px;")
   })
-
+  
   # Render the Main Donut Chart
   donut_chart_data <- reactive({
     req(input$spatial_level)  # Ensure a spatial level is selected
@@ -559,8 +557,8 @@ server <- function(input, output, session) {
     
     # Highlight the selected state on map1
     highlight_state("map1", selected_state_outline())
-    # highlight_state("map_interactive", selected_state_outline())
-    # highlight_state("map2", selected_state_outline())
+    highlight_state("map_interactive", selected_state_outline())
+    highlight_state("map2", selected_state_outline())
     highlight_state("total_cost_map", selected_state_outline())
     highlight_state("cost_per_person_map", selected_state_outline())
   })
@@ -568,11 +566,11 @@ server <- function(input, output, session) {
   # remove highlights if national level is reselected 
   observeEvent(input$spatial_level, {
     req(input$spatial_level == "National")  # Ensure spatial level is State
-   
+    
     # Clear highlights from all maps
     leafletProxy("map1") %>% clearGroup("highlight")
-    # leafletProxy("map2") %>% clearGroup("highlight")
-    # leafletProxy("map_interactive") %>% clearGroup("highlight")
+    leafletProxy("map2") %>% clearGroup("highlight")
+    leafletProxy("map_interactive") %>% clearGroup("highlight")
     leafletProxy("total_cost_map") %>% clearGroup("highlight")
     leafletProxy("cost_per_person_map") %>% clearGroup("highlight")
   })
@@ -587,8 +585,8 @@ server <- function(input, output, session) {
     
     # Clear highlights from all maps
     leafletProxy("map1") %>% clearGroup("highlight")
-    # leafletProxy("map2") %>% clearGroup("highlight")
-    # leafletProxy("map_interactive") %>% clearGroup("highlight")
+    leafletProxy("map2") %>% clearGroup("highlight")
+    leafletProxy("map_interactive") %>% clearGroup("highlight")
     leafletProxy("total_cost_map") %>% clearGroup("highlight")
     leafletProxy("cost_per_person_map") %>% clearGroup("highlight")
     
@@ -664,8 +662,8 @@ server <- function(input, output, session) {
       )
     })
   })
-
-
+  
+  
   #-PLAN COMPARISON PAGE ------------------------------------------------------------------------
   
   # Baseline Map
