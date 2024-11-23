@@ -12,7 +12,7 @@ library(janitor)
 
 # this is a tricky spreadsheet to work through and needs a lot of reformatting
 raw_states_lga <- 
-  readxl::read_xlsx("exploratory-steps/data/Pragmatic Plan Template-02112024.xlsx",
+  readxl::read_xlsx("exploratory-steps/data/Copy of Pragmatic Plan-Scenario 1B-Updated.xlsx",
                     sheet = "States and LGAs", skip = 4) |> 
   janitor::clean_names() |> 
   # remove rows with all NA data - this will be NA in the state/lga name col
@@ -90,14 +90,14 @@ working_states_lga <-
          itn_campaign_net_proportion = proportion_63, #proportion of total nets at that spatial level  
          itn_campaign_bale_quantity = number_of_itn_bales_for_campaign, #number of bales needed itn_campaign_net_quantity / 50 - assuming 50 nets per bale?
          itn_campaign_bale_proportion = proportion_65, #proportion of total bales at that spatial level 
-         itn_routine_eligable = eligbile, #ID 1 for yes to routine distribution 0 for no - coded at the LGA level 
-         itn_routine_net_quantity = number_of_lli_ns_for_cont_distribution, #❓state level quantity is hard coded - not sure where this value comes from - the lga level value is calculated by taking proportion of the u5 and pw population at lga level * itn state quantity
-         itn_routine_net_quantity_eligable = number_eligible_for_cont_distribution, # itn_routine_net_quantity * itn_routine_eligable
+         itn_routine_eligable = eligbile_for_routine, #ID 1 for yes to routine distribution 0 for no - coded at the LGA level 
+         itn_routine_net_quantity = number_of_lli_ns_for_routine_distribution, #❓state level quantity is hard coded - not sure where this value comes from - the lga level value is calculated by taking proportion of the u5 and pw population at lga level * itn state quantity
+         itn_routine_net_quantity_eligable = number_eligible_for_routine_distribution, # itn_routine_net_quantity * itn_routine_eligable
          itn_routine_net_proportion = proportion_69, # proption of all eligable nets at that spatial level 
          #❓ assuming that  those with campaign don't get routine distribuition also but there are state level values for routine for all states?
          
          ## LSM
-         lsm_bti_kg_quantity = bti_kg, #state level calculation - admin_landmass_2perc_coverage_hectares * 0.5 * 24 (0.5 kg per hectare * 24 contacts) - state only value 
+         lsm_bti_kg_quantity = x70, #state level calculation - admin_landmass_2perc_coverage_hectares * 0.5 * 24 (0.5 kg per hectare * 24 contacts) - state only value 
          lsm_bti_kg_proprotion = proportion_of_bti, #proportion of total bti at spatial level (state only)
          
          ## SMC 
@@ -162,34 +162,37 @@ working_states_lga <-
          
          # LSM 
          lsm_bti_procurement_cost = bti, # total cost of procuring Bti chemicals for LSM: calculated as national cost (cost link - unit cost per kg of bit * total kg quantity) * proportion of bti needed at that spatial level
-         lsm_operational_cost = operational_cost, # total cost of running LSM: calculated as national cost (cost link - unit cost per ward * number of wards) * proportion of LGAs at that spatial level
+         lsm_operational_cost = operational_cost_115, # total cost of running LSM: calculated as national cost (cost link - unit cost per ward * number of wards) * proportion of LGAs at that spatial level
          lsm_total_cost = total_116, # sum cost of previous two 
          
          # ENTOMOLOGICAL SURVEILLANCE
-         ento_surveillance_total_cost = x117, # Cost of Entomological surveillance at the national level only
+         ento_surveillance_equipment_procurement_cost = equipment_procurement, # Ento surveillance procurement national level 
+         ento_surveillance_total_cost = total_all_the_states, # Cost of Entomological surveillance at the national level only 
          
          # SMC 
          smc_spaq_3_11_months_procurement_cost = procure_spaq_3_11_months, # total cost of procuring SP-AQ for SMC in children aged 3-11 months old: calculated as national cost (cost link - unit cost per spaq unit cost * total number of SPAQ needed) * proportion of doses needed at spatial level  
          smc_spaq_12_59_months_procurement_cost = procure_spaq_12_59_months, # total cost of procuring SP-AQ for SMC in children aged 12-59 months old: calculated as national cost (cost link - unit cost per sqaq unit cost * total number of SPAQ needed) * proportion of doses needed at spatial level
          smc_spaq_total_procurement_cost = procure_spaq_total, # sum of previous two values 
          smc_campaign_cost = smc_campaign, # total cost of SMC campaign: calculated as national cost (cost link - unit cost per child * total children targeted) * proportion of total u5 population targeted for SMC in that LGA 
-         smc_total_cost = total_125, # total cost of SMC - summed totals from above  
+         smc_total_cost = total_127, # total cost of SMC - summed totals from above  
          #❓ why are the costs of spaq packs different for each age category?  - drug sizes are different?? 
          
          # PMC  
-         pmc_sp_procurement_cost = procurement_127, # total cost of procuring SP for PMC: calculated as national cost (cost link - unit cost per SP * total SP quantity) * proportion of total SP needed at spatial scale
-         pmc_distribution_cost = distribution, # total cost of distributing SP for PMC to health facilities: calcualated as national cost (cost link - unit cost per child * total children targeted) * proportion of total children at spatial scale 
-         pmc_total_cost = total_130, # total cost of PMC - summed totals from above 
+         # pmc_sp_procurement_cost = procurement_127, # total cost of procuring SP for PMC: calculated as national cost (cost link - unit cost per SP * total SP quantity) * proportion of total SP needed at spatial scale
+         # pmc_distribution_cost = distribution, # total cost of distributing SP for PMC to health facilities: calcualated as national cost (cost link - unit cost per child * total children targeted) * proportion of total children at spatial scale 
+         # pmc_total_cost = total_130, # total cost of PMC - summed totals from above 
+         pmc_cost_per_child = cost_per_child_procurement_distribution_operation, # new value unsure of meaning etc?? children 0-2 * unit cost
+         pmc_total_cost = total_132, # total cost of PMC 
          
          # IPTp 
-         iptp_sp_procurement_cost = procurement_132, # total cost of procuring SP for IPTp: calculated as national cost (cost link - unit cost per SP * total sp needed) * proportion of total needed at spatial scale 
+         iptp_sp_procurement_cost = procurement_134, # total cost of procuring SP for IPTp: calculated as national cost (cost link - unit cost per SP * total sp needed) * proportion of total needed at spatial scale 
          iptp_sp_distribution_cost = distrbution, # total cost of distributing SP for IPTP: calcualted as national cost (cost link - unit cost per SP * total SP doses distributed) * proportion of total SP needed at spatial scale
-         iptp_total_cost = total_135, # total cost of IPTp - summed totals from above 
+         iptp_total_cost = total_137, # total cost of IPTp - summed totals from above 
          
          # VACCINE 
-         vacc_procurement_cost = procurement_137, # total cost of procuring vaccine doses: calculated as national cost (cost link - unit cost per dose * total doses needed) * proportion of total doses needed at spatial scale 
-         vacc_operational_cost = operational_139, # total cost of vaccine delivery: calcualted as national cost (cost link - unit cost per child * total children targeted) * proportion of total children targeted at spatial scale
-         vacc_total_cost = total_140, # total cost - summed from above
+         vacc_procurement_cost = procurement_139, # total cost of procuring vaccine doses: calculated as national cost (cost link - unit cost per dose * total doses needed) * proportion of total doses needed at spatial scale 
+         vacc_operational_cost = operational_141, # total cost of vaccine delivery: calcualted as national cost (cost link - unit cost per child * total children targeted) * proportion of total children targeted at spatial scale
+         vacc_total_cost = total_142, # total cost - summed from above
          
          # CASE MANAGEMENT 
          cm_rdt_kits_procurement_cost = rdt_kits_procurement, # total cost of procuring rdt kits: calculated as national cost (cost link - unit cost per kit * total rdt kits needed) * proportion of total kits needed at spatial scale 
@@ -205,8 +208,14 @@ working_states_lga <-
          cm_ras_distribution_cost = ras_distribution, #  total cost of procuring RAS: calculated as national cost (cost link - unit cost per RAS * total needed) * proportion of total needed at spatial scale  
          cm_ras_total_cost = total_for_ras, #  total cost of procuring RAS: calculated as national cost (cost link - unit cost per per RAS * total needed) * proportion of total needed at spatial scale  
          cm_eqa_national_cost = national_level_eqa_for_states, # National level value for quality assessment not proportioned out to spatial scales
-         cm_public_total_cost = total_for_cm, # total costs all summed
-         cm_private_total_cost = private_sector_cm_estimate, # 57.7% of the public sector cost?
+         cm_public_total_cost = total_for_cm_public_sector, # total costs all summed
+         cm_private_total_cost = cm_private_sector, # 57.7% of the public sector cost?
+         
+         # GLOBAL FUND WAREHOUSING AND DISTRIBUTION 
+         gf_wd_malaria_long_haul_distribution = global_fund_malaria_long_haul_distibution, 
+         gf_wd_malaria_warehouse_axial = global_fund_malaria_warehouse_axial, 
+         gf_wd_malaria_warehouse_wib = global_fund_malaria_warehouse_wi_b, 
+         gf_wd_total_cost = total_for_warehousing_and_distribution, 
          
          # SUPPORT SERVICES 
          # SBC

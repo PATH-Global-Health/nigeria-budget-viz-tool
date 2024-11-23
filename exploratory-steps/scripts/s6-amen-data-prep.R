@@ -4,28 +4,21 @@
 
 #-read in scenario total cost data per intervention-----------------------------
 scenario_cost_data <- 
-  readxl::read_xlsx("budget-viz-tool/working-data/cost_data_HS_inc1b.xlsx") |> 
-  janitor::clean_names() |> 
-  crossing(currency = c("USD", "Naira")) |> 
-  rename(number_of_lgas = number_of_lg_as)
+  read.csv("budget-viz-tool/working-data/amen-new-scenarios-cost-data.csv") |> 
+  janitor::clean_names() 
 
-#-convert to Naira assuming same exchange rate as before 1600------------------- 
-scenario_cost_data <- 
-  scenario_cost_data |> 
-  mutate(total_cost = case_when(currency == "Naira" ~ total_cost * 1600, 
-                                TRUE ~ total_cost)) |> 
-  rename(state_count = number_of_states, 
-         lga_count = number_of_lgas, 
-         title = intervention) |> 
+# #-convert to Naira assuming same exchange rate as before 1600------------------- 
+scenario_cost_data <-
+  scenario_cost_data |>
+  # mutate(total_cost = case_when(currency == "Naira" ~ total_cost * 1600,
+  #                               TRUE ~ total_cost)) |>
+  # rename(state_count = number_of_states,
+  #        lga_count = number_of_lgas,
+  #        title = intervention) |>
   mutate(intervention_type = case_when(
-    title %in% c("Capacity Building",
-                 "Entomological surveillance",
-                 "Governance & Coordination", 
-                 "Monitoring & Evaluation", 
-                 "Resource Mobilisation",
-                 "Social Behaviour Change") ~ "Support Services", 
-    TRUE ~ "Malaria Interventions"
-  )) 
+    title %in% c("Global Fund Warehousing & Distribution Activities") ~ "Support Services",
+    TRUE ~ intervention_type
+  ))
 
 #-total cost data--------------------------------------------------------------- 
 total_cost <- 
