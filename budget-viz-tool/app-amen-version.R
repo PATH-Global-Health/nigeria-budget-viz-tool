@@ -161,8 +161,17 @@ ui <- navbarPage(
           hr(),
           # Summary Data Tables
           h4("Cost Summary Tables"),
-          uiOutput("summary_data_tables")
+          uiOutput("summary_data_tables"), 
+          hr(), 
+          # Add a section for the final plot
+          fluidRow(
+            column(12,
+                   h4("Cost Distribution by Intervention and Scenario"),
+                   plotOutput("final_cost_plot", height = "600px")
+            )
+          )
         )
+        
       )
     )
   ),
@@ -255,6 +264,7 @@ server <- function(input, output, session) {
                   "IPTp",
                   "Public Sector CM",
                   "Private Sector CM",
+                  "Global Fund Warehousing & Distribution Activities",
                   "Capacity Building",
                   "Governance & Coordination",
                   "Monitoring & Evaluation",
@@ -492,6 +502,43 @@ server <- function(input, output, session) {
   })
   
   
+  # # Cost Difference Plot
+  # output$cost_difference_plot <- renderPlotly({
+  #   cost_data <- prepare_cost_data()
+  #   req(nrow(cost_data) > 0)
+  # 
+  #   baseline_cost <- cost_data$full_cost[cost_data$plan == "Scenario 1"]
+  #   req(length(baseline_cost) > 0)
+  # 
+  #   currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"
+  # 
+  #   diff_data <- cost_data %>%
+  #     filter(plan != "Scenario 1") %>%
+  #     mutate(
+  #       difference_millions = round((full_cost - baseline_cost) / 1e6),
+  #       percent_change = round((difference_millions * 1e6 / baseline_cost) * 100),
+  #       hover_text = paste0("Plan: ", plan, "<br>",
+  #                           "Difference: ", ifelse(difference_millions >= 0, "+", ""), currency_symbol,
+  #                           format(difference_millions, big.mark = ","), "M<br>",
+  #                           "Change from Scenario 1: ", sprintf("%.0f%%", percent_change))
+  #     )
+  # 
+  #   p <- ggplot(diff_data, aes(x = difference_millions, y = label, text = hover_text)) +
+  #     geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
+  #     geom_segment(aes(x = 0, xend = difference_millions, y = label, yend = label),
+  #                  color = ifelse(diff_data$difference_millions >= 0, "#ED7D31", "#4472C4")) +
+  #     geom_point(size = 4) +
+  #     theme_minimal() +
+  #     labs(x = paste("Change in Cost (", input$currency_option_plan, " in Millions)"), y = "") +
+  #     theme(text = element_text(size = 12),
+  #           panel.grid.major.y = element_blank(),
+  #           panel.grid.minor.y = element_blank()) +
+  #     scale_x_continuous(labels = scales::comma)
+  # 
+  #   ggplotly(p, tooltip = "text") %>%
+  #     layout(hoverlabel = list(bgcolor = "white"))
+  # })
+  
   # Cost Difference Plot
   output$cost_difference_plot <- renderPlotly({
     cost_data <- prepare_cost_data()
@@ -499,19 +546,19 @@ server <- function(input, output, session) {
     
     baseline_cost <- cost_data$full_cost[cost_data$plan == "Scenario 1"]
     req(length(baseline_cost) > 0)
+    currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"
     
     diff_data <- cost_data %>%
       filter(plan != "Scenario 1") %>%
       mutate(
         difference_millions = round((full_cost - baseline_cost) / 1e6),
         percent_change = round((difference_millions * 1e6 / baseline_cost) * 100),
-        hover_text = paste0("Plan: ", plan, "<br>",
-                            "Difference: ", ifelse(difference_millions >= 0, "+", ""), currency_symbol,
+        label = paste(plan, "vs Scenario 1"), 
+        hover_text = paste0("Difference: ", ifelse(difference_millions >= 0, "+", ""), currency_symbol,
                             format(difference_millions, big.mark = ","), "M<br>",
                             "Change from Scenario 1: ", sprintf("%.0f%%", percent_change))
+        
       )
-    
-    currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"
     
     p <- ggplot(diff_data, aes(x = difference_millions, y = label, text = hover_text)) +
       geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
@@ -543,6 +590,7 @@ server <- function(input, output, session) {
                   "IPTp",
                   "Public Sector CM",
                   "Private Sector CM",
+                  "Global Fund Warehousing & Distribution Activities",
                   "Capacity Building",
                   "Governance & Coordination",
                   "Monitoring & Evaluation",
@@ -554,13 +602,12 @@ server <- function(input, output, session) {
       filter(plan == !!plan, currency == input$currency_option_plan) %>%
       select(intervention_type, title, state_count, lga_count, total_cost) %>%
       mutate(title = factor(title, levels = int_names)) %>%  # Set the custom order
-      arrange(title) |> 
-      filter(total_cost > 0)
+      arrange(title)
     
     return(cost_data)
   }
   
-  # Render the baseline table by default
+  # COST TABLES 
   output$summary_data_tables <- renderUI({
     # Render the baseline table
     baseline_data <- filter_and_format_plan_data("Scenario 1")
@@ -570,57 +617,136 @@ server <- function(input, output, session) {
     currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"
     formatted_total_cost_baseline <- paste0(currency_symbol, format(total_cost_sum_baseline, big.mark = ","), "M")
     
-    baseline_table <- fluidRow(
-      h4(HTML(paste("Scenario 1 - Fully scaled-up plan. Total Cost:", 
-                    "<strong>", formatted_total_cost_baseline, "</strong>"))),
-      DT::datatable(
-        baseline_data |>
-          filter(intervention_type == "Malaria Interventions") %>%
-          mutate(
-           total_cost = round(total_cost / 1e6, 0)  # Convert to millions and round to no decimals
-          ),
-        options = list(pageLength = 20, scrollX = TRUE),
-        rownames = FALSE,
-        colnames = c(
-          "Category" = "intervention_type",
-          "Item" = "title",
-          "State Count" = "state_count",
-          "LGA Count" = "lga_count",
-          "Total Cost (Millions)" = "total_cost"
-        )
-      )
+    baseline_table <- column(6, 
+                             h4(HTML(paste("Scenario 1 - Fully scaled-up plan. Total Cost:", 
+                                           "<strong>", formatted_total_cost_baseline, "</strong>"))),
+                             DT::datatable(
+                               baseline_data |>
+                                 filter(intervention_type == "Malaria Interventions") %>%
+                                 mutate(
+                                   total_cost = round(total_cost / 1e6, 0)  # Convert to millions and round to no decimals
+                                 ),
+                               options = list(pageLength = 20, scrollX = TRUE),
+                               rownames = FALSE,
+                               colnames = c(
+                                 "Category" = "intervention_type",
+                                 "Item" = "title",
+                                 "State Count" = "state_count",
+                                 "LGA Count" = "lga_count",
+                                 "Total Cost (Millions)" = "total_cost"
+                               )
+                             )
     )
     
     # Generate tables for each selected plan
     selected_tables <- lapply(input$selected_plans, function(plan) {
       plan_data <- filter_and_format_plan_data(plan)
       plan_description <- unique(plan_comparison_costs$plan_description[plan_comparison_costs$plan == plan])
-      total_cost_sum <- round(sum(plan_data$total_cost, na.rm=TRUE), 0) 
+      total_cost_sum <- round(sum(plan_data$total_cost, na.rm = TRUE), 0)
       formatted_total_cost <- paste0(currency_symbol, format(total_cost_sum, big.mark = ","), "M")
       
-      fluidRow(
-        h4(HTML(paste(plan, " - ", plan_description, ". Total Cost:",
-                      "<strong>", formatted_total_cost, "</strong>"))),
-        DT::datatable(
-          plan_data |> filter(intervention_type == "Malaria Interventions") %>%
-            mutate(
-              total_cost = round(total_cost / 1e6, 0)  # Convert to millions and round to no decimals
-            ),
-          options = list(pageLength = 20, scrollX = TRUE),
-          rownames = FALSE,
-          colnames = c(
-            "Category" = "intervention_type",
-            "Item" = "title",
-            "State Count" = "state_count",
-            "LGA Count" = "lga_count",
-            "Total Cost (Millions)" = "total_cost"
-          )
-        )
+      column(6, 
+             h4(HTML(paste(plan, " - ", plan_description, ". Total Cost:",
+                           "<strong>", formatted_total_cost, "</strong>"))),
+             DT::datatable(
+               plan_data |> filter(intervention_type == "Malaria Interventions") %>%
+                 mutate(
+                   total_cost = round(total_cost / 1e6, 0)  # Convert to millions and round to no decimals
+                 ),
+               options = list(pageLength = 20, scrollX = TRUE),
+               rownames = FALSE,
+               colnames = c(
+                 "Category" = "intervention_type",
+                 "Item" = "title",
+                 "State Count" = "state_count",
+                 "LGA Count" = "lga_count",
+                 "Total Cost (Millions)" = "total_cost"
+               )
+             )
       )
     })
     
-    # Combine the baseline table with the selected plan tables
-    do.call(tagList, c(list(baseline_table), selected_tables))
+    # Organize tables into rows with two tables per row
+    tables <- c(list(baseline_table), selected_tables)
+    table_rows <- split(tables, ceiling(seq_along(tables) / 2))  # Split into groups of two
+    rows <- lapply(table_rows, function(row_tables) {
+      fluidRow(row_tables)  # Wrap each pair of tables in a fluidRow
+    })
+    
+    # Combine all rows into a tagList
+    do.call(tagList, rows)
+  })
+  
+  # final plot as in the slides
+  reactive_plot_data <- reactive({
+    # Include Scenario 1 in selected plans
+    selected_plans <- unique(c("Scenario 1", input$selected_plans))
+    
+    int_names = c("ITN Campaign",
+                  "ITN Routine Distribution",
+                  "LSM",
+                  "IRS",
+                  "Entomological surveillance",
+                  "Malaria Vaccine",
+                  "SMC",
+                  "PMC", 
+                  "IPTp",
+                  "Public Sector CM",
+                  "Private Sector CM",
+                  "Global Fund Warehousing & Distribution Activities",
+                  "Capacity Building",
+                  "Governance & Coordination",
+                  "Monitoring & Evaluation",
+                  "Resource Mobilisation",
+                  "Social Behaviour Change")
+    
+    # Determine the currency symbol
+    currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"
+    
+    # Process data for the selected plans
+    plan_comparison_costs %>%
+      filter(plan %in% selected_plans, currency == input$currency_option_plan) %>%
+      mutate(
+        intervention = factor(title, levels = rev(int_names)),
+        plan = str_to_title(plan),  # Capitalize plan names
+        total_cost = total_cost / 1e6,  # Convert to millions
+        tc_print = case_when(
+          currency == "Naira"  ~ paste0(currency_symbol, format(round(total_cost, 0), big.mark = ","), "m"),
+          currency == "USD" & total_cost > 60 ~ paste0(currency_symbol, format(round(total_cost, 0), big.mark = ","), "m"),
+          currency == "USD" & total_cost <= 60 & total_cost > 1 ~ paste0(currency_symbol, format(round(total_cost, 1), big.mark = ","), "m"),
+          currency == "USD" & total_cost <= 1 ~ paste0(currency_symbol, format(round(total_cost, 2), big.mark = ","), "m"),
+          is.na(total_cost) ~ paste0(currency_symbol, "0m")
+        ),
+        total_cost = ifelse(is.na(total_cost), 0, total_cost)
+      )
+    
+  })
+  
+
+  output$final_cost_plot <- renderPlot({
+    dat <- reactive_plot_data()
+    req(nrow(dat) > 0)  # Ensure there is data to plot
+    
+    currency_symbol <- if (input$currency_option_plan == "Naira") "₦" else "$"  # Get the selected currency symbol
+    
+    ggplot(dat) +
+      geom_col(aes(x = total_cost, y = intervention, fill = plan)) +
+      facet_wrap(vars(plan), ncol = 4, scales = "fixed") +  # Adjust facets dynamically
+      scale_fill_manual("", values = c("#156082", "#a02b93", "#3b7d23", "#e97132")) +
+      labs(
+        y = "",
+        x = paste0("Total Cost (in ", currency_symbol, " Million)")
+      ) +
+      # xlim(c(0, 420)) +
+      geom_text(aes(x = total_cost + 10, y = intervention, label = tc_print),
+                size = 6, hjust = 0) +
+      theme_bw(16) +
+      theme(
+        strip.text = element_text(size = 10, face = "bold"),  # Style for facet labels
+        axis.text.y = element_text(size = 9),
+        axis.text.x = element_text(size = 10),
+        legend.position = "none"
+      ) 
   })
   
 }

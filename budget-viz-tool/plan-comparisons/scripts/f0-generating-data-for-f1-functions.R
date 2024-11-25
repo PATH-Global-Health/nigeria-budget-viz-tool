@@ -1,6 +1,8 @@
+
+library(tidyverse)
+
 # Creating a total quantification and cost spreadsheet to be able to manipulate for 
 # different costing scenarios 
-
 state_data_extract    <- read.csv("exploratory-steps/data/working-data/codable-state-data-october.csv")
 lga_data_extract      <- read.csv("exploratory-steps/data/working-data/codable-lga-data-october.csv")|> 
   # add state names to LGA level data 
@@ -87,11 +89,63 @@ fully_quantified <-
 unit_cost_data <- 
   read.csv("exploratory-steps/data/working-data/codable-unit-costs-october.csv") |> 
   # remove support services cost 
-  filter(intervention != "Support Services") |> 
-  filter(intervention %in% c("ITN Campaign", 
-                             "ITN Routine Distribution", 
-                             "SMC", 
-                             "PMC"))
+  filter(intervention != "Support Services", 
+         intervention != "Entomological Surveillance") 
+
+
+# costs that need to be updated with GLOBAL FUND UPDATES
+
+# USD
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "ITN Campaign-Procurement per ITN (Dual AI)")] <- 4.42
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "ITN Campaign-Cost of distribution from State to LGA and from LGA to DHs")] <- 4.94
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "ITN Routine Distribution-Pocurement cost per ITN (Dual AI)")] <- 4.42
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "ITN Routine Distribution-Operational cost per ITN")] <- 13.53 # this is the cost per bale - bale assumes 50 nets per bale 
+unit_cost_data$resource[which(unit_cost_data$resource == "ITN Routine Distribution-Operational cost per ITN")] <- "ITN Routine Distribution-Operational cost per bale" # this is the cost per bale - bale assumes 50 nets per bale 
+unit_cost_data$unit[which(unit_cost_data$resource == "ITN Routine Distribution-Operational cost per Bale")] <- "per bale" # this is the cost per bale - bale assumes 50 nets per bale 
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "SMC-SPAQ-3-11 months-Procurement cost per SPAQ")] <- 0.29
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "SMC-SPAQ-12-59 months-Procurement cost per SPAQ")] <- 0.31
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "PMC-SP-Procurement cost")] <- 0.39
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "PMC-SP-Routine Distribution cost")] <- 0
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "IPTp-SP-Procurement cost per SP")] <- 0.42
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "IPTp-SP-Routine Distribution cost")] <- 0
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-AL-Procurement cost per AL")] <- 0.43
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-AL-Routine Distribution cost per AL")] <- 0
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-Artesunate injections-Procurement cost")] <- 1.49
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-Artesunate injections-Routine Distribution cost")] <- 0
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-Rectal Artesunate Suppositories (RAS)-Procurement cost per RAS")] <- 0.77
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-RAS-Routine Distribution cost per RAS")] <- 0
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-RDT kits-Procurement cost per kit & consumables")] <- 0.34
+unit_cost_data$usd_cost[which(unit_cost_data$resource == "Case Management-RDT kits-Distribution cost per kit & consumables")] <- 0
+
+# NGN 
+unit_cost_data$ngn_cost <- unit_cost_data$usd_cost * 1600
+
+# new cost lines to be added 
+# PMC-Cost per child per annum
+to_add_pmc <- 
+  data.frame(resource = "PMC-Cost per child per annum", 
+             intervention = "PMC", 
+             cost_category = "Operational", 
+             unit = "per child", 
+             ngn_cost = 5232, 
+             usd_cost = 3.27
+)
+
+# Entomological surveillance data has changed  
+to_add_ento <- 
+  data.frame(resource = "Entomological Surveillance-Cost per state	per state", 
+             intervention = "Entomological Surveillance", 
+             cost_category = "Operational", 
+             unit = "per state", 
+             ngn_cost = 270769231, 
+             usd_cost = 169230.77
+  )
+
+# add in additional changes
+unit_cost_data <- 
+  unit_cost_data |> 
+  bind_rows(to_add_pmc, to_add_ento)
+
 
 to_cost_interventions <-  
   smc_quantified |> 
