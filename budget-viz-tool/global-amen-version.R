@@ -19,69 +19,16 @@ library(glue)
 library(billboarder)
 library(treemap)
 library(RColorBrewer)
+library(htmlwidgets)
+
 #-read in usable data from national costing consultant spreadsheet--------------
 
-scenario_cost_data <- 
-  readxl::read_xlsx("budget-viz-tool/working-data/cost_data_HS_inc1b.xlsx") |> 
-  janitor::clean_names()
-
-
-
-
-
-
-
-
-# total data 
-national_data_total_cost <- read.csv("working-data/national_data_total_cost.csv")
-state_data_total_cost <- read.csv("working-data/state_data_total_cost.csv")
-lga_data_total_cost <- read.csv("working-data/lga_data_total_cost.csv")
-
-# intervention mix data 
-intervention_mix <- read.csv("working-data/intervention_mix.csv") |> 
-  select(state, lga, intervention_summary) |> 
-  distinct()
-
-# prevalence data 
-prevalence_data <- read.csv("working-data/prevalence_data.csv") 
-
-# ribbon data 
-national_ribbon_data <- read.csv("working-data/national_ribbon_data.csv")
-state_ribbon_data <- read.csv("working-data/state_ribbon_data.csv")
-lga_ribbon_data <- read.csv("working-data/lga_ribbon_data.csv")
+# ribbon data
+national_ribbon_data <- read.csv("working-data/amen_national_ribbon_data.csv")
 
 # cost summary data (total cost)
-national_total_cost_summary <- read.csv("working-data/national_total_cost_summary.csv")
-state_total_cost_summary <- read.csv("working-data/state_total_cost_summary.csv")
-lga_total_cost_summary <- read.csv("working-data/lga_total_cost_summary.csv")
+national_total_cost_summary <- read.csv("working-data/amen_national_total_cost_summary.csv")
 
-# cost summary data (elemental)
-national_intervention_chart_data <- read.csv("working-data/national_intervention_chart_data.csv")
-state_intervention_chart_data <- read.csv("working-data/state_intervention_chart_data.csv")
-lga_intervention_chart_data <- read.csv("working-data/lga_intervention_chart_data.csv")
-
-# add in plan comparison data 
-plan_comparison_mixes <- read.csv("plan-comparisons/viz-data/plan-comparison-mixes.csv")
-plan_comparison_costs <- read.csv("plan-comparisons/viz-data/plan-comparison-costs.csv")
-
-plan_comparison_mixes$plan <- str_to_title(plan_comparison_mixes$plan)
-plan_comparison_costs$plan <- str_to_title(plan_comparison_costs$plan)
-
-# Extract unique plans and their descriptions, excluding 'baseline'
-unique_plans <- unique(plan_comparison_mixes$plan[plan_comparison_mixes$plan != "Baseline"])
-plan_descriptions <- unique(plan_comparison_mixes$plan_description[plan_comparison_mixes$plan != "Baseline"])
-
-# Combine plan and plan_description for checkbox labels
-plan_labels <- paste(unique_plans, "-", plan_descriptions)
-
-total_cost_comparisons <- 
-  plan_comparison_costs |> 
-  group_by(plan, plan_description, 
-           currency) |> 
-  summarise(full_cost = sum(total_cost, na.rm=TRUE))
-
-
-#-read in other data sources----------------------------------------------------
 # Shape files
 country_outline <- sf::st_read("working-data/shapefiles/country_shapefile.shp")
 state_outline   <- sf::st_read("working-data/shapefiles/state_shapefile_simp.shp")
@@ -89,37 +36,25 @@ lga_outline     <- sf::st_read("working-data/shapefiles/lga_shapefile_simp.shp")
 
 state_outline$state[which(state_outline$state == "Akwa-Ibom")] <- "Akwa Ibom"
 
-#-merge the different data sets and load them as items into the environment-----
-# intervention mix map  
-# Join intervention mix data with LGA outline
-intervention_mix_map <- left_join(lga_outline, intervention_mix, by = c("state","lga"))
+# intervention mix map 
+intervention_mix_map <-
+  sf::st_read("working-data/shapefiles/amen_intervention_mix_map.shp")|> 
+  rename(intervention_summary = intrvn_)
 
-# sf::st_write(intervention_mix_map, "budget-viz-tool/working-data/shapefiles/intervention_mix_map.shp")
-# intervention_mix_map <- sf::st_read("budget-viz-tool/working-data/shapefiles/intervention_mix_map.shp")
+# intervention facet map 
+intervention_mix_plot <- 
+  sf::st_read("working-data/shapefiles/amen_intervention_mix_plot.shp")
 
-# intervention single map 
-interactive_map <-
-  intervention_mix_map |> 
-  mutate(
-    unique_interventions = intervention_summary,
-  ) |>
-  separate_rows(
-    unique_interventions, sep = "\\+ "
-  ) |>
-  mutate(unique_interventions = trimws(unique_interventions))
+# plan comparison data
+plan_comparison_costs <- read.csv("working-data/plan_comparison_costs.csv")
+plan_comparison_mixes <- sf::st_read("working-data/shapefiles/amen_plan_comparison_mixes.shp")|> 
+  rename(intervention_summary = intrvn_)
+total_cost_comparisons <- read.csv("working-data/total_cost_comparisons.csv")
 
-# sf::st_write(interactive_map, "budget-viz-tool/working-data/shapefiles/interactive_map.shp")
-# interactive_map <- sf::st_read("budget-viz-tool/working-data/shapefiles/interactive_map.shp")
+# Extract unique plans and their descriptions, excluding 'baseline'
+unique_plans <- unique(plan_comparison_costs$plan[plan_comparison_costs$plan != "Scenario 1"])
+plan_descriptions <- unique(plan_comparison_costs$plan_description[plan_comparison_costs$plan != "Scenario 1"])
+plan_details <- unique(plan_comparison_costs$plan_details[plan_comparison_costs$plan != "Scenario 1"])
 
-# prevalence data 
-prev_outline <- 
-  state_outline |> 
-  left_join(prevalence_data |> filter(year == 2021))
-
-# intervention mix map data for plan comparisons 
-intervention_mix_map_plan_comp <- 
-  left_join(lga_outline, 
-            plan_comparison_mixes |> select(state, lga, intervention_summary, plan, plan_description) |> 
-              distinct(), 
-            multiple="all", by=c("state", "lga"))
-
+# Combine plan and plan_description for checkbox labels
+plan_labels <- paste(unique_plans, "-", plan_descriptions, "(", plan_details, ")")

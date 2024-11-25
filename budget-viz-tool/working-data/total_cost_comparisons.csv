@@ -1,0 +1,9 @@
+"","plan","plan_description","plan_details","currency","full_cost"
+"1","Scenario 1","Fully scaled-up plan"," ","Naira",2039039086400
+"2","Scenario 1","Fully scaled-up plan"," ","USD",1274399429
+"3","Scenario 2","Prioritized plan A","Targeted mass campaigns, reduced IRS and LSM, 22 state vaccine rollout, targeted PMC, medium private sector CM","Naira",1194112048000
+"4","Scenario 2","Prioritized plan A","Targeted mass campaigns, reduced IRS and LSM, 22 state vaccine rollout, targeted PMC, medium private sector CM","USD",746320030
+"5","Scenario 3","Prioritized plan B","Targeted mass campaigns, reduced IRS and LSM, 2 state vaccine rollout, 2 state PMC, low private sector CM","Naira",1049461572800
+"6","Scenario 3","Prioritized plan B","Targeted mass campaigns, reduced IRS and LSM, 2 state vaccine rollout, 2 state PMC, low private sector CM","USD",655913483
+"7","Scenario 4","As is – prior plan","Targeted mass campaign, reduced LSM, no IRS, 2 state vaccine rollout, 2 state PMC, no private sector CM","Naira",942507000000
+"8","Scenario 4","As is – prior plan","Targeted mass campaign, reduced LSM, no IRS, 2 state vaccine rollout, 2 state PMC, no private sector CM","USD",589066875

@@ -5,9 +5,8 @@ account: pathmalaria
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13418609
-bundleId: 9399881
+bundleId:
 url: https://pathmalaria.shinyapps.io/budget-viz-tool/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: app-amen-version.R|global-amen-version.R|helpers-amen-version.R

@@ -64,7 +64,7 @@ create_intervention_map_static <- function(lga_outline, state_outline,
       values = lga_outline$intervention_summary,
       title = "Intervention Mix",
       position = "bottomright",
-      opacity = 1
+      opacity = 0.7
     ) %>%
     setView(lng = center_lng, lat = center_lat, zoom = zoom)
 }

@@ -29,7 +29,7 @@ lga_data_total_cost <- read.csv("working-data/lga_data_total_cost.csv")
 # intervention mix data 
 intervention_mix <- read.csv("working-data/intervention_mix.csv") |> 
   select(state, lga, intervention_summary) |> 
-  distinct()
+  distinct() 
 
 # prevalence data 
 prevalence_data <- read.csv("working-data/prevalence_data.csv") 
@@ -122,8 +122,11 @@ prev_outline <-
 # sf::st_write(intervention_mix_map_plan_comp, "budget-viz-tool/working-data/shapefiles/intervention_mix_map_plan_comp.shp")
 
 intervention_mix_map_plan_comp <- 
+<<<<<<< HEAD
   left_join(lga_outline, plan_comparison_mixes, multiple="all", by=c("state", "lga"))
 
+=======
+>>>>>>> acdd73321c44d2ab72c0a784f18772bd1cefe8df
   sf::st_read("working-data/shapefiles/intervention_mix_map_plan_comp.shp") |> 
   rename(intervention_summary = intrvn_, 
          plan_description = pln_dsc)
