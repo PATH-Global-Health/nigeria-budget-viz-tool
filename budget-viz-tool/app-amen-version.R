@@ -486,7 +486,11 @@ server <- function(input, output, session) {
     p <- ggplot(cost_data, aes(x = plan, y = full_cost_millions, fill = plan, text = hover_text)) +
       geom_bar(stat = "identity", width = 0.6) +
       geom_text(aes(label = paste0(currency_symbol, format(full_cost_millions, big.mark = ","), "M")),
-                vjust = -0.5, size = 4) +
+                # vjust = -0.5,
+                # size = 4
+                nudge_y = 20,
+                size = 6
+                ) +
       theme_minimal() +
       labs(y = paste("Total Cost (", input$currency_option_plan, " in Millions)"), x = "") +
       theme(text = element_text(size = 12)) +
